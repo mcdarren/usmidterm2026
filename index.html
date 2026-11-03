@@ -250,6 +250,7 @@ footer a{color:inherit}
       <div><span class="pulse" id="pulse"></span><span id="phase">Waiting for results</span></div>
       <div>Last update <b id="updated" class="mono">—</b></div>
       <div id="tzline" class="mono"></div>
+      <div id="nextline" title="Results usually appear a few minutes after a check starts.">Next check <b id="nextup" class="mono">—</b></div>
     </div>
   </header>
 
@@ -827,6 +828,21 @@ footer a{color:inherit}
     if(wasHidden){lastFocus=document.activeElement;sheet.hidden=false;scrim.hidden=false;document.body.style.overflow="hidden";$("#sh-close").focus()}
   }
   function closeSheet(){if(location.hash)location.hash="";renderSheet()}
+  // ---- Next scheduled check (mirrors the scheduled tasks: hourly 8:17am–8:17pm SGT on Nov 4, then every 4 hours Nov 5–6 SGT)
+  const SCHEDULE=(()=>{const t=[];
+    for(let h=0;h<=12;h++)t.push(Date.UTC(2026,10,4,h,17));
+    for(const d of [4,5,6])for(const h of [0,4,8,12,16,20]){const ms=Date.UTC(2026,10,d,h,17);if(ms>=Date.UTC(2026,10,4,16,17)&&ms<=Date.UTC(2026,10,6,12,17))t.push(ms)}
+    return t.sort((a,b)=>a-b)})();
+  function drawNext(){
+    const now=Date.now(),next=SCHEDULE.find(t=>t>now),el2=$("#nextup");
+    if(!next){$("#nextline").textContent="Scheduled updates have ended";return}
+    const mins=Math.round((next-now)/60000);
+    const rel=mins<1?"now":mins<60?"in "+mins+" min":"in "+Math.floor(mins/60)+" h "+(mins%60)+" min";
+    el2.textContent=fmtT(new Date(next).toISOString())+" ("+rel+")";
+    el2.title=fmtLocal(new Date(next).toISOString());
+  }
+  drawNext();setInterval(drawNext,30000);
+
   // ---- Global search
   const fold=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
   const qEl=$("#q"),srEl=$("#sresults");let sItems=[],sActive=-1;
