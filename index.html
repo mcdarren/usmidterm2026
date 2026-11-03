@@ -77,7 +77,7 @@ header.top h1 span{color:var(--muted);font-weight:500}
 .seg button:focus-visible{outline:2px solid var(--dem);outline-offset:-2px}
 .seg button .c{font-family:var(--f-mono);font-weight:400;opacity:.75;margin-left:5px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:12px;margin-top:14px}
-.race{background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:12px 14px;display:grid;gap:8px;position:relative;overflow:hidden}
+.race{background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:12px 14px;display:grid;gap:8px;align-content:start;position:relative;overflow:hidden}
 .race.won-d{box-shadow:inset 4px 0 0 var(--dem)} .race.won-r{box-shadow:inset 4px 0 0 var(--rep)} .race.won-o{box-shadow:inset 4px 0 0 var(--ind)}
 .race .rh{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
 .race h3{font-size:21px;line-height:1.1}
@@ -96,6 +96,15 @@ header.top h1 span{color:var(--muted);font-weight:500}
 .cand .tk i{display:block;height:100%}
 .p-D .tk i{background:var(--dem)} .p-R .tk i{background:var(--rep)} .p-O .tk i{background:var(--ind)}
 .check{color:var(--ink);font-weight:700;margin-left:4px}
+.inc{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--muted);color:var(--muted);border-radius:3px;padding:0 4px;margin-left:6px;vertical-align:1px;line-height:1.5}
+.ballot{display:grid;gap:5px;margin:0;padding:0;list-style:none}
+.ballot li{display:flex;align-items:center;gap:8px;font-size:13.5px;min-width:0}
+.ballot li .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.ballot li .pdot{width:9px;height:9px;border-radius:50%;flex:none;background:var(--ind)}
+.ballot li.p-D .pdot{background:var(--dem)} .ballot li.p-R .pdot{background:var(--rep)}
+.ballot li .pc{margin-left:auto;font-size:12px;color:var(--muted);font-family:var(--f-mono)}
+.moreline{font-size:12px;color:var(--muted)}
+.opentag{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .meta{font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 10px}
 .meta a{color:inherit}
 .empty-c{font-size:13px;color:var(--muted)}
@@ -115,7 +124,7 @@ aside.log h2{font-size:22px;text-transform:uppercase}
 .race h3 a{color:inherit;text-decoration:none;outline:none}
 .race h3 a::after{content:"";position:absolute;inset:0}
 .race .meta a{position:relative;z-index:1}
-.race .more{font-size:12px;color:var(--muted);justify-self:end}
+.race .more{font-size:12px;color:var(--muted);justify-self:end;align-self:end}
 
 .scrim{position:fixed;inset:0;background:var(--scrim);z-index:20}
 .sheet{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(560px,calc(100% - 24px - env(safe-area-inset-left,0px) - env(safe-area-inset-right,0px)));
@@ -365,12 +374,14 @@ footer a{color:inherit}
     if(r.status==="called"){const k=winner?partyKey(winner.party):"O";pillText=(winner?partyName(k)+" ":"")+"win";pillCls+=" called-"+k.toLowerCase()}
     rh.append(el("span",pillCls,pillText));card.append(rh);
 
-    if(cands.length){
+    const hasResults=cands.some(c=>(c.votes!=null&&c.votes!=="")||(c.pct!=null&&c.pct!==""));
+    if(cands.length&&hasResults){
       const ul=el("ul","cands");
       const sorted=[...cands].sort((a,b)=>num(b.pct)-num(a.pct)||num(b.votes)-num(a.votes));
       for(const c of sorted.slice(0,4)){
         const k=partyKey(c.party);const li=el("li","cand p-"+k);
         const nm=el("span","nm");const b=el("b",null,c.name||"");nm.append(b,document.createTextNode(" ("+(c.party||"?")+")"));
+        if(c.incumbent)nm.append(el("span","inc","Inc"));
         if(c.winner&&r.status==="called")nm.append(el("span","check","✓"));
         const pctTxt=c.pct!=null&&c.pct!==""?num(c.pct).toFixed(1)+"%":"—";
         const pc=el("span","pc",pctTxt);
@@ -378,6 +389,21 @@ footer a{color:inherit}
         li.append(nm,pc,tk);ul.append(li);
       }
       card.append(ul);
+      if(sorted.length>4)card.append(el("div","moreline","+"+(sorted.length-4)+" more"));
+    } else if(cands.length){
+      const ul=el("ul","ballot");
+      for(const c of cands.slice(0,4)){
+        const k=partyKey(c.party);const li=el("li","p-"+k);
+        li.append(el("span","pdot"));
+        const nm=el("span","nm");nm.append(el("b",null,c.name||""));li.append(nm);
+        if(c.incumbent)li.append(el("span","inc","Inc"));
+        li.append(el("span","pc",c.party||"?"));
+        ul.append(li);
+      }
+      card.append(ul);
+      const extra=cands.length-4+num(r.othersOnBallot);
+      if(extra>0)card.append(el("div","moreline","+"+extra+" more on the ballot"));
+      if(!cands.some(c=>c.incumbent))card.append(el("div","opentag","Open seat"));
     } else {
       card.append(el("div","empty-c",r.status==="polls_open"||!r.status?"Candidates and votes appear once counting starts.":"No vote totals reported yet."));
     }
@@ -409,7 +435,8 @@ footer a{color:inherit}
     $("#sh-title").textContent=r.label||r.state||"";
     const body=$("#sh-body");body.replaceChildren();
     const cands=Array.isArray(r.candidates)?[...r.candidates]:[];
-    cands.sort((a,b)=>num(b.votes)-num(a.votes)||num(b.pct)-num(a.pct));
+    const hasRes=cands.some(c=>(c.votes!=null&&c.votes!=="")||(c.pct!=null&&c.pct!==""));
+    if(hasRes)cands.sort((a,b)=>num(b.votes)-num(a.votes)||num(b.pct)-num(a.pct));
     const winner=cands.find(c=>c.winner);
 
     // headline callout
@@ -422,8 +449,11 @@ footer a{color:inherit}
       co.classList.add("live");const lead=cands[0];const second=cands[1];
       co.append(el("b",null,"Not called. "));
       co.append(document.createTextNode(lead.name+" ("+(lead.party||"?")+") leads"+(second&&lead.votes!=null&&second.votes!=null?" by "+nf.format(num(lead.votes)-num(second.votes))+" votes":"")+" with "+(r.reporting!=null?num(r.reporting)+"% of the expected vote counted.":"votes still being counted.")));
-    }else if(r.status==="polls_closed"){co.textContent="Polls have closed. No votes have been reported yet."}
-    else{co.textContent="Polls are open. Results will appear here once votes are reported after polls close."}
+    }else{
+      const inc=cands.find(c=>c.incumbent);
+      const base=r.status==="polls_closed"?"Polls have closed. No votes have been reported yet.":"Polls are open. Results will appear here once votes are reported after polls close.";
+      co.textContent=base+(cands.length?(inc?" Incumbent "+inc.name+" ("+(inc.party||"?")+") is on the ballot.":" Open seat: no incumbent is on the ballot."):"");
+    }
     body.append(co);
 
     // reporting meter
@@ -434,7 +464,7 @@ footer a{color:inherit}
 
     // candidates
     if(cands.length){
-      const sec=el("div","sec");sec.append(el("div","label","Candidates"));
+      const sec=el("div","sec");sec.append(el("div","label",hasRes?"Candidates":"Candidates on the ballot"));
       const wrap=el("div");wrap.style.overflowX="auto";
       const tb=el("table","ct");const thead=el("thead");const hr=el("tr");
       hr.append(el("th",null,"Candidate"),el("th","n","Votes"),el("th","n","Share"));thead.append(hr);tb.append(thead);
@@ -442,8 +472,9 @@ footer a{color:inherit}
       for(const c of cands){
         const k=partyKey(c.party);
         const tr=el("tr","p-"+k);const nm=el("td","nm");const b=el("b",null,c.name||"");nm.append(b);
+        if(c.incumbent)nm.append(el("span","inc","Incumbent"));
         if(c.winner&&r.status==="called")nm.append(el("span","check","✓"));
-        nm.append(el("div","pt",(c.party||"?")+(k!=="O"?" · "+(k==="D"?"Democrat":"Republican"):"")));
+        nm.append(el("div","pt",c.partyName||(k==="D"?"Democratic":k==="R"?"Republican":(c.party||""))));
         tr.append(nm,el("td","n",c.votes!=null&&c.votes!==""?nf.format(num(c.votes)):"—"),el("td","n",c.pct!=null&&c.pct!==""?num(c.pct).toFixed(1)+"%":"—"));
         const br=el("tr","sharerow p-"+k);const td=el("td");td.colSpan=3;const tk=el("span","tk");const ii=el("i");ii.style.width=Math.min(100,num(c.pct))+"%";tk.append(ii);td.append(tk);br.append(td);
         tbody.append(tr,br);
@@ -451,6 +482,8 @@ footer a{color:inherit}
       tb.append(tbody);wrap.append(tb);sec.append(wrap);
       const tot=cands.reduce((s,c)=>s+num(c.votes),0);
       if(tot>0)sec.append(el("div","foot","Total votes counted so far: "+nf.format(tot)));
+      if(num(r.othersOnBallot)>0)sec.append(el("div","foot",num(r.othersOnBallot)+" other candidates are also on the ballot."));
+      if(!hasRes)sec.append(el("div","foot","Write-in candidates are not listed."));
       body.append(sec);
     }
 
@@ -462,6 +495,8 @@ footer a{color:inherit}
     if(r.note)fact("Note",r.note);
     const su=safeUrl(r.sourceUrl);
     if(su){const a=el("a",null,r.source||su);a.href=su;a.target="_blank";a.rel="noopener";fact("Source",a)}else fact("Source",r.source);
+    const bu=safeUrl(r.ballotSourceUrl);
+    if(bu){const a=el("a",null,r.ballotSource||"Ballotpedia");a.href=bu;a.target="_blank";a.rel="noopener";fact("Candidate list",a)}
     fact("Last checked",r.asOf?fmtT(r.asOf)+" ("+fmtLocal(r.asOf)+")":"Not yet");
     const fs=el("div","sec");fs.append(el("div","label","Details"),facts);body.append(fs);
 

@@ -17,500 +17,2210 @@
  },
  "races": [
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Alaska_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Jonathan Kreiss-Tomkins",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "David Bronson",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Treg Taylor",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Bernadette Wilson",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "governor",
    "label": "Alaska",
+   "note": "Alaska uses ranked-choice voting in the general election.",
+   "openSeat": true,
    "state": "AK",
    "status": "polls_open",
    "id": "gov-AK"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Alabama_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Doug Jones",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Tommy Tuberville",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "governor",
    "label": "Alabama",
+   "openSeat": true,
    "state": "AL",
    "status": "polls_open",
    "id": "gov-AL"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Arkansas_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Fredrick Love",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Sarah Huckabee Sanders",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Colt Shelby",
+     "party": "L",
+     "partyName": "Libertarian"
+    }
+   ],
    "chamber": "governor",
    "label": "Arkansas",
+   "openSeat": false,
    "state": "AR",
    "status": "polls_open",
    "id": "gov-AR"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Gubernatorial_elections,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Katie Hobbs",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Andy Biggs",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Risa Lombardo",
+     "party": "G",
+     "partyName": "Green"
+    },
+    {
+     "name": "Teri Hourihan",
+     "party": "O",
+     "partyName": "No Labels Party"
+    }
+   ],
    "chamber": "governor",
    "label": "Arizona",
+   "openSeat": false,
    "state": "AZ",
    "status": "polls_open",
    "id": "gov-AZ"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://news.ballotpedia.org/2026/06/12/xavier-becerra-d-and-steve-hilton-r-advance-from-the-top-two-primary-for-governor-of-california/",
+   "candidates": [
+    {
+     "name": "Xavier Becerra",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Steve Hilton",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "governor",
    "label": "California",
+   "note": "California's general election has the top two finishers from the primary.",
+   "openSeat": true,
    "state": "CA",
    "status": "polls_open",
    "id": "gov-CA"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Colorado_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Phil Weiser",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Victor Marx",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Eric Mulder",
+     "party": "L",
+     "partyName": "Libertarian"
+    },
+    {
+     "name": "Erik Underwood",
+     "party": "O",
+     "partyName": "Approval Voting Party"
+    },
+    {
+     "name": "Stephen Hamilton",
+     "party": "O",
+     "partyName": "Constitution Party"
+    },
+    {
+     "name": "Greg Lopez",
+     "party": "I",
+     "partyName": "Unaffiliated"
+    },
+    {
+     "name": "Jeff Peckman",
+     "party": "O",
+     "partyName": "Unity Party"
+    }
+   ],
    "chamber": "governor",
    "label": "Colorado",
+   "openSeat": true,
    "state": "CO",
    "status": "polls_open",
    "id": "gov-CO"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Connecticut_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Ned Lamont",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Ryan Fazio",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "governor",
    "label": "Connecticut",
+   "openSeat": false,
    "state": "CT",
    "status": "polls_open",
    "id": "gov-CT"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Florida_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "David Jolly",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Byron Donalds",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Scott Jewett",
+     "party": "L",
+     "partyName": "Libertarian"
+    },
+    {
+     "name": "Dean Abrams",
+     "party": "I",
+     "partyName": "No Party Affiliation"
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "I",
+     "partyName": "No Party Affiliation"
+    },
+    {
+     "name": "Jeffrey Datto",
+     "party": "I",
+     "partyName": "No Party Affiliation"
+    },
+    {
+     "name": "Moliere Dimanche",
+     "party": "I",
+     "partyName": "No Party Affiliation"
+    },
+    {
+     "name": "Frank Russo",
+     "party": "I",
+     "partyName": "No Party Affiliation"
+    },
+    {
+     "name": "Erik Morris",
+     "party": "I",
+     "partyName": "No Party Affiliation"
+    }
+   ],
    "chamber": "governor",
    "label": "Florida",
+   "openSeat": true,
    "state": "FL",
    "status": "polls_open",
    "id": "gov-FL"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Georgia_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Keisha Lance Bottoms",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Rick Jackson",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "governor",
    "label": "Georgia",
+   "openSeat": true,
    "state": "GA",
    "status": "polls_open",
    "id": "gov-GA"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Hawaii_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Josh Green",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Gary Cordery",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "governor",
    "label": "Hawaii",
+   "openSeat": false,
    "state": "HI",
    "status": "polls_open",
    "id": "gov-HI"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Iowa_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Rob Sand",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Zach Lahn",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "governor",
    "label": "Iowa",
+   "openSeat": true,
    "state": "IA",
    "status": "polls_open",
    "id": "gov-IA"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Idaho_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Terri Pickens",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Brad Little",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Paul Sand",
+     "party": "L",
+     "partyName": "Libertarian"
+    },
+    {
+     "name": "Pro-Life",
+     "party": "O",
+     "partyName": "Constitution Party"
+    },
+    {
+     "name": "John R. Stegner",
+     "party": "I",
+     "partyName": "Unaffiliated"
+    }
+   ],
    "chamber": "governor",
    "label": "Idaho",
+   "openSeat": false,
    "state": "ID",
    "status": "polls_open",
    "id": "gov-ID"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Illinois_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "JB Pritzker",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Darren Bailey",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Griselda Romero",
+     "party": "G",
+     "partyName": "Green"
+    },
+    {
+     "name": "Collin Corbett",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Mike Vick",
+     "party": "O",
+     "partyName": "American Solidarity Party"
+    }
+   ],
    "chamber": "governor",
    "label": "Illinois",
+   "openSeat": false,
    "state": "IL",
    "status": "polls_open",
    "id": "gov-IL"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Kansas_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Cindy Holscher",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Ty Masterson",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "governor",
    "label": "Kansas",
+   "openSeat": true,
    "state": "KS",
    "status": "polls_open",
    "id": "gov-KS"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Massachusetts_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Maura Healey",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Michael Minogue",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Andrea James",
+     "party": "I",
+     "partyName": "Unenrolled"
+    }
+   ],
    "chamber": "governor",
    "label": "Massachusetts",
+   "openSeat": false,
    "state": "MA",
    "status": "polls_open",
    "id": "gov-MA"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Maryland_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Wes Moore",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Dan Cox",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Andy Ellis",
+     "party": "G",
+     "partyName": "Green"
+    },
+    {
+     "name": "Cathy White",
+     "party": "O",
+     "partyName": "Working Class Party"
+    }
+   ],
    "chamber": "governor",
    "label": "Maryland",
+   "openSeat": false,
    "state": "MD",
    "status": "polls_open",
    "id": "gov-MD"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Maine_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Hannah Pingree",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Bobby Charles",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Richard Bennett",
+     "party": "I",
+     "partyName": "Independent"
+    }
+   ],
    "chamber": "governor",
    "label": "Maine",
+   "openSeat": true,
    "state": "ME",
    "status": "polls_open",
    "id": "gov-ME"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Michigan_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Jocelyn Benson",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "John James",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Douglas Campbell",
+     "party": "G",
+     "partyName": "Green"
+    },
+    {
+     "name": "Anthony Hudson",
+     "party": "L",
+     "partyName": "Libertarian"
+    },
+    {
+     "name": "Donna Brandenburg",
+     "party": "O",
+     "partyName": "U.S. Taxpayers Party"
+    }
+   ],
    "chamber": "governor",
    "label": "Michigan",
+   "openSeat": true,
    "state": "MI",
    "status": "polls_open",
    "id": "gov-MI"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Minnesota_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Amy Klobuchar",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Lisa Demuth",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Steven Young",
+     "party": "G",
+     "partyName": "Green"
+    }
+   ],
    "chamber": "governor",
    "label": "Minnesota",
+   "openSeat": true,
    "state": "MN",
    "status": "polls_open",
    "id": "gov-MN"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Nebraska_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Lynne Walz",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Jim Pillen",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Brett Lindstrom",
+     "party": "O",
+     "partyName": "America First Party"
+    },
+    {
+     "name": "Rick Beard",
+     "party": "O",
+     "partyName": "Legal Marijuana Now Party"
+    }
+   ],
    "chamber": "governor",
    "label": "Nebraska",
+   "openSeat": false,
    "state": "NE",
    "status": "polls_open",
    "id": "gov-NE"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/New_Hampshire_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Cinde Warmington",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Kelly Ayotte",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Stephen Villee",
+     "party": "L",
+     "partyName": "Libertarian"
+    }
+   ],
    "chamber": "governor",
    "label": "New Hampshire",
+   "openSeat": false,
    "state": "NH",
    "status": "polls_open",
    "id": "gov-NH"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/New_Mexico_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Deb Haaland",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Gregg Hull",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "governor",
    "label": "New Mexico",
+   "openSeat": true,
    "state": "NM",
    "status": "polls_open",
    "id": "gov-NM"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Nevada_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Aaron Ford",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Joe Lombardo",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Danielle Ford",
+     "party": "I",
+     "partyName": "No Political Party"
+    }
+   ],
    "chamber": "governor",
    "label": "Nevada",
+   "openSeat": false,
    "state": "NV",
    "status": "polls_open",
    "id": "gov-NV"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/New_York_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Kathy Hochul",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Bruce Blakeman",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "governor",
    "label": "New York",
+   "openSeat": false,
    "state": "NY",
    "status": "polls_open",
    "id": "gov-NY"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Ohio_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Amy Acton",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Vivek Ramaswamy",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Don Kissick",
+     "party": "L",
+     "partyName": "Libertarian"
+    },
+    {
+     "name": "Tim Grady",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Heather Hill",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Renea Turner",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Ron Ula",
+     "party": "I",
+     "partyName": "Independent"
+    }
+   ],
    "chamber": "governor",
    "label": "Ohio",
+   "openSeat": true,
    "state": "OH",
    "status": "polls_open",
    "id": "gov-OH"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Oklahoma_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Cyndi Munson",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Mike Mazzei",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Robert Brooks",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Orlando Lynn Bush",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Jerry Griffin",
+     "party": "I",
+     "partyName": "Independent"
+    }
+   ],
    "chamber": "governor",
    "label": "Oklahoma",
+   "openSeat": true,
    "state": "OK",
    "status": "polls_open",
    "id": "gov-OK"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Oregon_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Tina Kotek",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Christine Drazan",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Brett Smith",
+     "party": "G",
+     "partyName": "Pacific Green Party"
+    }
+   ],
    "chamber": "governor",
    "label": "Oregon",
+   "openSeat": false,
    "state": "OR",
    "status": "polls_open",
    "id": "gov-OR"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Pennsylvania_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Josh Shapiro",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Stacy Garrity",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Ken Krawchuk",
+     "party": "L",
+     "partyName": "Libertarian"
+    }
+   ],
    "chamber": "governor",
    "label": "Pennsylvania",
+   "openSeat": false,
    "state": "PA",
    "status": "polls_open",
    "id": "gov-PA"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Rhode_Island_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Helena Foulkes",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Aaron Guckian",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Ken Block",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Jasjit Gotra",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Christopher Reynolds",
+     "party": "I",
+     "partyName": "Independent"
+    }
+   ],
    "chamber": "governor",
    "label": "Rhode Island",
+   "openSeat": true,
    "state": "RI",
    "status": "polls_open",
    "id": "gov-RI"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/South_Carolina_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Jermaine Johnson",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Alan Wilson",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Walid Hakim",
+     "party": "G",
+     "partyName": "Green"
+    },
+    {
+     "name": "Michael Addison",
+     "party": "O",
+     "partyName": "United Citizens Party"
+    }
+   ],
    "chamber": "governor",
    "label": "South Carolina",
+   "openSeat": true,
    "state": "SC",
    "status": "polls_open",
    "id": "gov-SC"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/South_Dakota_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Dan Ahlers",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Larry Rhoden",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "governor",
    "label": "South Dakota",
+   "openSeat": false,
    "state": "SD",
    "status": "polls_open",
    "id": "gov-SD"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Tennessee_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Jerri Green",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Marsha Blackburn",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Misam Abidi",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Dean Brewer",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Ray Brown",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "David Hatley",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Wendell Jackson",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Charles Morgan",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Eddie Lee Murphy",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Lauren Pinkston",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Victor Scoggin",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Dave Seeman",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Karl Smithson",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "L. Webb Taylor",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Robert Vick",
+     "party": "I",
+     "partyName": "Independent"
+    }
+   ],
    "chamber": "governor",
    "label": "Tennessee",
+   "openSeat": true,
    "state": "TN",
    "status": "polls_open",
    "id": "gov-TN"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Texas_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Gina Hinojosa",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Greg Abbott",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Pat Dixon",
+     "party": "L",
+     "partyName": "Libertarian"
+    }
+   ],
    "chamber": "governor",
    "label": "Texas",
+   "openSeat": false,
    "state": "TX",
    "status": "polls_open",
    "id": "gov-TX"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Vermont_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Amanda Janoo",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Phil Scott",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Dean Roy",
+     "party": "O",
+     "partyName": "Freedom and Unity Party"
+    },
+    {
+     "name": "June Goodband",
+     "party": "O",
+     "partyName": "Peace and Justice Party"
+    },
+    {
+     "name": "Brian Judd",
+     "party": "I",
+     "partyName": "Independent"
+    }
+   ],
    "chamber": "governor",
    "label": "Vermont",
+   "openSeat": false,
    "state": "VT",
    "status": "polls_open",
    "id": "gov-VT"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Wisconsin_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "David Crowley",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Tom Tiffany",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "governor",
    "label": "Wisconsin",
+   "openSeat": true,
    "state": "WI",
    "status": "polls_open",
    "id": "gov-WI"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/Wyoming_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Ken Casner",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Eric Barlow",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Rebecca Bextel",
+     "party": "O",
+     "partyName": "Constitution Party"
+    }
+   ],
    "chamber": "governor",
    "label": "Wyoming",
+   "openSeat": true,
    "state": "WY",
    "status": "polls_open",
    "id": "gov-WY"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Alaska,_2026",
+   "candidates": [
+    {
+     "name": "Mary Peltola",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Dan Sullivan",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Gerald Heikes",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Daniel J. Sullivan Jr.",
+     "party": "I",
+     "partyName": "No Party Affiliation"
+    }
+   ],
    "chamber": "senate",
    "label": "Alaska",
+   "note": "Alaska uses ranked-choice voting in the general election.",
+   "openSeat": false,
    "state": "AK",
    "status": "polls_open",
    "id": "senate-AK"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Alabama,_2026",
+   "candidates": [
+    {
+     "name": "Everett Wess",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Barry Moore",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "senate",
    "label": "Alabama",
+   "openSeat": true,
    "state": "AL",
    "status": "polls_open",
    "id": "senate-AL"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Arkansas,_2026",
+   "candidates": [
+    {
+     "name": "Hallie Shoffner",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Tom Cotton",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Jeff Wadlin",
+     "party": "L",
+     "partyName": "Libertarian"
+    }
+   ],
    "chamber": "senate",
    "label": "Arkansas",
+   "openSeat": false,
    "state": "AR",
    "status": "polls_open",
    "id": "senate-AR"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Colorado,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "John Hickenlooper",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Mark Baisley",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Chris Baum",
+     "party": "O",
+     "partyName": "Approval Voting Party"
+    },
+    {
+     "name": "Bob Chew",
+     "party": "O",
+     "partyName": "Colorado Forward Party"
+    },
+    {
+     "name": "Blake Huber",
+     "party": "L",
+     "partyName": "Libertarian"
+    },
+    {
+     "name": "Adam Withrow",
+     "party": "O",
+     "partyName": "Unity Party"
+    }
+   ],
    "chamber": "senate",
    "label": "Colorado",
+   "openSeat": false,
    "state": "CO",
    "status": "polls_open",
    "id": "senate-CO"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Delaware,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Chris Coons",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Michael Katz",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "senate",
    "label": "Delaware",
+   "openSeat": false,
    "state": "DE",
    "status": "polls_open",
    "id": "senate-DE"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_special_election_in_Florida,_2026",
+   "candidates": [
+    {
+     "name": "Angie Nixon",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Ashley Moody",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Neil Gillespie",
+     "party": "I",
+     "partyName": "No Party Affiliation"
+    }
+   ],
    "chamber": "senate",
    "label": "Florida",
+   "openSeat": false,
    "state": "FL",
    "status": "polls_open",
    "sub": "Special",
    "id": "senate-FL-special"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Georgia,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Jon Ossoff",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Mike Collins",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "senate",
    "label": "Georgia",
+   "openSeat": false,
    "state": "GA",
    "status": "polls_open",
    "id": "senate-GA"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Iowa,_2026",
+   "candidates": [
+    {
+     "name": "Josh Turek",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Ashley Hinson",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Thomas Laehn",
+     "party": "L",
+     "partyName": "Libertarian"
+    }
+   ],
    "chamber": "senate",
    "label": "Iowa",
+   "openSeat": true,
    "state": "IA",
    "status": "polls_open",
    "id": "senate-IA"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Idaho,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Jim Risch",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Todd Achilles",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Natalie Fleming",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Matt Loesby",
+     "party": "L",
+     "partyName": "Libertarian"
+    }
+   ],
    "chamber": "senate",
    "label": "Idaho",
+   "openSeat": false,
    "state": "ID",
    "status": "polls_open",
    "id": "senate-ID"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Illinois,_2026",
+   "candidates": [
+    {
+     "name": "Juliana Stratton",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Don Tracy",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Whitfield Harrington Jr.",
+     "party": "O",
+     "partyName": "American Center Party"
+    }
+   ],
    "chamber": "senate",
    "label": "Illinois",
+   "openSeat": true,
    "state": "IL",
    "status": "polls_open",
    "id": "senate-IL"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Kansas,_2026",
+   "candidates": [
+    {
+     "name": "Adam Hamilton",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Roger Marshall",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "David Graham",
+     "party": "L",
+     "partyName": "Libertarian"
+    }
+   ],
    "chamber": "senate",
    "label": "Kansas",
+   "openSeat": false,
    "state": "KS",
    "status": "polls_open",
    "id": "senate-KS"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Kentucky,_2026",
+   "candidates": [
+    {
+     "name": "Charles Booker",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Andy Barr",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Christopher Campbell",
+     "party": "O",
+     "partyName": "Kentucky Party"
+    }
+   ],
    "chamber": "senate",
    "label": "Kentucky",
+   "openSeat": true,
    "state": "KY",
    "status": "polls_open",
    "id": "senate-KY"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Louisiana,_2026",
+   "candidates": [
+    {
+     "name": "Jamie Davis",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Julia Letlow",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "senate",
    "label": "Louisiana",
+   "openSeat": true,
    "state": "LA",
    "status": "polls_open",
    "id": "senate-LA"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Massachusetts,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Ed Markey",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "John Deaton",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Shiva Ayyadurai",
+     "party": "I",
+     "partyName": "Unenrolled"
+    },
+    {
+     "name": "Joseph Tache",
+     "party": "O",
+     "partyName": "Party for Socialism and Liberation"
+    }
+   ],
    "chamber": "senate",
    "label": "Massachusetts",
+   "openSeat": false,
    "state": "MA",
    "status": "polls_open",
    "id": "senate-MA"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Maine,_2026",
+   "candidates": [
+    {
+     "name": "Troy Jackson",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Susan Collins",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "senate",
    "label": "Maine",
+   "note": "Maine uses ranked-choice voting for U.S. Senate.",
+   "openSeat": false,
    "state": "ME",
    "status": "polls_open",
    "id": "senate-ME"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Michigan,_2026",
+   "candidates": [
+    {
+     "name": "Abdul El-Sayed",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Mike Rogers",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Lydia Christensen",
+     "party": "L",
+     "partyName": "Libertarian"
+    },
+    {
+     "name": "Douglas P. Marsh",
+     "party": "G",
+     "partyName": "Green"
+    },
+    {
+     "name": "Walter Kristy",
+     "party": "O",
+     "partyName": "Natural Law Party"
+    },
+    {
+     "name": "Timothy Long",
+     "party": "O",
+     "partyName": "U.S. Taxpayers Party"
+    }
+   ],
    "chamber": "senate",
    "label": "Michigan",
+   "openSeat": true,
    "state": "MI",
    "status": "polls_open",
    "id": "senate-MI"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Minnesota,_2026",
+   "candidates": [
+    {
+     "name": "Peggy Flanagan",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Michele Tafoya",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Rebecca Whiting",
+     "party": "L",
+     "partyName": "Libertarian"
+    },
+    {
+     "name": "Marisa Simonetti",
+     "party": "I",
+     "partyName": "Unaffiliated"
+    }
+   ],
    "chamber": "senate",
    "label": "Minnesota",
+   "openSeat": true,
    "state": "MN",
    "status": "polls_open",
    "id": "senate-MN"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Mississippi,_2026",
+   "candidates": [
+    {
+     "name": "Scott Colom",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Cindy Hyde-Smith",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Ty Pinkins",
+     "party": "I",
+     "partyName": "Independent"
+    }
+   ],
    "chamber": "senate",
    "label": "Mississippi",
+   "openSeat": false,
    "state": "MS",
    "status": "polls_open",
    "id": "senate-MS"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Montana,_2026",
+   "candidates": [
+    {
+     "name": "Alani Bankhead",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Kurt Alme",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Seth Bodnar",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Kyle Austin",
+     "party": "L",
+     "partyName": "Libertarian"
+    }
+   ],
    "chamber": "senate",
    "label": "Montana",
+   "openSeat": true,
    "state": "MT",
    "status": "polls_open",
    "id": "senate-MT"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026",
+   "candidates": [
+    {
+     "name": "Roy Cooper",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Michael Whatley",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Shannon Bray",
+     "party": "L",
+     "partyName": "Libertarian"
+    },
+    {
+     "name": "Michael Dublin",
+     "party": "G",
+     "partyName": "Green"
+    }
+   ],
    "chamber": "senate",
    "label": "North Carolina",
+   "openSeat": true,
    "state": "NC",
    "status": "polls_open",
    "id": "senate-NC"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Nebraska,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Pete Ricketts",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Dan Osborn",
+     "party": "I",
+     "partyName": "Nonpartisan"
+    },
+    {
+     "name": "Chuck Conboy",
+     "party": "O",
+     "partyName": "America First Party"
+    },
+    {
+     "name": "Mike Marvin",
+     "party": "O",
+     "partyName": "Legal Marijuana Now Party"
+    },
+    {
+     "name": "Robin Richards",
+     "party": "O",
+     "partyName": "Nebraska Working People Party"
+    }
+   ],
    "chamber": "senate",
    "label": "Nebraska",
+   "openSeat": false,
    "state": "NE",
    "status": "polls_open",
    "id": "senate-NE"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026",
+   "candidates": [
+    {
+     "name": "Chris Pappas",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "John Sununu",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Edmond Laplante",
+     "party": "O",
+     "partyName": "Constitution Party"
+    }
+   ],
    "chamber": "senate",
    "label": "New Hampshire",
+   "openSeat": true,
    "state": "NH",
    "status": "polls_open",
    "id": "senate-NH"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_New_Jersey,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Cory Booker",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Justin Murphy",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Veronica Fernandez",
+     "party": "O",
+     "partyName": "End the Corruption! Party"
+    },
+    {
+     "name": "Joanne Kuniansky",
+     "party": "O",
+     "partyName": "Socialist Workers Party"
+    }
+   ],
    "chamber": "senate",
    "label": "New Jersey",
+   "openSeat": false,
    "state": "NJ",
    "status": "polls_open",
    "id": "senate-NJ"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_New_Mexico,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Ben Ray Luj\u00e1n",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Larry Marker",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "senate",
    "label": "New Mexico",
+   "openSeat": false,
    "state": "NM",
    "status": "polls_open",
    "id": "senate-NM"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_special_election_in_Ohio,_2026",
+   "candidates": [
+    {
+     "name": "Sherrod Brown",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Jon Husted",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Bill Redpath",
+     "party": "L",
+     "partyName": "Libertarian"
+    },
+    {
+     "name": "Gregory Levy",
+     "party": "I",
+     "partyName": "Independent"
+    }
+   ],
    "chamber": "senate",
    "label": "Ohio",
+   "openSeat": false,
    "state": "OH",
    "status": "polls_open",
    "sub": "Special",
    "id": "senate-OH-special"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Oklahoma,_2026",
+   "candidates": [
+    {
+     "name": "N'Kiyla Thomas",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Kevin Hern",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Sevier White",
+     "party": "L",
+     "partyName": "Libertarian"
+    },
+    {
+     "name": "Ron Meinhardt",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Curtis Stinnett",
+     "party": "I",
+     "partyName": "Independent"
+    }
+   ],
    "chamber": "senate",
    "label": "Oklahoma",
+   "openSeat": true,
    "state": "OK",
    "status": "polls_open",
    "id": "senate-OK"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Oregon,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Jeff Merkley",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "David Brock Smith",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Gary Dye",
+     "party": "L",
+     "partyName": "Libertarian"
+    },
+    {
+     "name": "Chris Henry",
+     "party": "G",
+     "partyName": "Pacific Green Party"
+    }
+   ],
    "chamber": "senate",
    "label": "Oregon",
+   "openSeat": false,
    "state": "OR",
    "status": "polls_open",
    "id": "senate-OR"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Rhode_Island,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Jack Reed",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Raymond McKay",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Michael Bahry",
+     "party": "I",
+     "partyName": "Independent"
+    }
+   ],
    "chamber": "senate",
    "label": "Rhode Island",
+   "openSeat": false,
    "state": "RI",
    "status": "polls_open",
    "id": "senate-RI"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_South_Carolina,_2026",
+   "candidates": [
+    {
+     "name": "Annie Andrews",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Darline Graham",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Kasie Whitener",
+     "party": "L",
+     "partyName": "Libertarian"
+    },
+    {
+     "name": "Mark Hackett",
+     "party": "O",
+     "partyName": "Constitution Party"
+    }
+   ],
    "chamber": "senate",
    "label": "South Carolina",
+   "note": "Darline Graham was appointed in July 2026 after the death of Sen. Lindsey Graham.",
+   "openSeat": false,
    "state": "SC",
    "status": "polls_open",
    "id": "senate-SC"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_South_Dakota,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Mike Rounds",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Brian Bengs",
+     "party": "I",
+     "partyName": "Independent"
+    }
+   ],
    "chamber": "senate",
    "label": "South Dakota",
+   "openSeat": false,
    "state": "SD",
    "status": "polls_open",
    "id": "senate-SD"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Tennessee,_2026",
+   "candidates": [
+    {
+     "name": "Marquita Bradshaw",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Bill Hagerty",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Tharon Chandler",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Andrew Gerena",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Jeremy Hearn",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Robert Jones",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "James Macon III",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Yoshi Matthews",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "David Sutman Jr.",
+     "party": "I",
+     "partyName": "Independent"
+    },
+    {
+     "name": "Catherine Whitson",
+     "party": "I",
+     "partyName": "Independent"
+    }
+   ],
    "chamber": "senate",
    "label": "Tennessee",
+   "openSeat": false,
    "state": "TN",
    "status": "polls_open",
    "id": "senate-TN"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Texas,_2026",
+   "candidates": [
+    {
+     "name": "James Talarico",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Ken Paxton",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "senate",
    "label": "Texas",
+   "openSeat": true,
+   "othersOnBallot": 5,
    "state": "TX",
    "status": "polls_open",
    "id": "senate-TX"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Virginia,_2026",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Mark Warner",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Bert Mizusawa",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "senate",
    "label": "Virginia",
+   "openSeat": false,
    "state": "VA",
    "status": "polls_open",
    "id": "senate-VA"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_West_Virginia,_2026",
+   "candidates": [
+    {
+     "name": "Rachel Fetty Anderson",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Shelley Moore Capito",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "S. Marshall Wilson",
+     "party": "O",
+     "partyName": "Constitution Party"
+    }
+   ],
    "chamber": "senate",
    "label": "West Virginia",
+   "openSeat": false,
    "state": "WV",
    "status": "polls_open",
    "id": "senate-WV"
   },
   {
+   "ballotSource": "Ballotpedia",
+   "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Wyoming,_2026",
+   "candidates": [
+    {
+     "name": "James Byrd",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Harriet Hageman",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "senate",
    "label": "Wyoming",
+   "openSeat": true,
    "state": "WY",
    "status": "polls_open",
    "id": "senate-WY"
