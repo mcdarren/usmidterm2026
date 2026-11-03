@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Live tracker for the 2026 US midterm election results: Senate and House balance of power, Senate and governor races, and race calls.">
+<title>Midterms 2026 Night Desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{color-scheme:light}
+body{margin:0}
+[hidden]{display:none!important}
+img{max-width:100%}
+/* Layout: a tally-board — status strip, two balance-of-power bars, then a filterable race grid beside a running call log */
+:root{
+  --ground:#eef1f5; --panel:#ffffff; --ink:#151a22; --muted:#5b6575; --line:#d5dbe4;
+  --dem:#2457c5; --dem-soft:#dbe5fa; --rep:#c8323a; --rep-soft:#f7dcde; --ind:#7a5bb5; --ind-soft:#e9e1f6;
+  --open:#8a94a3; --live:#c98a0b; --live-soft:#fbefd2; --track:#e2e7ee;
+  --f-display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0f131a; --panel:#171c25; --ink:#e8ecf2; --muted:#98a2b3; --line:#2a3240;
+  --dem:#6b9bff; --dem-soft:#1c2a4a; --rep:#ff6b70; --rep-soft:#45202a; --ind:#b39af0; --ind-soft:#2e2545;
+  --open:#7d8796; --live:#f0b43a; --live-soft:#3d3018; --track:#252c38; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --ground:#0f131a; --panel:#171c25; --ink:#e8ecf2; --muted:#98a2b3; --line:#2a3240;
+  --dem:#6b9bff; --dem-soft:#1c2a4a; --rep:#ff6b70; --rep-soft:#45202a; --ind:#b39af0; --ind-soft:#2e2545;
+  --open:#7d8796; --live:#f0b43a; --live-soft:#3d3018; --track:#252c38; color-scheme:dark}
+body{background:var(--ground);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px;display:grid;gap:22px}
+h1,h2,h3{font-family:var(--f-display);font-weight:700;margin:0;text-wrap:balance;letter-spacing:.01em}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600}
+header.top{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px 24px}
+header.top h1{font-size:clamp(34px,6vw,52px);line-height:.95;text-transform:uppercase}
+header.top h1 span{color:var(--muted);font-weight:500}
+.stamp{display:grid;gap:2px;text-align:right;font-size:13px;color:var(--muted)}
+.stamp b{color:var(--ink);font-weight:500}
+.pulse{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--open);margin-right:6px;vertical-align:1px}
+.pulse.on{background:var(--live);box-shadow:0 0 0 0 var(--live);animation:pulse 2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 7px transparent}100%{box-shadow:0 0 0 0 transparent}}
+@media (prefers-reduced-motion:reduce){.pulse.on{animation:none}}
+.notice{background:var(--live-soft);border:1px solid var(--line);border-radius:6px;padding:10px 14px;font-size:14px}
+.notice[hidden]{display:none}
+
+.bop{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:16px}
+.chamber{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px 18px 18px;display:grid;gap:12px}
+.chamber .head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.chamber h2{font-size:26px;text-transform:uppercase}
+.tallies{display:flex;justify-content:space-between;align-items:end;gap:8px}
+.tally{display:grid;line-height:1}
+.tally .n{font-family:var(--f-display);font-weight:700;font-size:46px;font-variant-numeric:tabular-nums}
+.tally.d .n{color:var(--dem)} .tally.r .n{color:var(--rep)} .tally.r{text-align:right}
+.tally.u{text-align:center} .tally.u .n{color:var(--muted);font-size:30px}
+.tally .k{font-size:12px;color:var(--muted);margin-top:4px;text-transform:uppercase;letter-spacing:.06em}
+.bar{position:relative;height:26px;border-radius:4px;background:var(--track);display:flex;overflow:hidden}
+.bar i{display:block;height:100%;transition:width .6s ease}
+.bar .seg-d{background:var(--dem)} .bar .seg-i{background:var(--ind)} .bar .seg-u{flex:1} .bar .seg-r{background:var(--rep)}
+.bar-wrap{position:relative;padding-top:14px}
+.bar-wrap .mid{position:absolute;left:50%;top:0;bottom:-4px;border-left:2px dashed var(--ink);opacity:.55}
+.bar-wrap .mid span{position:absolute;top:-2px;left:6px;font-size:11px;white-space:nowrap;color:var(--muted)}
+.foot{font-size:12.5px;color:var(--muted)}
+
+.main{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:22px;align-items:start}
+@media (max-width:860px){.main{grid-template-columns:minmax(0,1fr)}}
+.controls{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:space-between}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--panel)}
+.seg button{all:unset;cursor:pointer;padding:7px 13px;font:600 13px var(--f-body);color:var(--muted)}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--panel)}
+.seg button:focus-visible{outline:2px solid var(--dem);outline-offset:-2px}
+.seg button .c{font-family:var(--f-mono);font-weight:400;opacity:.75;margin-left:5px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:12px;margin-top:14px}
+.race{background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:12px 14px;display:grid;gap:8px;position:relative;overflow:hidden}
+.race.won-d{box-shadow:inset 4px 0 0 var(--dem)} .race.won-r{box-shadow:inset 4px 0 0 var(--rep)} .race.won-o{box-shadow:inset 4px 0 0 var(--ind)}
+.race .rh{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.race h3{font-size:21px;line-height:1.1}
+.race h3 small{font-family:var(--f-body);font-size:12px;font-weight:500;color:var(--muted);margin-left:6px;letter-spacing:0}
+.pill{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;padding:2px 8px;border-radius:99px;white-space:nowrap;border:1px solid var(--line);color:var(--muted)}
+.pill.counting{background:var(--live-soft);color:var(--ink);border-color:transparent}
+.pill.called-d{background:var(--dem);color:#fff;border-color:transparent}
+.pill.called-r{background:var(--rep);color:#fff;border-color:transparent}
+.pill.called-o{background:var(--ind);color:#fff;border-color:transparent}
+.cands{display:grid;gap:6px;margin:0;padding:0;list-style:none}
+.cand{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 8px;font-size:13.5px}
+.cand .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cand .nm b{font-weight:600}
+.cand .pc{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.cand .tk{grid-column:1/-1;height:5px;border-radius:3px;background:var(--track);overflow:hidden}
+.cand .tk i{display:block;height:100%}
+.p-D .tk i{background:var(--dem)} .p-R .tk i{background:var(--rep)} .p-O .tk i{background:var(--ind)}
+.check{color:var(--ink);font-weight:700;margin-left:4px}
+.meta{font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 10px}
+.meta a{color:inherit}
+.empty-c{font-size:13px;color:var(--muted)}
+.none{padding:28px;text-align:center;color:var(--muted);background:var(--panel);border:1px dashed var(--line);border-radius:7px;grid-column:1/-1}
+
+aside.log{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:grid;gap:10px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px)}
+@media (max-width:860px){aside.log{position:static}}
+aside.log h2{font-size:22px;text-transform:uppercase}
+.feed{list-style:none;margin:0;padding:0;display:grid;gap:12px;max-height:620px;overflow-y:auto}
+.feed li{display:grid;gap:2px;font-size:13.5px;border-top:1px solid var(--line);padding-top:10px}
+.feed li:first-child{border-top:0;padding-top:0}
+.feed time{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.feed a{color:var(--muted);font-size:12px}
+footer{font-size:12.5px;color:var(--muted);max-width:75ch;display:grid;gap:6px}
+footer a{color:inherit}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <h1>Midterms 2026 <span>Night Desk</span></h1>
+    <div class="stamp">
+      <div><span class="pulse" id="pulse"></span><span id="phase">Waiting for results</span></div>
+      <div>Last update <b id="updated" class="mono">—</b></div>
+      <div id="tzline" class="mono"></div>
+    </div>
+  </header>
+
+  <div class="notice" id="notice" hidden></div>
+
+  <section class="bop" aria-label="Balance of power">
+    <div class="chamber" id="ch-senate">
+      <div class="head"><h2>Senate</h2><span class="label">100 seats · 35 on the ballot</span></div>
+      <div class="tallies">
+        <div class="tally d"><span class="n" data-k="D">—</span><span class="k">Dem</span></div>
+        <div class="tally u"><span class="n" data-k="U">—</span><span class="k">Not yet called</span></div>
+        <div class="tally r"><span class="n" data-k="R">—</span><span class="k">Rep</span></div>
+      </div>
+      <div class="bar-wrap"><div class="mid"><span>51 for control · VP breaks a 50–50 tie</span></div>
+        <div class="bar"><i class="seg-d"></i><i class="seg-i"></i><i class="seg-u"></i><i class="seg-r"></i></div></div>
+      <div class="foot" data-k="foot">Includes the 65 seats not on the ballot this year.</div>
+    </div>
+    <div class="chamber" id="ch-house">
+      <div class="head"><h2>House</h2><span class="label">435 seats · all on the ballot</span></div>
+      <div class="tallies">
+        <div class="tally d"><span class="n" data-k="D">—</span><span class="k">Dem</span></div>
+        <div class="tally u"><span class="n" data-k="U">—</span><span class="k">Not yet called</span></div>
+        <div class="tally r"><span class="n" data-k="R">—</span><span class="k">Rep</span></div>
+      </div>
+      <div class="bar-wrap"><div class="mid"><span>218 for control</span></div>
+        <div class="bar"><i class="seg-d"></i><i class="seg-i"></i><i class="seg-u"></i><i class="seg-r"></i></div></div>
+      <div class="foot" data-k="foot">Seats won as called by news organizations.</div>
+    </div>
+  </section>
+
+  <div class="main">
+    <section aria-label="Races">
+      <div class="controls">
+        <div class="seg" role="group" aria-label="Contest">
+          <button id="t-senate" data-tab="senate" aria-pressed="true">Senate<span class="c"></span></button>
+          <button id="t-governor" data-tab="governor" aria-pressed="false">Governor<span class="c"></span></button>
+          <button id="t-house" data-tab="house" aria-pressed="false">House<span class="c"></span></button>
+        </div>
+        <div class="seg" role="group" aria-label="Status">
+          <button id="f-all" data-filter="all" aria-pressed="true">All</button>
+          <button id="f-counting" data-filter="counting" aria-pressed="false">Counting</button>
+          <button id="f-called" data-filter="called" aria-pressed="false">Called</button>
+        </div>
+      </div>
+      <div class="grid" id="grid"><div class="none">Loading races…</div></div>
+    </section>
+
+    <aside class="log" aria-label="Race calls and updates">
+      <h2>Desk log</h2>
+      <ul class="feed" id="feed"><li><span class="empty-c">Race calls and notable changes will be logged here as they come in.</span></li></ul>
+    </aside>
+  </div>
+
+  <footer>
+    <div>Results are entered from published news reports, mostly Associated Press tallies as carried by major outlets. Each race shows its source and when it was checked. A race is marked called only when a named news organization has projected a winner; it is not an official certification.</div>
+    <div>Updates are posted on a schedule, so this page can trail the networks by up to an hour. For the newest numbers check the source links, or the official results from each state's election office.</div>
+  </footer>
+</div>
+
+<script>
+(function(){
+  const state={summary:null,races:[],feed:[],tab:"senate",filter:"all"};
+  const $=s=>document.querySelector(s);
+  const etFmt=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"2-digit",month:"short",day:"numeric"});
+  const locFmt=new Intl.DateTimeFormat(undefined,{hour:"numeric",minute:"2-digit",month:"short",day:"numeric"});
+  const fmtT=iso=>{const d=new Date(iso);if(isNaN(d))return"—";return etFmt.format(d)+" ET"};
+  const fmtLocal=iso=>{const d=new Date(iso);if(isNaN(d))return"";return locFmt.format(d)+" your time"};
+  const num=v=>{const n=Number(v);return Number.isFinite(n)?n:0};
+  try{const t=localStorage.getItem("nd-tab");if(t)state.tab=t;const f=localStorage.getItem("nd-filter");if(f)state.filter=f}catch(e){}
+
+  function el(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e}
+  function partyKey(p){p=String(p||"").toUpperCase();return p.startsWith("D")?"D":p.startsWith("R")?"R":"O"}
+  function partyName(k){return k==="D"?"Dem":k==="R"?"Rep":"Other"}
+
+  function drawChamber(id,data,total){
+    const box=document.getElementById(id);
+    const D=num(data&&data.D),R=num(data&&data.R),I=num(data&&data.O);
+    const U=data?Math.max(0,total-D-R-I):null;
+    box.querySelector('[data-k="D"]').textContent=data?(I?D+"+"+I:D):"—";
+    box.querySelector('[data-k="R"]').textContent=data?R:"—";
+    box.querySelector('[data-k="U"]').textContent=data?U:"—";
+    const segs=box.querySelectorAll(".bar i");
+    segs[0].style.width=(D/total*100)+"%";segs[1].style.width=(I/total*100)+"%";segs[3].style.width=(R/total*100)+"%";
+    const foot=box.querySelector('[data-k="foot"]');
+    if(data&&data.note)foot.textContent=data.note;
+    box.querySelector(".tally.d .k").textContent=I?"Dem + Ind":"Dem";
+  }
+
+  function render(){
+    const s=state.summary;
+    drawChamber("ch-senate",s&&s.senate,100);
+    drawChamber("ch-house",s&&s.house,435);
+    $("#updated").textContent=s&&s.updatedAt?fmtT(s.updatedAt):"—";
+    $("#tzline").textContent=s&&s.updatedAt?fmtLocal(s.updatedAt):"";
+    const anyCounting=state.races.some(r=>r.status==="counting");
+    const anyCalled=state.races.some(r=>r.status==="called");
+    $("#phase").textContent=(s&&s.phase)||(anyCounting?"Votes being counted":anyCalled?"Calls coming in":"Polls open — no results yet");
+    $("#pulse").classList.toggle("on",anyCounting||(s&&/count|live/i.test(s.phase||"")));
+
+    // tabs counts
+    for(const t of ["senate","governor","house"]){
+      const list=state.races.filter(r=>r.chamber===t);
+      const called=list.filter(r=>r.status==="called").length;
+      const btn=document.getElementById("t-"+t);
+      btn.setAttribute("aria-pressed",String(state.tab===t));
+      btn.querySelector(".c").textContent=list.length?called+"/"+list.length:"";
+    }
+    for(const b of document.querySelectorAll("[data-filter]"))b.setAttribute("aria-pressed",String(b.dataset.filter===state.filter));
+
+    const grid=$("#grid");grid.replaceChildren();
+    let list=state.races.filter(r=>r.chamber===state.tab);
+    if(state.filter!=="all")list=list.filter(r=>r.status===state.filter);
+    list.sort((a,b)=>String(a.label||a.state).localeCompare(String(b.label||b.state)));
+    if(!list.length){
+      grid.append(el("div","none",state.tab==="house"&&state.filter==="all"
+        ?"Individual House races appear here as notable contests are called or tightly counted. The seat tally above covers all 435."
+        :state.filter==="all"?"No races yet.":"No races "+(state.filter==="called"?"called":"being counted")+" yet."));
+    }
+    for(const r of list)grid.append(raceCard(r));
+
+    const feed=$("#feed");feed.replaceChildren();
+    const items=[...state.feed].sort((a,b)=>String(b.at).localeCompare(String(a.at))).slice(0,40);
+    if(!items.length){const li=el("li");li.append(el("span","empty-c","Race calls and notable changes will be logged here as they come in."));feed.append(li)}
+    for(const f of items){
+      const li=el("li");li.append(el("time",null,fmtT(f.at)));li.append(el("span",null,f.text||""));
+      if(f.sourceUrl&&/^https:\/\//.test(f.sourceUrl)){const a=el("a",null,f.source||"Source");a.href=f.sourceUrl;a.target="_blank";a.rel="noopener";li.append(a)}
+      else if(f.source)li.append(el("span","empty-c",f.source));
+      feed.append(li);
+    }
+  }
+
+  function raceCard(r){
+    const card=el("article","race");
+    const cands=Array.isArray(r.candidates)?r.candidates:[];
+    const winner=cands.find(c=>c.winner);
+    if(r.status==="called"&&winner)card.classList.add("won-"+partyKey(winner.party).toLowerCase());
+    const rh=el("div","rh");const h=el("h3",null,r.label||r.state||"");
+    if(r.sub)h.append(el("small",null,r.sub));
+    rh.append(h);
+    let pillText="Polls open",pillCls="pill";
+    if(r.status==="polls_closed")pillText="Polls closed";
+    if(r.status==="counting"){pillText="Counting";pillCls+=" counting"}
+    if(r.status==="called"){const k=winner?partyKey(winner.party):"O";pillText=(winner?partyName(k)+" ":"")+"win";pillCls+=" called-"+k.toLowerCase()}
+    rh.append(el("span",pillCls,pillText));card.append(rh);
+
+    if(cands.length){
+      const ul=el("ul","cands");
+      const sorted=[...cands].sort((a,b)=>num(b.pct)-num(a.pct)||num(b.votes)-num(a.votes));
+      for(const c of sorted.slice(0,4)){
+        const k=partyKey(c.party);const li=el("li","cand p-"+k);
+        const nm=el("span","nm");const b=el("b",null,c.name||"");nm.append(b,document.createTextNode(" ("+(c.party||"?")+")"));
+        if(c.winner&&r.status==="called")nm.append(el("span","check","✓"));
+        const pctTxt=c.pct!=null&&c.pct!==""?num(c.pct).toFixed(1)+"%":"—";
+        const pc=el("span","pc",pctTxt);
+        const tk=el("span","tk");const i=el("i");i.style.width=Math.min(100,num(c.pct))+"%";tk.append(i);
+        li.append(nm,pc,tk);ul.append(li);
+      }
+      card.append(ul);
+    } else {
+      card.append(el("div","empty-c",r.status==="polls_open"||!r.status?"Candidates and votes appear once counting starts.":"No vote totals reported yet."));
+    }
+    const meta=el("div","meta");
+    if(r.reporting!=null&&r.reporting!=="")meta.append(el("span","mono",num(r.reporting)+"% of expected vote in"));
+    if(r.status==="called"&&r.calledBy)meta.append(el("span",null,"Called by "+r.calledBy));
+    if(r.sourceUrl&&/^https:\/\//.test(r.sourceUrl)){const a=el("a",null,r.source||"Source");a.href=r.sourceUrl;a.target="_blank";a.rel="noopener";meta.append(a)}
+    else if(r.source)meta.append(el("span",null,r.source));
+    if(r.asOf)meta.append(el("span","mono","as of "+fmtT(r.asOf)));
+    if(meta.childNodes.length)card.append(meta);
+    return card;
+  }
+
+  document.addEventListener("click",e=>{
+    const t=e.target.closest("[data-tab]");if(t){state.tab=t.dataset.tab;try{localStorage.setItem("nd-tab",state.tab)}catch(_){}render();return}
+    const f=e.target.closest("[data-filter]");if(f){state.filter=f.dataset.filter;try{localStorage.setItem("nd-filter",state.filter)}catch(_){}render()}
+  });
+
+  render();
+  const notice=$("#notice");
+  const timer=setTimeout(()=>{if(!state.loaded){notice.textContent="Still waiting for results data. Check your connection, or reload the page.";notice.hidden=false}},10000);
+  async function load(){
+    try{
+      const res=await fetch("results.json?t="+Date.now(),{cache:"no-store"});
+      if(!res.ok)throw new Error(res.status);
+      const j=await res.json();
+      state.loaded=true;clearTimeout(timer);notice.hidden=true;
+      state.summary=j.summary||null;state.races=Array.isArray(j.races)?j.races:[];state.feed=Array.isArray(j.feed)?j.feed:[];
+      render();
+    }catch(e){if(!state.loaded){notice.textContent="Couldn't load results. Check your connection; the page retries every minute.";notice.hidden=false}}
+  }
+  load();setInterval(load,60000);
+})();
+</script>
+</body>
+</html>

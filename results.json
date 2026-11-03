@@ -1,0 +1,528 @@
+{
+ "summary": {
+  "house": {
+   "D": 0,
+   "O": 0,
+   "R": 0,
+   "note": "No House races called yet."
+  },
+  "phase": "Polls open \u2014 no results yet",
+  "senate": {
+   "D": 32,
+   "O": 2,
+   "R": 31,
+   "note": "Counts start from the 65 seats not on the ballot (Dem 32, Ind 2, Rep 31). Before the election the Senate stood Rep 53, Dem 45, Ind 2 (Ballotpedia)."
+  },
+  "updatedAt": "2026-11-03T12:20:00Z"
+ },
+ "races": [
+  {
+   "chamber": "governor",
+   "label": "Alaska",
+   "state": "AK",
+   "status": "polls_open",
+   "id": "gov-AK"
+  },
+  {
+   "chamber": "governor",
+   "label": "Alabama",
+   "state": "AL",
+   "status": "polls_open",
+   "id": "gov-AL"
+  },
+  {
+   "chamber": "governor",
+   "label": "Arkansas",
+   "state": "AR",
+   "status": "polls_open",
+   "id": "gov-AR"
+  },
+  {
+   "chamber": "governor",
+   "label": "Arizona",
+   "state": "AZ",
+   "status": "polls_open",
+   "id": "gov-AZ"
+  },
+  {
+   "chamber": "governor",
+   "label": "California",
+   "state": "CA",
+   "status": "polls_open",
+   "id": "gov-CA"
+  },
+  {
+   "chamber": "governor",
+   "label": "Colorado",
+   "state": "CO",
+   "status": "polls_open",
+   "id": "gov-CO"
+  },
+  {
+   "chamber": "governor",
+   "label": "Connecticut",
+   "state": "CT",
+   "status": "polls_open",
+   "id": "gov-CT"
+  },
+  {
+   "chamber": "governor",
+   "label": "Florida",
+   "state": "FL",
+   "status": "polls_open",
+   "id": "gov-FL"
+  },
+  {
+   "chamber": "governor",
+   "label": "Georgia",
+   "state": "GA",
+   "status": "polls_open",
+   "id": "gov-GA"
+  },
+  {
+   "chamber": "governor",
+   "label": "Hawaii",
+   "state": "HI",
+   "status": "polls_open",
+   "id": "gov-HI"
+  },
+  {
+   "chamber": "governor",
+   "label": "Iowa",
+   "state": "IA",
+   "status": "polls_open",
+   "id": "gov-IA"
+  },
+  {
+   "chamber": "governor",
+   "label": "Idaho",
+   "state": "ID",
+   "status": "polls_open",
+   "id": "gov-ID"
+  },
+  {
+   "chamber": "governor",
+   "label": "Illinois",
+   "state": "IL",
+   "status": "polls_open",
+   "id": "gov-IL"
+  },
+  {
+   "chamber": "governor",
+   "label": "Kansas",
+   "state": "KS",
+   "status": "polls_open",
+   "id": "gov-KS"
+  },
+  {
+   "chamber": "governor",
+   "label": "Massachusetts",
+   "state": "MA",
+   "status": "polls_open",
+   "id": "gov-MA"
+  },
+  {
+   "chamber": "governor",
+   "label": "Maryland",
+   "state": "MD",
+   "status": "polls_open",
+   "id": "gov-MD"
+  },
+  {
+   "chamber": "governor",
+   "label": "Maine",
+   "state": "ME",
+   "status": "polls_open",
+   "id": "gov-ME"
+  },
+  {
+   "chamber": "governor",
+   "label": "Michigan",
+   "state": "MI",
+   "status": "polls_open",
+   "id": "gov-MI"
+  },
+  {
+   "chamber": "governor",
+   "label": "Minnesota",
+   "state": "MN",
+   "status": "polls_open",
+   "id": "gov-MN"
+  },
+  {
+   "chamber": "governor",
+   "label": "Nebraska",
+   "state": "NE",
+   "status": "polls_open",
+   "id": "gov-NE"
+  },
+  {
+   "chamber": "governor",
+   "label": "New Hampshire",
+   "state": "NH",
+   "status": "polls_open",
+   "id": "gov-NH"
+  },
+  {
+   "chamber": "governor",
+   "label": "New Mexico",
+   "state": "NM",
+   "status": "polls_open",
+   "id": "gov-NM"
+  },
+  {
+   "chamber": "governor",
+   "label": "Nevada",
+   "state": "NV",
+   "status": "polls_open",
+   "id": "gov-NV"
+  },
+  {
+   "chamber": "governor",
+   "label": "New York",
+   "state": "NY",
+   "status": "polls_open",
+   "id": "gov-NY"
+  },
+  {
+   "chamber": "governor",
+   "label": "Ohio",
+   "state": "OH",
+   "status": "polls_open",
+   "id": "gov-OH"
+  },
+  {
+   "chamber": "governor",
+   "label": "Oklahoma",
+   "state": "OK",
+   "status": "polls_open",
+   "id": "gov-OK"
+  },
+  {
+   "chamber": "governor",
+   "label": "Oregon",
+   "state": "OR",
+   "status": "polls_open",
+   "id": "gov-OR"
+  },
+  {
+   "chamber": "governor",
+   "label": "Pennsylvania",
+   "state": "PA",
+   "status": "polls_open",
+   "id": "gov-PA"
+  },
+  {
+   "chamber": "governor",
+   "label": "Rhode Island",
+   "state": "RI",
+   "status": "polls_open",
+   "id": "gov-RI"
+  },
+  {
+   "chamber": "governor",
+   "label": "South Carolina",
+   "state": "SC",
+   "status": "polls_open",
+   "id": "gov-SC"
+  },
+  {
+   "chamber": "governor",
+   "label": "South Dakota",
+   "state": "SD",
+   "status": "polls_open",
+   "id": "gov-SD"
+  },
+  {
+   "chamber": "governor",
+   "label": "Tennessee",
+   "state": "TN",
+   "status": "polls_open",
+   "id": "gov-TN"
+  },
+  {
+   "chamber": "governor",
+   "label": "Texas",
+   "state": "TX",
+   "status": "polls_open",
+   "id": "gov-TX"
+  },
+  {
+   "chamber": "governor",
+   "label": "Vermont",
+   "state": "VT",
+   "status": "polls_open",
+   "id": "gov-VT"
+  },
+  {
+   "chamber": "governor",
+   "label": "Wisconsin",
+   "state": "WI",
+   "status": "polls_open",
+   "id": "gov-WI"
+  },
+  {
+   "chamber": "governor",
+   "label": "Wyoming",
+   "state": "WY",
+   "status": "polls_open",
+   "id": "gov-WY"
+  },
+  {
+   "chamber": "senate",
+   "label": "Alaska",
+   "state": "AK",
+   "status": "polls_open",
+   "id": "senate-AK"
+  },
+  {
+   "chamber": "senate",
+   "label": "Alabama",
+   "state": "AL",
+   "status": "polls_open",
+   "id": "senate-AL"
+  },
+  {
+   "chamber": "senate",
+   "label": "Arkansas",
+   "state": "AR",
+   "status": "polls_open",
+   "id": "senate-AR"
+  },
+  {
+   "chamber": "senate",
+   "label": "Colorado",
+   "state": "CO",
+   "status": "polls_open",
+   "id": "senate-CO"
+  },
+  {
+   "chamber": "senate",
+   "label": "Delaware",
+   "state": "DE",
+   "status": "polls_open",
+   "id": "senate-DE"
+  },
+  {
+   "chamber": "senate",
+   "label": "Florida",
+   "state": "FL",
+   "status": "polls_open",
+   "sub": "Special",
+   "id": "senate-FL-special"
+  },
+  {
+   "chamber": "senate",
+   "label": "Georgia",
+   "state": "GA",
+   "status": "polls_open",
+   "id": "senate-GA"
+  },
+  {
+   "chamber": "senate",
+   "label": "Iowa",
+   "state": "IA",
+   "status": "polls_open",
+   "id": "senate-IA"
+  },
+  {
+   "chamber": "senate",
+   "label": "Idaho",
+   "state": "ID",
+   "status": "polls_open",
+   "id": "senate-ID"
+  },
+  {
+   "chamber": "senate",
+   "label": "Illinois",
+   "state": "IL",
+   "status": "polls_open",
+   "id": "senate-IL"
+  },
+  {
+   "chamber": "senate",
+   "label": "Kansas",
+   "state": "KS",
+   "status": "polls_open",
+   "id": "senate-KS"
+  },
+  {
+   "chamber": "senate",
+   "label": "Kentucky",
+   "state": "KY",
+   "status": "polls_open",
+   "id": "senate-KY"
+  },
+  {
+   "chamber": "senate",
+   "label": "Louisiana",
+   "state": "LA",
+   "status": "polls_open",
+   "id": "senate-LA"
+  },
+  {
+   "chamber": "senate",
+   "label": "Massachusetts",
+   "state": "MA",
+   "status": "polls_open",
+   "id": "senate-MA"
+  },
+  {
+   "chamber": "senate",
+   "label": "Maine",
+   "state": "ME",
+   "status": "polls_open",
+   "id": "senate-ME"
+  },
+  {
+   "chamber": "senate",
+   "label": "Michigan",
+   "state": "MI",
+   "status": "polls_open",
+   "id": "senate-MI"
+  },
+  {
+   "chamber": "senate",
+   "label": "Minnesota",
+   "state": "MN",
+   "status": "polls_open",
+   "id": "senate-MN"
+  },
+  {
+   "chamber": "senate",
+   "label": "Mississippi",
+   "state": "MS",
+   "status": "polls_open",
+   "id": "senate-MS"
+  },
+  {
+   "chamber": "senate",
+   "label": "Montana",
+   "state": "MT",
+   "status": "polls_open",
+   "id": "senate-MT"
+  },
+  {
+   "chamber": "senate",
+   "label": "North Carolina",
+   "state": "NC",
+   "status": "polls_open",
+   "id": "senate-NC"
+  },
+  {
+   "chamber": "senate",
+   "label": "Nebraska",
+   "state": "NE",
+   "status": "polls_open",
+   "id": "senate-NE"
+  },
+  {
+   "chamber": "senate",
+   "label": "New Hampshire",
+   "state": "NH",
+   "status": "polls_open",
+   "id": "senate-NH"
+  },
+  {
+   "chamber": "senate",
+   "label": "New Jersey",
+   "state": "NJ",
+   "status": "polls_open",
+   "id": "senate-NJ"
+  },
+  {
+   "chamber": "senate",
+   "label": "New Mexico",
+   "state": "NM",
+   "status": "polls_open",
+   "id": "senate-NM"
+  },
+  {
+   "chamber": "senate",
+   "label": "Ohio",
+   "state": "OH",
+   "status": "polls_open",
+   "sub": "Special",
+   "id": "senate-OH-special"
+  },
+  {
+   "chamber": "senate",
+   "label": "Oklahoma",
+   "state": "OK",
+   "status": "polls_open",
+   "id": "senate-OK"
+  },
+  {
+   "chamber": "senate",
+   "label": "Oregon",
+   "state": "OR",
+   "status": "polls_open",
+   "id": "senate-OR"
+  },
+  {
+   "chamber": "senate",
+   "label": "Rhode Island",
+   "state": "RI",
+   "status": "polls_open",
+   "id": "senate-RI"
+  },
+  {
+   "chamber": "senate",
+   "label": "South Carolina",
+   "state": "SC",
+   "status": "polls_open",
+   "id": "senate-SC"
+  },
+  {
+   "chamber": "senate",
+   "label": "South Dakota",
+   "state": "SD",
+   "status": "polls_open",
+   "id": "senate-SD"
+  },
+  {
+   "chamber": "senate",
+   "label": "Tennessee",
+   "state": "TN",
+   "status": "polls_open",
+   "id": "senate-TN"
+  },
+  {
+   "chamber": "senate",
+   "label": "Texas",
+   "state": "TX",
+   "status": "polls_open",
+   "id": "senate-TX"
+  },
+  {
+   "chamber": "senate",
+   "label": "Virginia",
+   "state": "VA",
+   "status": "polls_open",
+   "id": "senate-VA"
+  },
+  {
+   "chamber": "senate",
+   "label": "West Virginia",
+   "state": "WV",
+   "status": "polls_open",
+   "id": "senate-WV"
+  },
+  {
+   "chamber": "senate",
+   "label": "Wyoming",
+   "state": "WY",
+   "status": "polls_open",
+   "id": "senate-WY"
+  }
+ ],
+ "feed": [
+  {
+   "at": "2026-11-03T12:20:00Z",
+   "source": "Ballotpedia",
+   "sourceUrl": "https://ballotpedia.org/United_States_Senate_elections,_2026",
+   "text": "Tracker opened. Polls are opening on the East Coast; no votes have been reported. Pre-election Senate: Rep 53, Dem 45, Ind 2.",
+   "id": "f0001"
+  }
+ ]
+}
