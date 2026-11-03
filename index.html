@@ -178,6 +178,11 @@ svg.usmap .clab{font:500 12px var(--f-body);fill:var(--muted);text-anchor:end}
 .f-none{fill:var(--norace);stroke:var(--line)!important} .f-open{fill:var(--openfill)} .f-closed{fill:var(--open)}
 .f-lead-d{fill:var(--dem-lean)} .f-lead-r{fill:var(--rep-lean)} .f-lead-o{fill:var(--ind-lean)}
 .f-win-d{fill:var(--dem)} .f-win-r{fill:var(--rep)} .f-win-o{fill:var(--ind)}
+.maphead{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+svg.usmap .st.flip{stroke:var(--live);stroke-width:3.2}
+svg.usmap a:hover .st.flip{stroke:var(--live);stroke-width:4}
+.legend .flipsw{background:transparent!important;border:2.5px solid var(--live)}
+.legend[hidden]{display:none}
 .legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted);list-style:none;margin:0;padding:0}
 .legend li{display:flex;align-items:center;gap:6px}
 .legend i{width:14px;height:14px;border-radius:3px;display:inline-block;border:1px solid var(--line)}
@@ -263,9 +268,20 @@ footer a{color:inherit}
       </div>
       <div class="grid" id="grid"><div class="none">Loading races…</div></div>
       <div class="mapwrap" id="mapwrap" hidden>
-        <div class="cap" id="mapcap"></div>
+        <div class="maphead">
+          <div class="cap" id="mapcap"></div>
+          <div class="seg" role="group" aria-label="Map mode" id="mapmode">
+            <button id="m-before" data-mapmode="before" aria-pressed="false">Before election</button>
+            <button id="m-results" data-mapmode="results" aria-pressed="true">Results</button>
+          </div>
+        </div>
         <div id="mapbox"></div>
-        <ul class="legend" aria-label="Map key">
+        <ul class="legend" id="legend-before" aria-label="Map key" hidden>
+          <li><i style="background:var(--dem)"></i>Held by Democrats</li>
+          <li><i style="background:var(--rep)"></i>Held by Republicans</li>
+          <li><i style="background:var(--norace)"></i>No race</li>
+        </ul>
+        <ul class="legend" id="legend-results" aria-label="Map key">
           <li><i style="background:var(--dem)"></i>Dem win</li>
           <li><i style="background:var(--rep)"></i>Rep win</li>
           <li><i style="background:var(--ind)"></i>Other win</li>
@@ -274,6 +290,7 @@ footer a{color:inherit}
           <li><i style="background:var(--open)"></i>Polls closed</li>
           <li><i style="background:var(--openfill)"></i>Polls open</li>
           <li><i style="background:var(--norace)"></i>No race</li>
+          <li><i class="flipsw"></i>Changed party</li>
         </ul>
         <div class="tip" id="tip" hidden></div>
       </div>
@@ -302,14 +319,14 @@ footer a{color:inherit}
 
 <script>
 (function(){
-  const state={summary:null,races:[],feed:[],tab:"senate",filter:"all",view:"cards",openStates:new Set()};
+  const state={summary:null,races:[],feed:[],tab:"senate",filter:"all",view:"cards",openStates:new Set(),mapMode:"results"};
   const $=s=>document.querySelector(s);
   const etFmt=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"2-digit",month:"short",day:"numeric"});
   const locFmt=new Intl.DateTimeFormat(undefined,{hour:"numeric",minute:"2-digit",month:"short",day:"numeric"});
   const fmtT=iso=>{const d=new Date(iso);if(isNaN(d))return"—";return etFmt.format(d)+" ET"};
   const fmtLocal=iso=>{const d=new Date(iso);if(isNaN(d))return"";return locFmt.format(d)+" your time"};
   const num=v=>{const n=Number(v);return Number.isFinite(n)?n:0};
-  try{const t=localStorage.getItem("nd-tab");if(t)state.tab=t;const f=localStorage.getItem("nd-filter");if(f)state.filter=f;const v=localStorage.getItem("nd-view");if(v==="map"||v==="cards")state.view=v}catch(e){}
+  try{const t=localStorage.getItem("nd-tab");if(t)state.tab=t;const f=localStorage.getItem("nd-filter");if(f)state.filter=f;const v=localStorage.getItem("nd-view");if(v==="map"||v==="cards")state.view=v;const mm=localStorage.getItem("nd-mapmode");if(mm==="before"||mm==="results")state.mapMode=mm}catch(e){}
 
   function el(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e}
   function partyKey(p){p=String(p||"").toUpperCase();return p.startsWith("D")?"D":p.startsWith("R")?"R":"O"}
@@ -585,6 +602,16 @@ footer a{color:inherit}
   const SMALL=["VT","NH","MA","RI","CT","NJ","DE","MD"];
   const NS="http://www.w3.org/2000/svg";
   function svgEl(t,attrs){const e=document.createElementNS(NS,t);for(const k in attrs)e.setAttribute(k,attrs[k]);return e}
+  // Party holding each seat before the Nov 3, 2026 election (Ballotpedia: Senate 13 D / 22 R on the ballot; governors 18 D / 18 R).
+  const HELD={
+    senate:{CO:"D",DE:"D",GA:"D",IL:"D",MA:"D",MI:"D",MN:"D",NH:"D",NJ:"D",NM:"D",OR:"D",RI:"D",VA:"D",
+      AL:"R",AK:"R",AR:"R",FL:"R",ID:"R",IA:"R",KS:"R",KY:"R",LA:"R",ME:"R",MS:"R",MT:"R",NE:"R",NC:"R",OH:"R",OK:"R",SC:"R",SD:"R",TN:"R",TX:"R",WV:"R",WY:"R"},
+    governor:{AZ:"D",CA:"D",CO:"D",CT:"D",HI:"D",IL:"D",KS:"D",ME:"D",MD:"D",MA:"D",MI:"D",MN:"D",NM:"D",NY:"D",OR:"D",PA:"D",RI:"D",WI:"D",
+      AL:"R",AK:"R",AR:"R",FL:"R",GA:"R",ID:"R",IA:"R",NE:"R",NV:"R",NH:"R",OH:"R",OK:"R",SC:"R",SD:"R",TN:"R",TX:"R",VT:"R",WY:"R"}
+  };
+  function heldBy(code){return (HELD[state.tab]||{})[code]||null}
+  function winnerKey(r){if(!r||r.status!=="called")return null;const w=(r.candidates||[]).find(x=>x.winner);return w?partyKey(w.party):null}
+  function isFlip(code,r){const h=heldBy(code),w=winnerKey(r);return !!(h&&w&&h!==w)}
   function fillFor(r){
     if(!r)return"f-none";
     const c=Array.isArray(r.candidates)?r.candidates:[];
@@ -595,18 +622,34 @@ footer a{color:inherit}
   function tipText(code,r){
     const name=SHAPES[code].n;
     if(!r)return[name,"No "+(state.tab==="governor"?"governor":"Senate")+" race this year"];
+    if(state.mapMode==="before"){
+      const h=heldBy(code);const inc=(r.candidates||[]).find(x=>x.incumbent);
+      return[name+(r.sub?" · "+r.sub:""),(h?"Held by "+(h==="D"?"Democrats":"Republicans")+" before the election":"Holder not recorded")+(inc?" · Incumbent "+inc.name+" running":(r.candidates||[]).length?" · Open seat":"")];
+    }
     const c=Array.isArray(r.candidates)?[...r.candidates].sort((a,b)=>num(b.votes)-num(a.votes)||num(b.pct)-num(a.pct)):[];
     let line=STATUS[r.status]||STATUS.polls_open;
     if(r.status==="called"){const w=c.find(x=>x.winner);if(w)line=w.name+" ("+(w.party||"?")+") wins"+(w.pct!=null&&w.pct!==""?", "+num(w.pct).toFixed(1)+"%":"")}
     else if(r.status==="counting"&&c.length){line=c[0].name+" ("+(c[0].party||"?")+") leads"+(c[0].pct!=null&&c[0].pct!==""?", "+num(c[0].pct).toFixed(1)+"%":"")+(r.reporting!=null&&r.reporting!==""?" · "+num(r.reporting)+"% counted":"")}
+    if(isFlip(code,r))line+=" · Changed from "+(heldBy(code)==="D"?"Democratic":"Republican");
     return[name+(r.sub?" · "+r.sub:""),line];
   }
   function renderMap(){
     const box=$("#mapbox");box.replaceChildren();
+    const before=state.mapMode==="before";
+    for(const b of document.querySelectorAll("[data-mapmode]"))b.setAttribute("aria-pressed",String(b.dataset.mapmode===state.mapMode));
+    $("#mapmode").hidden=state.tab==="house";
+    $("#legend-before").hidden=!before||state.tab==="house";$("#legend-results").hidden=before||state.tab==="house";
     if(state.tab==="house"){$("#mapcap").textContent="The map covers Senate and governor races. Switch to Cards to see individual House races.";return}
     const races={};for(const r of state.races)if(r.chamber===state.tab)races[r.state]=r;
     const total=Object.keys(races).length,called=Object.values(races).filter(r=>r.status==="called").length;
-    $("#mapcap").textContent=(state.tab==="governor"?"Governor":"Senate")+" races: "+total+" states, "+called+" called. Select a state for details.";
+    const label=state.tab==="governor"?"Governor":"Senate";
+    if(before){
+      let d=0,rr=0;for(const c in races){const h=heldBy(c);if(h==="D")d++;else if(h==="R")rr++}
+      $("#mapcap").textContent=label+" seats on the ballot, by party before the election: Dem "+d+" · Rep "+rr+".";
+    }else{
+      const flips=Object.keys(races).filter(c=>isFlip(c,races[c])).length;
+      $("#mapcap").textContent=label+" races: "+total+" states, "+called+" called"+(called?", "+flips+(flips===1?" changed party":" changed party"):"")+". Select a state for details.";
+    }
     const svg=svgEl("svg",{viewBox:"0 0 1050 610",class:"usmap",role:"group","aria-label":"Map of "+(state.tab==="governor"?"governor":"Senate")+" races by state"});
     const labels=svgEl("g",{});
     const tip=$("#tip"),wrap=$("#mapwrap");
@@ -615,7 +658,7 @@ footer a{color:inherit}
       const tw=tip.offsetWidth,th=tip.offsetHeight;if(x+tw>wb.width-8)x=ev.clientX-wb.left-tw-14;if(y+th>wb.height-8)y=ev.clientY-wb.top-th-14;
       tip.style.left=Math.max(4,x)+"px";tip.style.top=Math.max(4,y)+"px"};
     const hide=()=>{tip.hidden=true};
-    const matches=r=>state.filter==="all"||(r&&r.status===state.filter);
+    const matches=r=>before||state.filter==="all"||(r&&r.status===state.filter);
     function hook(node,code){
       const r=races[code];
       node.addEventListener("mousemove",e=>show(e,code));node.addEventListener("mouseleave",hide);
@@ -624,7 +667,8 @@ footer a{color:inherit}
       else{node.setAttribute("aria-label",tipText(code,null).join(": "))}
     }
     for(const code in SHAPES){
-      const sh=SHAPES[code],r=races[code],cls=fillFor(r);
+      const sh=SHAPES[code],r=races[code];
+      const cls=before?(r&&heldBy(code)?"f-win-"+heldBy(code).toLowerCase():"f-none"):fillFor(r)+(isFlip(code,r)?" flip":"");
       const a=svgEl("a",{});const path=svgEl("path",{d:sh.d,class:"st "+cls+(r&&!matches(r)?" dim":"")});a.append(path);hook(a,code);svg.append(a);
       if(!SMALL.includes(code)&&code!=="DC"){
         const dark=/win/.test(cls);const t=svgEl("text",{x:sh.c[0],y:sh.c[1]+(code==="FL"?8:code==="MI"?14:code==="LA"?-6:0),class:(dark?"lab-dark":"lab-ink")+" slab"});
@@ -633,7 +677,8 @@ footer a{color:inherit}
       }
     }
     SMALL.forEach((code,i)=>{
-      const r=races[code],cls=fillFor(r),y=170+i*34;
+      const r=races[code],y=170+i*34;
+      const cls=before?(r&&heldBy(code)?"f-win-"+heldBy(code).toLowerCase():"f-none"):fillFor(r)+(isFlip(code,r)?" flip":"");
       const a=svgEl("a",{});const rect=svgEl("rect",{x:1004,y:y,width:34,height:26,rx:4,class:"cbox st "+cls+(r&&!matches(r)?" dim":"")});a.append(rect);hook(a,code);svg.append(a);
       const t=svgEl("text",{x:1021,y:y+13,class:/win/.test(cls)?"lab-dark":"lab-ink"});t.textContent=code;labels.append(t);
     });
@@ -648,6 +693,7 @@ footer a{color:inherit}
 
   document.addEventListener("click",e=>{
     const t=e.target.closest("[data-tab]");if(t){state.tab=t.dataset.tab;try{localStorage.setItem("nd-tab",state.tab)}catch(_){}render();return}
+    const mm=e.target.closest("[data-mapmode]");if(mm){state.mapMode=mm.dataset.mapmode;try{localStorage.setItem("nd-mapmode",state.mapMode)}catch(_){}render();return}
     const v=e.target.closest("[data-view]");if(v){state.view=v.dataset.view;try{localStorage.setItem("nd-view",state.view)}catch(_){}render();return}
     const f=e.target.closest("[data-filter]");if(f){state.filter=f.dataset.filter;try{localStorage.setItem("nd-filter",state.filter)}catch(_){}render()}
   });
