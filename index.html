@@ -178,6 +178,21 @@ svg.usmap .clab{font:500 12px var(--f-body);fill:var(--muted);text-anchor:end}
 .f-none{fill:var(--norace);stroke:var(--line)!important} .f-open{fill:var(--openfill)} .f-closed{fill:var(--open)}
 .f-lead-d{fill:var(--dem-lean)} .f-lead-r{fill:var(--rep-lean)} .f-lead-o{fill:var(--ind-lean)}
 .f-win-d{fill:var(--dem)} .f-win-r{fill:var(--rep)} .f-win-o{fill:var(--ind)}
+.f-tie{fill:var(--ind-lean)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px}
+.tile{display:grid;align-content:space-between;gap:2px;min-height:58px;padding:6px 7px;border-radius:6px;text-decoration:none;color:var(--ink);border:1px solid var(--line);background:var(--openfill);font-size:11.5px;line-height:1.2;min-width:0}
+.tile b{font-family:var(--f-display);font-size:20px;line-height:1}
+.tile span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tile:hover,.tile:focus-visible{outline:2px solid var(--ink);outline-offset:1px}
+.tile.t-win-d{background:var(--dem);color:#fff;border-color:transparent} .tile.t-win-r{background:var(--rep);color:#fff;border-color:transparent} .tile.t-win-o{background:var(--ind);color:#fff;border-color:transparent}
+.tile.t-lead-d{background:var(--dem-lean)} .tile.t-lead-r{background:var(--rep-lean)} .tile.t-lead-o{background:var(--ind-lean)}
+.tile.t-closed{background:var(--open);color:#fff;border-color:transparent}
+.tile.t-flip{box-shadow:inset 0 0 0 3px var(--live)}
+.splits{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.split{border:1px solid var(--line);border-radius:6px;padding:9px 11px;display:grid;gap:6px}
+.split .row{display:flex;gap:10px;font-family:var(--f-mono);font-size:13px;font-variant-numeric:tabular-nums}
+.split .row .d{color:var(--dem)} .split .row .r{color:var(--rep)} .split .row .o{color:var(--ind)}
+.backlink{font-size:13px;color:var(--muted)}
 .maphead{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
 svg.usmap .st.flip{stroke:var(--live);stroke-width:3.2}
 svg.usmap a:hover .st.flip{stroke:var(--live);stroke-width:4}
@@ -280,6 +295,21 @@ footer a{color:inherit}
           <li><i style="background:var(--dem)"></i>Held by Democrats</li>
           <li><i style="background:var(--rep)"></i>Held by Republicans</li>
           <li><i style="background:var(--norace)"></i>No race</li>
+        </ul>
+        <ul class="legend" id="legend-house-before" aria-label="Map key" hidden>
+          <li><i style="background:var(--dem)"></i>Democratic majority</li>
+          <li><i style="background:var(--rep)"></i>Republican majority</li>
+          <li><i style="background:var(--ind-lean)"></i>Evenly split</li>
+        </ul>
+        <ul class="legend" id="legend-house-results" aria-label="Map key" hidden>
+          <li><i style="background:var(--dem)"></i>Dem majority, all called</li>
+          <li><i style="background:var(--rep)"></i>Rep majority, all called</li>
+          <li><i style="background:var(--dem-lean)"></i>Dem ahead in called seats</li>
+          <li><i style="background:var(--rep-lean)"></i>Rep ahead in called seats</li>
+          <li><i style="background:var(--ind-lean)"></i>Tied so far</li>
+          <li><i style="background:var(--open)"></i>Counting, none called</li>
+          <li><i style="background:var(--openfill)"></i>No results yet</li>
+          <li><i class="flipsw"></i>Majority changed</li>
         </ul>
         <ul class="legend" id="legend-results" aria-label="Map key">
           <li><i style="background:var(--dem)"></i>Dem win</li>
@@ -503,12 +533,15 @@ footer a{color:inherit}
 
   function renderSheet(){
     const id=openId();const sheet=$("#sheet"),scrim=$("#scrim");
+    const sm=id&&/^house-([A-Z]{2})$/.exec(id);
+    if(sm&&state.races.some(r=>r.chamber==="house"&&r.state===sm[1])){renderStateSheet(sm[1]);return}
     const r=id&&state.races.find(x=>x.id===id);
     if(!r){if(!sheet.hidden){sheet.hidden=true;scrim.hidden=true;document.body.style.overflow="";if(lastFocus&&lastFocus.focus)lastFocus.focus()}return}
     const wasHidden=sheet.hidden;
     $("#sh-kicker").textContent=(CH[r.chamber]||"")+(r.sub?" · "+r.sub:"")+" · "+(STATUS[r.status]||STATUS.polls_open);
     $("#sh-title").textContent=r.label||r.state||"";
     const body=$("#sh-body");body.replaceChildren();
+    if(r.chamber==="house"){const bl=el("a","backlink","← All "+(r.stateName||r.state)+" districts");bl.href="#house-"+r.state;body.append(bl)}
     const cands=Array.isArray(r.candidates)?[...r.candidates]:[];
     const hasRes=cands.some(c=>(c.votes!=null&&c.votes!=="")||(c.pct!=null&&c.pct!==""));
     if(hasRes)cands.sort((a,b)=>num(b.votes)-num(a.votes)||num(b.pct)-num(a.pct));
@@ -609,6 +642,27 @@ footer a{color:inherit}
     governor:{AZ:"D",CA:"D",CO:"D",CT:"D",HI:"D",IL:"D",KS:"D",ME:"D",MD:"D",MA:"D",MI:"D",MN:"D",NM:"D",NY:"D",OR:"D",PA:"D",RI:"D",WI:"D",
       AL:"R",AK:"R",AR:"R",FL:"R",GA:"R",ID:"R",IA:"R",NE:"R",NV:"R",NH:"R",OH:"R",OK:"R",SC:"R",SD:"R",TN:"R",TX:"R",VT:"R",WY:"R"}
   };
+  // U.S. House delegations before the election (house.gov member list, Nov 2026; totals D 214, R 218, I 1, vacant 2).
+  const HOUSE_BEFORE={AL:[2,5,0],AK:[0,1,0],AZ:[3,6,0],AR:[0,4,0],CA:[43,8,1],CO:[4,4,0],CT:[5,0,0],DE:[1,0,0],FL:[7,20,0],GA:[5,9,0],HI:[2,0,0],ID:[0,2,0],IL:[14,3,0],IN:[2,7,0],IA:[0,4,0],KS:[1,3,0],KY:[1,5,0],LA:[2,4,0],ME:[2,0,0],MD:[7,1,0],MA:[9,0,0],MI:[6,7,0],MN:[4,4,0],MS:[1,3,0],MO:[2,6,0],MT:[0,2,0],NE:[0,3,0],NV:[3,1,0],NH:[2,0,0],NJ:[9,3,0],NM:[3,0,0],NY:[19,7,0],NC:[4,10,0],ND:[0,1,0],OH:[5,10,0],OK:[0,5,0],OR:[5,1,0],PA:[7,10,0],RI:[2,0,0],SC:[1,6,0],SD:[0,1,0],TN:[1,8,0],TX:[13,24,0],UT:[0,4,0],VT:[1,0,0],VA:[6,5,0],WA:[8,2,0],WV:[0,2,0],WI:[2,6,0],WY:[0,1,0]};
+  function houseBeforeKey(code){const b=HOUSE_BEFORE[code];if(!b)return null;return b[0]>b[1]?"D":b[1]>b[0]?"R":"T"}
+  function houseAgg(code){
+    const rs=state.races.filter(r=>r.chamber==="house"&&r.state===code);
+    const a={seats:rs.length,D:0,R:0,O:0,called:0,counting:0,closed:0,lead:{D:0,R:0,O:0}};
+    for(const r of rs){
+      const w=winnerKey(r);if(w){a[w]++;a.called++;continue}
+      if(r.status==="counting"){a.counting++;const c=(r.candidates||[]).filter(x=>x.votes!=null||x.pct!=null);if(c.length){const l=[...c].sort((x,y)=>num(y.votes)-num(x.votes)||num(y.pct)-num(x.pct))[0];a.lead[partyKey(l.party)]++}}
+      else if(r.status==="polls_closed")a.closed++;
+    }
+    return a;
+  }
+  function houseFill(code){
+    const a=houseAgg(code);if(!a.seats)return"f-none";
+    if(!a.called)return a.counting||a.closed?"f-closed":"f-open";
+    const top=a.D>a.R&&a.D>a.O?"d":a.R>a.D&&a.R>a.O?"r":a.O>a.D&&a.O>a.R?"o":null;
+    if(!top)return"f-tie";
+    return(a.called===a.seats?"f-win-":"f-lead-")+top;
+  }
+  function houseFlip(code){const a=houseAgg(code);if(!a.seats||a.called<a.seats)return false;const b=houseBeforeKey(code);const now=a.D>a.R?"D":a.R>a.D?"R":"T";return !!(b&&b!=="T"&&now!=="T"&&b!==now)}
   function heldBy(code){return (HELD[state.tab]||{})[code]||null}
   function winnerKey(r){if(!r||r.status!=="called")return null;const w=(r.candidates||[]).find(x=>x.winner);return w?partyKey(w.party):null}
   function isFlip(code,r){const h=heldBy(code),w=winnerKey(r);return !!(h&&w&&h!==w)}
@@ -635,41 +689,67 @@ footer a{color:inherit}
   }
   function renderMap(){
     const box=$("#mapbox");box.replaceChildren();
-    const before=state.mapMode==="before";
+    const before=state.mapMode==="before",house=state.tab==="house";
     for(const b of document.querySelectorAll("[data-mapmode]"))b.setAttribute("aria-pressed",String(b.dataset.mapmode===state.mapMode));
-    $("#mapmode").hidden=state.tab==="house";
-    $("#legend-before").hidden=!before||state.tab==="house";$("#legend-results").hidden=before||state.tab==="house";
-    if(state.tab==="house"){$("#mapcap").textContent="The map covers Senate and governor races. Switch to Cards to see individual House races.";return}
-    const races={};for(const r of state.races)if(r.chamber===state.tab)races[r.state]=r;
-    const total=Object.keys(races).length,called=Object.values(races).filter(r=>r.status==="called").length;
-    const label=state.tab==="governor"?"Governor":"Senate";
-    if(before){
+    $("#legend-before").hidden=!(before&&!house);$("#legend-results").hidden=!(!before&&!house);
+    $("#legend-house-before").hidden=!(before&&house);$("#legend-house-results").hidden=!(!before&&house);
+    const races={};if(!house)for(const r of state.races)if(r.chamber===state.tab)races[r.state]=r;
+    const label=house?"House":state.tab==="governor"?"Governor":"Senate";
+    if(house){
+      const all=state.races.filter(r=>r.chamber==="house");let D=0,R=0,O=0;
+      for(const r of all){const w=winnerKey(r);if(w==="D")D++;else if(w==="R")R++;else if(w==="O")O++}
+      if(before){let bd=0,br=0,bt=0;for(const c in HOUSE_BEFORE){const k=houseBeforeKey(c);if(k==="D")bd++;else if(k==="R")br++;else bt++}
+        $("#mapcap").textContent="House delegations before the election: "+bd+" states with a Dem majority, "+br+" Rep, "+bt+" evenly split. Select a state to see its districts.";}
+      else{const flips=Object.keys(HOUSE_BEFORE).filter(houseFlip).length;
+        $("#mapcap").textContent="House seats called: Dem "+D+" · Rep "+R+(O?" · Other "+O:"")+" of "+all.length+(flips?" · "+flips+" state"+(flips===1?"":"s")+" changed majority":"")+". Select a state to see its districts.";}
+    }else if(before){
       let d=0,rr=0;for(const c in races){const h=heldBy(c);if(h==="D")d++;else if(h==="R")rr++}
       $("#mapcap").textContent=label+" seats on the ballot, by party before the election: Dem "+d+" · Rep "+rr+".";
     }else{
+      const total=Object.keys(races).length,called=Object.values(races).filter(r=>r.status==="called").length;
       const flips=Object.keys(races).filter(c=>isFlip(c,races[c])).length;
-      $("#mapcap").textContent=label+" races: "+total+" states, "+called+" called"+(called?", "+flips+(flips===1?" changed party":" changed party"):"")+". Select a state for details.";
+      $("#mapcap").textContent=label+" races: "+total+" states, "+called+" called"+(called?", "+flips+" changed party":"")+". Select a state for details.";
     }
-    const svg=svgEl("svg",{viewBox:"0 0 1050 610",class:"usmap",role:"group","aria-label":"Map of "+(state.tab==="governor"?"governor":"Senate")+" races by state"});
+    function cellClass(code){
+      if(house){
+        if(!HOUSE_BEFORE[code])return"f-none";
+        if(before){const k=houseBeforeKey(code);return k==="T"?"f-tie":"f-win-"+k.toLowerCase()}
+        return houseFill(code)+(houseFlip(code)?" flip":"");
+      }
+      const r=races[code];
+      return before?(r&&heldBy(code)?"f-win-"+heldBy(code).toLowerCase():"f-none"):fillFor(r)+(isFlip(code,r)?" flip":"");
+    }
+    function tipFor(code){
+      if(!house)return tipText(code,races[code]);
+      const name=SHAPES[code].n,b=HOUSE_BEFORE[code];if(!b)return[name,"No House seats"];
+      const seats=b[0]+b[1]+b[2]+(code==="FL"||code==="TX"?1:0);
+      if(before)return[name+" · "+seats+(seats===1?" seat":" seats"),"Before: Dem "+b[0]+" · Rep "+b[1]+(b[2]?" · Ind "+b[2]:"")+(code==="FL"||code==="TX"?" · 1 vacant":"")];
+      const a=houseAgg(code);const unc=a.seats-a.called;
+      return[name+" · "+a.seats+(a.seats===1?" seat":" seats"),a.called?"Called: Dem "+a.D+" · Rep "+a.R+(a.O?" · Other "+a.O:"")+(unc?" · "+unc+" uncalled":"")+(houseFlip(code)?" · Majority changed":""):(a.counting?"Counting, none called yet":"No results yet")];
+    }
+    function dimFor(code){
+      if(before||state.filter==="all")return false;
+      if(house)return!state.races.some(r=>r.chamber==="house"&&r.state===code&&r.status===state.filter);
+      const r=races[code];return !!(r&&r.status!==state.filter);
+    }
+    function hrefFor(code){if(house)return HOUSE_BEFORE[code]?"#house-"+code:null;const r=races[code];return r?"#"+r.id:null}
+    const svg=svgEl("svg",{viewBox:"0 0 1050 610",class:"usmap",role:"group","aria-label":"Map of "+label+" races by state"});
     const labels=svgEl("g",{});
     const tip=$("#tip"),wrap=$("#mapwrap");
-    const show=(ev,code)=>{const[t,l]=tipText(code,races[code]);tip.replaceChildren(el("b",null,t),el("span",null,l));tip.hidden=false;
+    const show=(ev,code)=>{const[t,l]=tipFor(code);tip.replaceChildren(el("b",null,t),el("span",null,l));tip.hidden=false;
       const wb=wrap.getBoundingClientRect();let x=ev.clientX-wb.left+14,y=ev.clientY-wb.top+14;
       const tw=tip.offsetWidth,th=tip.offsetHeight;if(x+tw>wb.width-8)x=ev.clientX-wb.left-tw-14;if(y+th>wb.height-8)y=ev.clientY-wb.top-th-14;
       tip.style.left=Math.max(4,x)+"px";tip.style.top=Math.max(4,y)+"px"};
     const hide=()=>{tip.hidden=true};
-    const matches=r=>before||state.filter==="all"||(r&&r.status===state.filter);
     function hook(node,code){
-      const r=races[code];
       node.addEventListener("mousemove",e=>show(e,code));node.addEventListener("mouseleave",hide);
       node.addEventListener("focus",()=>{const b=node.getBoundingClientRect();show({clientX:b.left+b.width/2,clientY:b.top+b.height/2},code)});node.addEventListener("blur",hide);
-      if(r){node.setAttribute("href","#"+r.id);node.setAttribute("aria-label",tipText(code,r).join(": "))}
-      else{node.setAttribute("aria-label",tipText(code,null).join(": "))}
+      const h=hrefFor(code);if(h)node.setAttribute("href",h);
+      node.setAttribute("aria-label",tipFor(code).join(": "));
     }
     for(const code in SHAPES){
-      const sh=SHAPES[code],r=races[code];
-      const cls=before?(r&&heldBy(code)?"f-win-"+heldBy(code).toLowerCase():"f-none"):fillFor(r)+(isFlip(code,r)?" flip":"");
-      const a=svgEl("a",{});const path=svgEl("path",{d:sh.d,class:"st "+cls+(r&&!matches(r)?" dim":"")});a.append(path);hook(a,code);svg.append(a);
+      const sh=SHAPES[code],cls=cellClass(code);
+      const a=svgEl("a",{});const path=svgEl("path",{d:sh.d,class:"st "+cls+(dimFor(code)?" dim":"")});a.append(path);hook(a,code);svg.append(a);
       if(!SMALL.includes(code)&&code!=="DC"){
         const dark=/win/.test(cls);const t=svgEl("text",{x:sh.c[0],y:sh.c[1]+(code==="FL"?8:code==="MI"?14:code==="LA"?-6:0),class:(dark?"lab-dark":"lab-ink")+" slab"});
         if(code==="FL")t.setAttribute("x",sh.c[0]+18);
@@ -677,13 +757,50 @@ footer a{color:inherit}
       }
     }
     SMALL.forEach((code,i)=>{
-      const r=races[code],y=170+i*34;
-      const cls=before?(r&&heldBy(code)?"f-win-"+heldBy(code).toLowerCase():"f-none"):fillFor(r)+(isFlip(code,r)?" flip":"");
-      const a=svgEl("a",{});const rect=svgEl("rect",{x:1004,y:y,width:34,height:26,rx:4,class:"cbox st "+cls+(r&&!matches(r)?" dim":"")});a.append(rect);hook(a,code);svg.append(a);
+      const y=170+i*34,cls=cellClass(code);
+      const a=svgEl("a",{});const rect=svgEl("rect",{x:1004,y:y,width:34,height:26,rx:4,class:"cbox st "+cls+(dimFor(code)?" dim":"")});a.append(rect);hook(a,code);svg.append(a);
       const t=svgEl("text",{x:1021,y:y+13,class:/win/.test(cls)?"lab-dark":"lab-ink"});t.textContent=code;labels.append(t);
     });
     svg.append(labels);
     box.append(svg);
+  }
+  function renderStateSheet(code){
+    const sheet=$("#sheet"),scrim=$("#scrim"),wasHidden=sheet.hidden;
+    const rs=state.races.filter(r=>r.chamber==="house"&&r.state===code).sort((a,b)=>(districtNum(a)??0)-(districtNum(b)??0));
+    const name=(rs[0]&&rs[0].stateName)||(SHAPES[code]&&SHAPES[code].n)||code;
+    $("#sh-kicker").textContent="House · "+rs.length+(rs.length===1?" district":" districts");
+    $("#sh-title").textContent=name;
+    const body=$("#sh-body");body.replaceChildren();
+    const a=houseAgg(code),b=HOUSE_BEFORE[code]||[0,0,0];
+    const splits=el("div","splits");
+    const s1=el("div","split");s1.append(el("div","label","Before the election"));const r1=el("div","row");
+    r1.append(el("span","d","Dem "+b[0]),el("span","r","Rep "+b[1]));if(b[2])r1.append(el("span","o","Ind "+b[2]));if(code==="FL"||code==="TX")r1.append(el("span",null,"1 vacant"));s1.append(r1);
+    const s2=el("div","split");s2.append(el("div","label","Called so far"));const r2=el("div","row");
+    r2.append(el("span","d","Dem "+a.D),el("span","r","Rep "+a.R));if(a.O)r2.append(el("span","o","Other "+a.O));r2.append(el("span",null,(a.seats-a.called)+" uncalled"));s2.append(r2);
+    splits.append(s1,s2);body.append(splits);
+    if(houseFlip(code)){const c=el("div","callout live");c.textContent="The party with the most seats in this delegation has changed.";body.append(c)}
+    const sec=el("div","sec");sec.append(el("div","label","Districts"));
+    const grid=el("div","tiles");
+    for(const r of rs){
+      const t=el("a","tile");t.href="#"+r.id;
+      const w=(r.candidates||[]).find(c=>c.winner&&r.status==="called");
+      let cls="",who="";
+      if(w){cls="t-win-"+partyKey(w.party).toLowerCase();who=String(w.name||"").split(" ").slice(-1)[0]+" ("+(w.party||"?")+")"}
+      else if(r.status==="counting"){const c=(r.candidates||[]).filter(x=>x.votes!=null||x.pct!=null);
+        if(c.length){const l=[...c].sort((x,y)=>num(y.votes)-num(x.votes)||num(y.pct)-num(x.pct))[0];cls="t-lead-"+partyKey(l.party).toLowerCase();who=String(l.name||"").split(" ").slice(-1)[0]+" leads"}else{cls="t-closed";who="Counting"}}
+      else if(r.status==="polls_closed"){cls="t-closed";who="Closed"}
+      else who="Open";
+      if(cls)t.classList.add(cls);
+      const inc=(r.candidates||[]).find(c=>c.incumbent);
+      if(w&&inc&&partyKey(inc.party)!==partyKey(w.party))t.classList.add("t-flip");
+      t.append(el("b",null,districtNum(r)?String(districtNum(r)):"AL"),el("span",null,who));
+      t.setAttribute("aria-label",(districtNum(r)?"District "+districtNum(r):"At-large")+": "+(who==="Open"?"polls open":who==="Closed"?"polls closed":who));
+      grid.append(t);
+    }
+    sec.append(grid);
+    sec.append(el("div","foot","Tiles are in district order, not a geographic map. Open = polls open; Closed = polls closed, no votes yet. Select a district for full results."));
+    body.append(sec);
+    if(wasHidden){lastFocus=document.activeElement;sheet.hidden=false;scrim.hidden=false;document.body.style.overflow="hidden";$("#sh-close").focus()}
   }
   function closeSheet(){if(location.hash)location.hash="";renderSheet()}
   window.addEventListener("hashchange",renderSheet);
