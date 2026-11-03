@@ -183,6 +183,23 @@ svg.usmap .clab{font:500 12px var(--f-body);fill:var(--muted);text-anchor:end}
 .legend i{width:14px;height:14px;border-radius:3px;display:inline-block;border:1px solid var(--line)}
 .tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--panel);border-radius:6px;padding:8px 10px;font-size:13px;line-height:1.35;max-width:240px;z-index:5;box-shadow:0 6px 18px rgba(0,0,0,.2)}
 .tip b{display:block;font-family:var(--f-display);font-size:17px;letter-spacing:.02em;text-transform:uppercase}
+.hgroups{display:grid;gap:8px;margin-top:14px}
+.hgroups .tools{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.hgroups .tools button{all:unset;cursor:pointer;font:600 13px var(--f-body);color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+.hgroups .tools button:focus-visible{outline:2px solid var(--dem);outline-offset:2px}
+details.hstate{background:var(--panel);border:1px solid var(--line);border-radius:8px}
+details.hstate>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:12px;padding:11px 14px;flex-wrap:wrap}
+details.hstate>summary::-webkit-details-marker{display:none}
+details.hstate>summary:focus-visible{outline:2px solid var(--dem);outline-offset:-2px;border-radius:8px}
+details.hstate>summary .chev{width:10px;flex:none;color:var(--muted);transition:transform .15s}
+details.hstate[open]>summary .chev{transform:rotate(90deg)}
+details.hstate>summary .sn{font-family:var(--f-display);font-weight:700;font-size:21px;text-transform:uppercase;letter-spacing:.01em}
+details.hstate>summary .sc{font-size:12.5px;color:var(--muted)}
+details.hstate>summary .tal{margin-left:auto;display:flex;gap:10px;font-family:var(--f-mono);font-size:12.5px;font-variant-numeric:tabular-nums}
+details.hstate>summary .tal .d{color:var(--dem)} details.hstate>summary .tal .r{color:var(--rep)} details.hstate>summary .tal .o{color:var(--ind)}
+.hstrip{display:flex;height:6px;border-radius:3px;overflow:hidden;background:var(--track);width:100%}
+.hstrip i{display:block;height:100%}
+details.hstate .grid{margin:0;padding:0 14px 14px}
 footer{font-size:12.5px;color:var(--muted);max-width:75ch;display:grid;gap:6px}
 footer a{color:inherit}
 </style>
@@ -285,7 +302,7 @@ footer a{color:inherit}
 
 <script>
 (function(){
-  const state={summary:null,races:[],feed:[],tab:"senate",filter:"all",view:"cards"};
+  const state={summary:null,races:[],feed:[],tab:"senate",filter:"all",view:"cards",openStates:new Set()};
   const $=s=>document.querySelector(s);
   const etFmt=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"2-digit",month:"short",day:"numeric"});
   const locFmt=new Intl.DateTimeFormat(undefined,{hour:"numeric",minute:"2-digit",month:"short",day:"numeric"});
@@ -336,16 +353,15 @@ footer a{color:inherit}
     for(const b of document.querySelectorAll("[data-view]"))b.setAttribute("aria-pressed",String(b.dataset.view===state.view));
     $("#grid").hidden=state.view==="map";$("#mapwrap").hidden=state.view!=="map";
     if(state.view==="map")renderMap();
-    const grid=$("#grid");grid.replaceChildren();
+    const grid=$("#grid");grid.replaceChildren();grid.classList.add("grid");grid.classList.remove("hgroups");
     let list=state.races.filter(r=>r.chamber===state.tab);
     if(state.filter!=="all")list=list.filter(r=>r.status===state.filter);
-    list.sort((a,b)=>String(a.label||a.state).localeCompare(String(b.label||b.state)));
-    if(!list.length){
-      grid.append(el("div","none",state.tab==="house"&&state.filter==="all"
-        ?"Individual House races appear here as notable contests are called or tightly counted. The seat tally above covers all 435."
-        :state.filter==="all"?"No races yet.":"No races "+(state.filter==="called"?"called":"being counted")+" yet."));
+    if(state.tab==="house"){renderHouse(grid,list);}
+    else{
+      list.sort((a,b)=>String(a.label||a.state).localeCompare(String(b.label||b.state)));
+      if(!list.length)grid.append(el("div","none",state.filter==="all"?"No races yet.":"No races "+(state.filter==="called"?"called":"being counted")+" yet."));
+      for(const r of list)grid.append(raceCard(r));
     }
-    for(const r of list)grid.append(raceCard(r));
 
     const feed=$("#feed");feed.replaceChildren();
     const items=[...state.feed].sort((a,b)=>String(b.at).localeCompare(String(a.at))).slice(0,40);
@@ -359,13 +375,55 @@ footer a{color:inherit}
     renderSheet();
   }
 
+  function districtNum(r){return r.district==null||r.district===""?null:Number(r.district)}
+  function renderHouse(grid,list){
+    grid.classList.remove("grid");grid.classList.add("hgroups");
+    const all=state.races.filter(r=>r.chamber==="house");
+    if(!all.length){grid.append(el("div","none","House districts will appear here shortly."));return}
+    const by={};for(const r of list)(by[r.state]=by[r.state]||[]).push(r);
+    const allBy={};for(const r of all)(allBy[r.state]=allBy[r.state]||[]).push(r);
+    const states=Object.keys(by).sort((a,b)=>String((by[a][0]||{}).stateName||a).localeCompare(String((by[b][0]||{}).stateName||b)));
+    const tools=el("div","tools");
+    const calledN=all.filter(r=>r.status==="called").length;
+    tools.append(el("span",null,all.length+" districts in "+Object.keys(allBy).length+" states · "+calledN+" called"));
+    const tb=el("span");const ex=el("button",null,"Expand all");ex.type="button";ex.id="h-expand";
+    const co=el("button",null,"Collapse all");co.type="button";co.id="h-collapse";co.style.marginLeft="14px";
+    ex.addEventListener("click",()=>{states.forEach(s=>state.openStates.add(s));render()});
+    co.addEventListener("click",()=>{state.openStates.clear();render()});
+    tb.append(ex,co);tools.append(tb);grid.append(tools);
+    if(!states.length){grid.append(el("div","none","No House races "+(state.filter==="called"?"called":"being counted")+" yet."));return}
+    for(const st of states){
+      const rs=by[st].sort((a,b)=>(districtNum(a)??0)-(districtNum(b)??0));
+      const full=allBy[st]||rs;
+      const name=full[0].stateName||st;
+      const det=el("details","hstate");det.id="hs-"+st;
+      if(state.openStates.has(st)||state.filter!=="all")det.open=true;
+      det.addEventListener("toggle",()=>{if(det.open)state.openStates.add(st);else state.openStates.delete(st)});
+      const sum=el("summary");
+      const chev=el("span","chev","▸");chev.setAttribute("aria-hidden","true");
+      const won={D:0,R:0,O:0};
+      for(const r of full){if(r.status!=="called")continue;const w=(r.candidates||[]).find(c=>c.winner);if(w)won[partyKey(w.party)]++}
+      const called=won.D+won.R+won.O;
+      sum.append(chev,el("span","sn",name),el("span","sc",full.length+(full.length===1?" seat":" seats")+" · "+called+" called"));
+      const tal=el("span","tal");
+      if(called){if(won.D)tal.append(el("span","d","D "+won.D));if(won.R)tal.append(el("span","r","R "+won.R));if(won.O)tal.append(el("span","o","Oth "+won.O))}
+      sum.append(tal);
+      const strip=el("span","hstrip");
+      for(const [k,v] of [["D",won.D],["O",won.O],["R",won.R]]){if(!v)continue;const i=el("i");i.style.width=(v/full.length*100)+"%";i.style.background=k==="D"?"var(--dem)":k==="R"?"var(--rep)":"var(--ind)";if(k==="R")i.style.marginLeft="auto";strip.append(i)}
+      sum.append(strip);
+      det.append(sum);
+      const g=el("div","grid");for(const r of rs)g.append(raceCard(r));
+      det.append(g);grid.append(det);
+    }
+  }
   function raceCard(r){
     const card=el("article","race");
     const cands=Array.isArray(r.candidates)?r.candidates:[];
     const winner=cands.find(c=>c.winner);
     if(r.status==="called"&&winner)card.classList.add("won-"+partyKey(winner.party).toLowerCase());
     const rh=el("div","rh");const h=el("h3");
-    const a=el("a",null,r.label||r.state||"");a.href="#"+r.id;a.setAttribute("aria-label",(r.label||r.state||"")+(r.sub?" "+r.sub:"")+" "+CH[r.chamber]+" race details");h.append(a);
+    const title=r.chamber==="house"?(districtNum(r)?"District "+districtNum(r):"At-large"):(r.label||r.state||"");
+    const a=el("a",null,title);a.href="#"+r.id;a.setAttribute("aria-label",(r.label||r.state||"")+(r.sub?" "+r.sub:"")+" "+CH[r.chamber]+" race details");h.append(a);
     if(r.sub)h.append(el("small",null,r.sub));
     rh.append(h);
     let pillText="Polls open",pillCls="pill";
@@ -501,9 +559,13 @@ footer a{color:inherit}
     const fs=el("div","sec");fs.append(el("div","label","Details"),facts);body.append(fs);
 
     // other races in this state
-    const others=state.races.filter(x=>x.state===r.state&&x.id!==r.id).sort((a,b)=>(a.chamber+a.id).localeCompare(b.chamber+b.id));
-    if(others.length){
-      const sec=el("div","sec");sec.append(el("div","label","Also on the ballot in "+(r.label||r.state)));
+    const sameState=state.races.filter(x=>x.state===r.state&&x.id!==r.id);
+    const others=sameState.filter(x=>x.chamber!=="house").sort((a,b)=>(a.chamber+a.id).localeCompare(b.chamber+b.id));
+    const houseN=sameState.filter(x=>x.chamber==="house").length;
+    const stName=r.stateName||(r.chamber!=="house"?r.label:null)||r.state;
+    if(others.length||houseN){
+      const sec=el("div","sec");sec.append(el("div","label","Also on the ballot in "+stName));
+      if(houseN){const p=el("div","foot",houseN+" other House "+(houseN===1?"race":"races")+" in "+stName+" are listed under the House tab.");sec.append(p)}
       const ul=el("ul","also");
       for(const o of others){
         const li=el("li");const a=el("a");a.href="#"+o.id;
@@ -512,7 +574,7 @@ footer a{color:inherit}
         a.append(el("span","label",o.status==="called"&&w?partyName(partyKey(w.party))+" win":(STATUS[o.status]||STATUS.polls_open).replace(", no votes reported","")));
         li.append(a);ul.append(li);
       }
-      sec.append(ul);body.append(sec);
+      if(others.length)sec.append(ul);body.append(sec);
     }
 
     if(wasHidden){lastFocus=document.activeElement;sheet.hidden=false;scrim.hidden=false;document.body.style.overflow="hidden";$("#sh-close").focus()}
