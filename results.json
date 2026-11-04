@@ -6,14 +6,14 @@
    "R": 136,
    "note": "NBC News tally of seats called as of 1:45 AM ET Nov 4 (73 uncalled); NBC News and ABC News project Democratic control."
   },
-  "phase": "Counting \u2014 31 of 35 Senate races called",
+  "phase": "Counting \u2014 33 of 35 Senate races called",
   "senate": {
    "D": 52,
    "O": 2,
-   "R": 42,
-   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 31 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 11 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT). CBS News and the CNBC Election Desk project Democratic control of the Senate."
+   "R": 44,
+   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-04T08:20:00Z"
+  "updatedAt": "2026-11-04T09:09:07Z"
  },
  "races": [
   {
@@ -56,37 +56,42 @@
    "id": "gov-AK"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T09:09:07Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Alabama_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T09:09:07Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Doug Jones",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 47.9
+     "pct": 48
     },
     {
      "name": "Tommy Tuberville",
      "party": "R",
      "partyName": "Republican",
-     "pct": 52.1
+     "pct": 52,
+     "winner": true
     }
    ],
    "chamber": "governor",
    "label": "Alabama",
    "openSeat": true,
    "reporting": 97.2,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "FOX10 News",
+   "sourceUrl": "https://www.fox10tv.com/2026/11/04/tuberville-projected-winner-alabama-governors-race/",
    "state": "AL",
-   "status": "counting",
+   "status": "called",
    "id": "gov-AL"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T09:09:07Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Arkansas_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T09:09:07Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Fredrick Love",
@@ -99,7 +104,8 @@
      "name": "Sarah Huckabee Sanders",
      "party": "R",
      "partyName": "Republican",
-     "pct": 53.9
+     "pct": 53.9,
+     "winner": true
     },
     {
      "name": "Colt Shelby",
@@ -111,10 +117,10 @@
    "label": "Arkansas",
    "openSeat": false,
    "reporting": 99,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "Action News 5",
+   "sourceUrl": "https://www.actionnews5.com/2026/11/04/ap-calls-arkansas-governors-race-sanders/",
    "state": "AR",
-   "status": "counting",
+   "status": "called",
    "id": "gov-AR"
   },
   {
@@ -554,16 +560,19 @@
    "id": "gov-KS"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T09:09:07Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Massachusetts_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T09:09:07Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "incumbent": true,
      "name": "Maura Healey",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 62.9
+     "pct": 62.9,
+     "winner": true
     },
     {
      "name": "Michael Minogue",
@@ -579,26 +588,28 @@
    ],
    "chamber": "governor",
    "label": "Massachusetts",
-   "note": "Projected for Maura Healey (D) by ABC News; not yet called by AP.",
    "openSeat": false,
    "reporting": 65.2,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "State House News Service",
+   "sourceUrl": "https://www.statehousenews.com/news/politics/elections/election-2026-ap-calls-races-for-healey-and-markey/article_768eb886-6b12-48d1-a055-baef69b98280.html",
    "state": "MA",
-   "status": "counting",
+   "status": "called",
    "id": "gov-MA"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T09:09:07Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Maryland_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T09:09:07Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "incumbent": true,
      "name": "Wes Moore",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 62.7
+     "pct": 62.7,
+     "winner": true
     },
     {
      "name": "Dan Cox",
@@ -619,13 +630,12 @@
    ],
    "chamber": "governor",
    "label": "Maryland",
-   "note": "Projected for Wes Moore (D) by ABC and NBC News; not yet called by AP.",
    "openSeat": false,
    "reporting": 79.4,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "Yahoo News (AP)",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/maryland-incumbent-gov-wes-moore-010534640.html",
    "state": "MD",
-   "status": "counting",
+   "status": "called",
    "id": "gov-MD"
   },
   {
@@ -708,15 +718,18 @@
    "id": "gov-MI"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T09:09:07Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Minnesota_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T09:09:07Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Amy Klobuchar",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 55.7
+     "pct": 55.7,
+     "winner": true
     },
     {
      "name": "Lisa Demuth",
@@ -734,16 +747,18 @@
    "label": "Minnesota",
    "openSeat": true,
    "reporting": 95.8,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "KOLN/1011now (AP)",
+   "sourceUrl": "https://www.1011now.com/2026/11/04/democrat-amy-klobuchar-wins-election-governor-minnesota/",
    "state": "MN",
-   "status": "counting",
+   "status": "called",
    "id": "gov-MN"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T09:09:07Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Nebraska_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T09:09:07Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Lynne Walz",
@@ -756,7 +771,8 @@
      "name": "Jim Pillen",
      "party": "R",
      "partyName": "Republican",
-     "pct": 49.7
+     "pct": 49.7,
+     "winner": true
     },
     {
      "name": "Brett Lindstrom",
@@ -773,10 +789,10 @@
    "label": "Nebraska",
    "openSeat": false,
    "reporting": 72.5,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "Daily Nebraskan",
+   "sourceUrl": "https://www.dailynebraskan.com/news/midterm-election-live-updates-early-results-show-democratic-lead-across-races/article_0a55c38b-39a9-4625-8b27-eec7543dea3b.html",
    "state": "NE",
-   "status": "counting",
+   "status": "called",
    "id": "gov-NE"
   },
   {
@@ -815,15 +831,18 @@
    "id": "gov-NH"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T09:09:07Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/New_Mexico_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T09:09:07Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Deb Haaland",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 57.2
+     "pct": 57.2,
+     "winner": true
     },
     {
      "name": "Gregg Hull",
@@ -834,13 +853,12 @@
    ],
    "chamber": "governor",
    "label": "New Mexico",
-   "note": "Projected for Deb Haaland (D) by ABC News; not yet called by AP.",
    "openSeat": true,
    "reporting": 96.2,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "Organ Mountain News (AP)",
+   "sourceUrl": "https://www.organmountainnews.com/deb-haaland-new-mexico-governor-historic-victory-2026/",
    "state": "NM",
-   "status": "counting",
+   "status": "called",
    "id": "gov-NM"
   },
   {
@@ -960,9 +978,11 @@
    "id": "gov-OH"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T09:09:07Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Oklahoma_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T09:09:07Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Cyndi Munson",
@@ -974,7 +994,8 @@
      "name": "Mike Mazzei",
      "party": "R",
      "partyName": "Republican",
-     "pct": 52
+     "pct": 52,
+     "winner": true
     },
     {
      "name": "Robert Brooks",
@@ -996,10 +1017,10 @@
    "label": "Oklahoma",
    "openSeat": true,
    "reporting": 97.4,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "Yahoo News (AP)",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/republican-mike-mazzei-wins-election-044714781.html",
    "state": "OK",
-   "status": "counting",
+   "status": "called",
    "id": "gov-OK"
   },
   {
@@ -1123,9 +1144,11 @@
    "id": "gov-RI"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T09:09:07Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/South_Carolina_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T09:09:07Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Jermaine Johnson",
@@ -1137,7 +1160,8 @@
      "name": "Alan Wilson",
      "party": "R",
      "partyName": "Republican",
-     "pct": 51.7
+     "pct": 51.7,
+     "winner": true
     },
     {
      "name": "Walid Hakim",
@@ -1154,10 +1178,10 @@
    "label": "South Carolina",
    "openSeat": true,
    "reporting": 97.7,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "Fox Carolina",
+   "sourceUrl": "https://www.foxcarolina.com/2026/11/04/alan-wilson-projected-win-south-carolina-gubernatorial-race/",
    "state": "SC",
-   "status": "counting",
+   "status": "called",
    "id": "gov-SC"
   },
   {
@@ -6585,9 +6609,11 @@
    "id": "senate-KY"
   },
   {
-   "asOf": "2026-11-04T07:10:00Z",
+   "asOf": "2026-11-04T09:09:07Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Louisiana,_2026",
+   "calledAt": "2026-11-04T09:09:07Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Jamie Davis",
@@ -6601,18 +6627,18 @@
      "party": "R",
      "partyName": "Republican",
      "pct": 50.9,
-     "votes": 745963
+     "votes": 745963,
+     "winner": true
     }
    ],
    "chamber": "senate",
    "label": "Louisiana",
-   "note": "Projected for Julia Letlow (R) by CBS News; not yet called by AP.",
    "openSeat": true,
    "reporting": 99,
-   "source": "WWNO",
-   "sourceUrl": "https://www.wwno.org/politics/2026-11-03/julia-letlow-narrowly-wins-louisiana-u-s-senate-seat-in-tighter-race-than-expected",
+   "source": "Yahoo News (AP)",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/letlow-holds-off-davis-keep-052543974.html",
    "state": "LA",
-   "status": "counting",
+   "status": "called",
    "id": "senate-LA"
   },
   {
@@ -6785,7 +6811,7 @@
    "id": "senate-MN"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T09:09:07Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Mississippi,_2026",
    "candidates": [
@@ -6815,9 +6841,9 @@
    "chamber": "senate",
    "label": "Mississippi",
    "openSeat": false,
-   "reporting": 96.9,
-   "source": "Mississippi Independent",
-   "sourceUrl": "https://msindy.org/p/colom-pulls-ahead-of-hyde-smith-by",
+   "reporting": 97.2,
+   "source": "WLOX",
+   "sourceUrl": "https://www.wlox.com/2026/11/04/hyde-smith-colom-address-watch-parties-election-night-comes-close/",
    "state": "MS",
    "status": "counting",
    "id": "senate-MS"
@@ -6907,22 +6933,25 @@
    "id": "senate-NC"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T09:09:07Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Nebraska,_2026",
+   "calledAt": "2026-11-04T09:09:07Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "incumbent": true,
      "name": "Pete Ricketts",
      "party": "R",
      "partyName": "Republican",
-     "pct": 49.5
+     "pct": 50.2,
+     "winner": true
     },
     {
      "name": "Dan Osborn",
      "party": "I",
      "partyName": "Nonpartisan",
-     "pct": 44.6
+     "pct": 43.9
     },
     {
      "name": "Chuck Conboy",
@@ -6944,10 +6973,10 @@
    "label": "Nebraska",
    "openSeat": false,
    "reporting": 72.4,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "WOWT",
+   "sourceUrl": "https://www.wowt.com/2026/11/03/election-night-2026-nebraska-senate-race-updates/",
    "state": "NE",
-   "status": "counting",
+   "status": "called",
    "id": "senate-NE"
   },
   {
@@ -7513,6 +7542,83 @@
   }
  ],
  "feed": [
+  {
+   "at": "2026-11-04T09:09:07Z",
+   "source": "Yahoo News (AP)",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/maryland-incumbent-gov-wes-moore-010534640.html",
+   "text": "AP projects Wes Moore (D) wins the Maryland governor race.",
+   "id": "f20261104T09090705"
+  },
+  {
+   "at": "2026-11-04T09:09:07Z",
+   "source": "Yahoo News (AP)",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/republican-mike-mazzei-wins-election-044714781.html",
+   "text": "AP projects Mike Mazzei (R) wins the Oklahoma governor race.",
+   "id": "f20261104T09090709"
+  },
+  {
+   "at": "2026-11-04T09:09:07Z",
+   "source": "State House News Service",
+   "sourceUrl": "https://www.statehousenews.com/news/politics/elections/election-2026-ap-calls-races-for-healey-and-markey/article_768eb886-6b12-48d1-a055-baef69b98280.html",
+   "text": "AP projects Maura Healey (D) wins the Massachusetts governor race.",
+   "id": "f20261104T09090704"
+  },
+  {
+   "at": "2026-11-04T09:09:07Z",
+   "source": "Yahoo News (AP)",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/letlow-holds-off-davis-keep-052543974.html",
+   "text": "AP projects Julia Letlow (R) wins the Louisiana Senate race.",
+   "id": "f20261104T09090700"
+  },
+  {
+   "at": "2026-11-04T09:09:07Z",
+   "source": "FOX10 News",
+   "sourceUrl": "https://www.fox10tv.com/2026/11/04/tuberville-projected-winner-alabama-governors-race/",
+   "text": "AP projects Tommy Tuberville (R) wins the Alabama governor race.",
+   "id": "f20261104T09090706"
+  },
+  {
+   "at": "2026-11-04T09:09:07Z",
+   "source": "Organ Mountain News (AP)",
+   "sourceUrl": "https://www.organmountainnews.com/deb-haaland-new-mexico-governor-historic-victory-2026/",
+   "text": "AP projects Deb Haaland (D) wins the New Mexico governor race.",
+   "id": "f20261104T09090710"
+  },
+  {
+   "at": "2026-11-04T09:09:07Z",
+   "source": "KOLN (AP)",
+   "sourceUrl": "https://www.1011now.com/2026/11/04/democrat-amy-klobuchar-wins-election-governor-minnesota/",
+   "text": "AP projects Amy Klobuchar (D) wins the Minnesota governor race.",
+   "id": "f20261104T09090707"
+  },
+  {
+   "at": "2026-11-04T09:09:07Z",
+   "source": "Action News 5",
+   "sourceUrl": "https://www.actionnews5.com/2026/11/04/ap-calls-arkansas-governors-race-sanders/",
+   "text": "AP projects Sarah Huckabee Sanders (R) wins the Arkansas governor race.",
+   "id": "f20261104T09090703"
+  },
+  {
+   "at": "2026-11-04T09:09:07Z",
+   "source": "Fox Carolina",
+   "sourceUrl": "https://www.foxcarolina.com/2026/11/04/alan-wilson-projected-win-south-carolina-gubernatorial-race/",
+   "text": "AP projects Alan Wilson (R) wins the South Carolina governor race.",
+   "id": "f20261104T09090708"
+  },
+  {
+   "at": "2026-11-04T09:09:07Z",
+   "source": "Daily Nebraskan",
+   "sourceUrl": "https://www.dailynebraskan.com/news/midterm-election-live-updates-early-results-show-democratic-lead-across-races/article_0a55c38b-39a9-4625-8b27-eec7543dea3b.html",
+   "text": "AP projects Jim Pillen (R) wins the Nebraska governor race.",
+   "id": "f20261104T09090702"
+  },
+  {
+   "at": "2026-11-04T09:09:07Z",
+   "source": "WOWT",
+   "sourceUrl": "https://www.wowt.com/2026/11/03/election-night-2026-nebraska-senate-race-updates/",
+   "text": "AP projects Pete Ricketts (R) wins the Nebraska Senate race.",
+   "id": "f20261104T09090701"
+  },
   {
    "at": "2026-11-04T07:08:00Z",
    "source": "ABC News",
