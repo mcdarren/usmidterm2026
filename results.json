@@ -6,14 +6,14 @@
    "R": 136,
    "note": "NBC News tally of seats called as of 1:45 AM ET Nov 4 (73 uncalled); NBC News and ABC News project Democratic control."
   },
-  "phase": "Counting \u2014 28 of 35 Senate races called",
+  "phase": "Counting \u2014 29 of 35 Senate races called",
   "senate": {
    "D": 51,
    "O": 2,
-   "R": 40,
-   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 28 races called: 19 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR) and 9 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD). CBS News and the CNBC Election Desk project Democratic control of the Senate."
+   "R": 41,
+   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 29 races called: 19 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR) and 10 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-04T06:46:00Z"
+  "updatedAt": "2026-11-04T07:10:00Z"
  },
  "races": [
   {
@@ -6431,16 +6431,19 @@
    "id": "senate-IA"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T07:10:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Idaho,_2026",
+   "calledAt": "2026-11-04T06:31:00Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "incumbent": true,
      "name": "Jim Risch",
      "party": "R",
      "partyName": "Republican",
-     "pct": 54.8
+     "pct": 54.8,
+     "winner": true
     },
     {
      "name": "Todd Achilles",
@@ -6461,13 +6464,12 @@
    ],
    "chamber": "senate",
    "label": "Idaho",
-   "note": "Projected for Jim Risch (R) by CBS News; not yet called by AP.",
    "openSeat": false,
    "reporting": 78.2,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "Associated Press (via WTOP)",
+   "sourceUrl": "https://wtop.com/national/2026/11/republican-jim-risch-wins-reelection-to-u-s-senate-from-idaho",
    "state": "ID",
-   "status": "counting",
+   "status": "called",
    "id": "senate-ID"
   },
   {
@@ -6583,7 +6585,7 @@
    "id": "senate-KY"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T07:10:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Louisiana,_2026",
    "candidates": [
@@ -6591,22 +6593,24 @@
      "name": "Jamie Davis",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 49.1
+     "pct": 49.1,
+     "votes": 720106
     },
     {
      "name": "Julia Letlow",
      "party": "R",
      "partyName": "Republican",
-     "pct": 50.9
+     "pct": 50.9,
+     "votes": 745963
     }
    ],
    "chamber": "senate",
    "label": "Louisiana",
-   "note": "Projected for Letlow (R) by ABC News; not yet called by AP.",
+   "note": "Projected for Julia Letlow (R) by CBS News; not yet called by AP.",
    "openSeat": true,
    "reporting": 99,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "WWNO",
+   "sourceUrl": "https://www.wwno.org/politics/2026-11-03/julia-letlow-narrowly-wins-louisiana-u-s-senate-seat-in-tighter-race-than-expected",
    "state": "LA",
    "status": "counting",
    "id": "senate-LA"
@@ -6786,61 +6790,73 @@
      "name": "Scott Colom",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 48.9
+     "pct": 48.9,
+     "votes": 462779
     },
     {
      "incumbent": true,
      "name": "Cindy Hyde-Smith",
      "party": "R",
      "partyName": "Republican",
-     "pct": 48.9
+     "pct": 48.9,
+     "votes": 462751
     },
     {
      "name": "Ty Pinkins",
      "party": "I",
-     "partyName": "Independent"
+     "partyName": "Independent",
+     "pct": 2.1,
+     "votes": 19934
     }
    ],
    "chamber": "senate",
    "label": "Mississippi",
    "openSeat": false,
    "reporting": 96.9,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "Mississippi Independent",
+   "sourceUrl": "https://msindy.org/p/colom-pulls-ahead-of-hyde-smith-by",
    "state": "MS",
    "status": "counting",
    "id": "senate-MS"
   },
   {
+   "asOf": "2026-11-04T07:10:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Montana,_2026",
    "candidates": [
     {
      "name": "Alani Bankhead",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "pct": 12
     },
     {
      "name": "Kurt Alme",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "pct": 50
     },
     {
      "name": "Seth Bodnar",
      "party": "I",
-     "partyName": "Independent"
+     "partyName": "Independent",
+     "pct": 36
     },
     {
      "name": "Kyle Austin",
      "party": "L",
-     "partyName": "Libertarian"
+     "partyName": "Libertarian",
+     "pct": 2
     }
    ],
    "chamber": "senate",
    "label": "Montana",
+   "note": "Projected for Kurt Alme (R) by CBS News; not yet called by AP.",
    "openSeat": true,
+   "source": "Daily Montanan",
+   "sourceUrl": "https://dailymontanan.com/2026/11/03/republican-kurt-alme-leading-in-us-senate-race-independent-seth-bodnar-still-hopeful/",
    "state": "MT",
-   "status": "polls_open",
+   "status": "counting",
    "id": "senate-MT"
   },
   {
@@ -7532,6 +7548,13 @@
    "sourceUrl": "https://gvwire.com/2026/11/03/republicans-hagerty-hern-win-senate-races-in-tennessee-oklahoma/",
    "text": "CBS News and NBC News project Kevin Hern (R) wins the Oklahoma Senate race.",
    "id": "f20261104T064600b"
+  },
+  {
+   "at": "2026-11-04T06:31:00Z",
+   "source": "Associated Press (via WTOP)",
+   "sourceUrl": "https://wtop.com/national/2026/11/republican-jim-risch-wins-reelection-to-u-s-senate-from-idaho",
+   "text": "AP projects Jim Risch (R) wins the Idaho Senate race.",
+   "id": "f20261104T063100a"
   },
   {
    "at": "2026-11-04T06:15:00Z",
