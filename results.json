@@ -6,14 +6,14 @@
    "R": 85,
    "note": "NBC News tally of seats called as of 11:08 PM ET Nov 3 (203 uncalled); NBC News and ABC News project Democratic control."
   },
-  "phase": "Counting \u2014 17 of 35 Senate races called",
+  "phase": "Counting \u2014 21 of 35 Senate races called",
   "senate": {
-   "D": 45,
+   "D": 48,
    "O": 2,
-   "R": 35,
-   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 17 races called: 13 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX) and 4 Rep (FL special, WY, WV, KY). NBC News showed Dem 48, Rep 39 at 11:08 PM ET, counting races not on its uncalled list."
+   "R": 36,
+   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 21 races called: 16 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA) and 5 Rep (FL special, WY, WV, KY, AR). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-04T04:20:00Z"
+  "updatedAt": "2026-11-04T05:25:00Z"
  },
  "races": [
   {
@@ -387,15 +387,17 @@
    "id": "gov-HI"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T05:25:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Iowa_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledBy": "AP, CBS News",
    "candidates": [
     {
      "name": "Rob Sand",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 58
+     "pct": 58,
+     "winner": true
     },
     {
      "name": "Zach Lahn",
@@ -408,10 +410,10 @@
    "label": "Iowa",
    "openSeat": true,
    "reporting": 74.3,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
    "state": "IA",
-   "status": "counting",
+   "status": "called",
    "id": "gov-IA"
   },
   {
@@ -1247,15 +1249,17 @@
    "id": "gov-TN"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T05:25:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Texas_gubernatorial_election,_2026",
+   "calledBy": "AP, CBS News",
    "candidates": [
     {
      "name": "Gina Hinojosa",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 57.1
+     "pct": 57.1,
+     "winner": true
     },
     {
      "incumbent": true,
@@ -1274,10 +1278,10 @@
    "label": "Texas",
    "openSeat": false,
    "reporting": 66.8,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "KUT",
+   "sourceUrl": "https://www.kut.org/politics/2026-11-03/texas-governor-election-2026-hinojosa-early-results",
    "state": "TX",
-   "status": "counting",
+   "status": "called",
    "id": "gov-TX"
   },
   {
@@ -1325,15 +1329,17 @@
    "id": "gov-VT"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T05:25:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Wisconsin_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "David Crowley",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 53.7
+     "pct": 53.7,
+     "winner": true
     },
     {
      "name": "Tom Tiffany",
@@ -1344,13 +1350,12 @@
    ],
    "chamber": "governor",
    "label": "Wisconsin",
-   "note": "Projected for Crowley (D) by NBC News; not yet called by AP.",
    "openSeat": true,
    "reporting": 74.7,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
    "state": "WI",
-   "status": "counting",
+   "status": "called",
    "id": "gov-WI"
   },
   {
@@ -5723,37 +5728,43 @@
    "id": "senate-AL"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T05:25:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Arkansas,_2026",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Hallie Shoffner",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 42.3
+     "pct": 42.6,
+     "votes": 301922
     },
     {
      "incumbent": true,
      "name": "Tom Cotton",
      "party": "R",
      "partyName": "Republican",
-     "pct": 54.6
+     "pct": 54.3,
+     "votes": 384777,
+     "winner": true
     },
     {
      "name": "Jeff Wadlin",
      "party": "L",
-     "partyName": "Libertarian"
+     "partyName": "Libertarian",
+     "pct": 3.1,
+     "votes": 16227
     }
    ],
    "chamber": "senate",
    "label": "Arkansas",
    "openSeat": false,
    "reporting": 86,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "KATV",
+   "sourceUrl": "https://katv.com/news/local/tom-cotton-wins-arkansas-us-senate-race",
    "state": "AR",
-   "status": "counting",
+   "status": "called",
    "id": "senate-AR"
   },
   {
@@ -5913,15 +5924,17 @@
    "id": "senate-GA"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T05:25:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Iowa,_2026",
+   "calledBy": "AP, CBS News",
    "candidates": [
     {
      "name": "Josh Turek",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 52.4
+     "pct": 52.4,
+     "winner": true
     },
     {
      "name": "Ashley Hinson",
@@ -5939,10 +5952,10 @@
    "label": "Iowa",
    "openSeat": true,
    "reporting": 76.1,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
    "state": "IA",
-   "status": "counting",
+   "status": "called",
    "id": "senate-IA"
   },
   {
@@ -6021,37 +6034,43 @@
    "id": "senate-IL"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T05:25:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Kansas,_2026",
+   "calledBy": "AP, CBS News, NBC News",
    "candidates": [
     {
      "name": "Adam Hamilton",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 52.4
+     "pct": 52.1,
+     "votes": 541771,
+     "winner": true
     },
     {
      "incumbent": true,
      "name": "Roger Marshall",
      "party": "R",
      "partyName": "Republican",
-     "pct": 44.7
+     "pct": 44.9,
+     "votes": 466980
     },
     {
      "name": "David Graham",
      "party": "L",
-     "partyName": "Libertarian"
+     "partyName": "Libertarian",
+     "pct": 3,
+     "votes": 30696
     }
    ],
    "chamber": "senate",
    "label": "Kansas",
    "openSeat": false,
    "reporting": 85.6,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "GV Wire",
+   "sourceUrl": "https://gvwire.com/2026/11/03/democrat-adam-hamilton-flips-kansas-senate-seat-defeats-gop-sen-roger-marshall/",
    "state": "KS",
-   "status": "counting",
+   "status": "called",
    "id": "senate-KS"
   },
   {
@@ -6540,16 +6559,18 @@
    "id": "senate-NM"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T05:25:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_special_election_in_Ohio,_2026",
+   "calledBy": "AP, CBS News",
    "candidates": [
     {
      "name": "Sherrod Brown",
      "party": "D",
      "partyName": "Democratic",
      "pct": 48.6,
-     "votes": 1996306
+     "votes": 1996306,
+     "winner": true
     },
     {
      "incumbent": true,
@@ -6573,11 +6594,11 @@
    "chamber": "senate",
    "label": "Ohio",
    "openSeat": false,
-   "reporting": 87,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "reporting": 88,
+   "source": "Daily Kos",
+   "sourceUrl": "https://www.dailykos.com/stories/2026/11/3/800122223/elections/sherrod-brown-wins/",
    "state": "OH",
-   "status": "counting",
+   "status": "called",
    "sub": "Special",
    "id": "senate-OH-special"
   },
@@ -6973,6 +6994,62 @@
   }
  ],
  "feed": [
+  {
+   "at": "2026-11-04T05:25:00Z",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+   "text": "CBS News and the CNBC Election Desk project Democrats win control of the Senate.",
+   "id": "f20261104T052500h"
+  },
+  {
+   "at": "2026-11-04T05:25:00Z",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
+   "text": "AP projects David Crowley (D) wins the Wisconsin governor race.",
+   "id": "f20261104T052500f"
+  },
+  {
+   "at": "2026-11-04T05:25:00Z",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
+   "text": "AP and CBS News project Josh Turek (D) wins the Iowa Senate race.",
+   "id": "f20261104T052500c"
+  },
+  {
+   "at": "2026-11-04T05:25:00Z",
+   "source": "Daily Kos",
+   "sourceUrl": "https://www.dailykos.com/stories/2026/11/3/800122223/elections/sherrod-brown-wins/",
+   "text": "AP and CBS News project Sherrod Brown (D) wins the Ohio special Senate election.",
+   "id": "f20261104T052500a"
+  },
+  {
+   "at": "2026-11-04T05:25:00Z",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
+   "text": "AP and CBS News project Rob Sand (D) wins the Iowa governor race.",
+   "id": "f20261104T052500g"
+  },
+  {
+   "at": "2026-11-04T05:25:00Z",
+   "source": "KATV",
+   "sourceUrl": "https://katv.com/news/local/tom-cotton-wins-arkansas-us-senate-race",
+   "text": "AP projects Tom Cotton (R) wins the Arkansas Senate race.",
+   "id": "f20261104T052500d"
+  },
+  {
+   "at": "2026-11-04T05:25:00Z",
+   "source": "KUT",
+   "sourceUrl": "https://www.kut.org/politics/2026-11-03/texas-governor-election-2026-hinojosa-early-results",
+   "text": "AP and CBS News project Gina Hinojosa (D) wins the Texas governor race.",
+   "id": "f20261104T052500e"
+  },
+  {
+   "at": "2026-11-04T05:25:00Z",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
+   "text": "AP, CBS News and NBC News project Adam Hamilton (D) wins the Kansas Senate race.",
+   "id": "f20261104T052500b"
+  },
   {
    "at": "2026-11-04T04:20:00Z",
    "source": "NBC News",
