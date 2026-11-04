@@ -102,6 +102,8 @@ header.top h1 span{color:var(--muted);font-weight:500}
 .ballot li .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
 .ballot li .pdot{width:9px;height:9px;border-radius:50%;flex:none;background:var(--ind)}
 .ballot li.p-D .pdot{background:var(--dem)} .ballot li.p-R .pdot{background:var(--rep)}
+.ballot li.won .nm b{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.ballot li.lost{opacity:.6}
 .ballot li .pc{margin-left:auto;font-size:12px;color:var(--muted);font-family:var(--f-mono)}
 .moreline{font-size:12px;color:var(--muted)}
 .opentag{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
@@ -522,10 +524,12 @@ footer a{color:inherit}
       if(sorted.length>4)card.append(el("div","moreline","+"+(sorted.length-4)+" more"));
     } else if(cands.length){
       const ul=el("ul","ballot");
-      for(const c of cands.slice(0,4)){
-        const k=partyKey(c.party);const li=el("li","p-"+k);
+      const calledW=r.status==="called"&&cands.some(c=>c.winner);
+      const order=calledW?[...cands].sort((a,b)=>(b.winner?1:0)-(a.winner?1:0)):cands;
+      for(const c of order.slice(0,4)){
+        const k=partyKey(c.party);const li=el("li","p-"+k+(calledW?(c.winner?" won":" lost"):""));
         li.append(el("span","pdot"));
-        const nm=el("span","nm");nm.append(el("b",null,c.name||""));li.append(nm);
+        const nm=el("span","nm");nm.append(el("b",null,c.name||""));if(calledW&&c.winner)nm.append(el("span","check","✓"));li.append(nm);
         if(c.incumbent)li.append(el("span","inc","Inc"));
         li.append(el("span","pc",c.party||"?"));
         ul.append(li);
@@ -533,7 +537,8 @@ footer a{color:inherit}
       card.append(ul);
       const extra=cands.length-4+num(r.othersOnBallot);
       if(extra>0)card.append(el("div","moreline","+"+extra+" more on the ballot"));
-      if(!cands.some(c=>c.incumbent))card.append(el("div","opentag","Open seat"));
+      if(r.status==="called"||r.status==="counting")card.append(el("div","moreline","Vote totals not reported yet"));
+      else if(!cands.some(c=>c.incumbent))card.append(el("div","opentag","Open seat"));
     } else {
       card.append(el("div","empty-c",r.status==="polls_open"||!r.status?"Candidates and votes appear once counting starts.":"No vote totals reported yet."));
     }
@@ -597,7 +602,7 @@ footer a{color:inherit}
 
     // candidates
     if(cands.length){
-      const sec=el("div","sec");sec.append(el("div","label",hasRes?"Candidates":"Candidates on the ballot"));
+      const sec=el("div","sec");sec.append(el("div","label",hasRes||r.status==="called"?"Candidates":"Candidates on the ballot"));
       const wrap=el("div");wrap.style.overflowX="auto";
       const tb=el("table","ct");const thead=el("thead");const hr=el("tr");
       hr.append(el("th",null,"Candidate"),el("th","n","Votes"),el("th","n","Share"));thead.append(hr);tb.append(thead);
@@ -616,6 +621,7 @@ footer a{color:inherit}
       const tot=cands.reduce((s,c)=>s+num(c.votes),0);
       if(tot>0)sec.append(el("div","foot","Total votes counted so far: "+nf.format(tot)));
       if(num(r.othersOnBallot)>0)sec.append(el("div","foot",num(r.othersOnBallot)+" other candidates are also on the ballot."));
+      if(!hasRes&&(r.status==="called"||r.status==="counting"))sec.append(el("div","foot","Vote totals for this race haven't been recorded yet. They'll appear after a later update."));
       if(!hasRes)sec.append(el("div","foot","Write-in candidates are not listed."));
       body.append(sec);
     }
