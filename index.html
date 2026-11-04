@@ -380,8 +380,10 @@ footer a{color:inherit}
   const $=s=>document.querySelector(s);
   const etFmt=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"2-digit",month:"short",day:"numeric"});
   const locFmt=new Intl.DateTimeFormat(undefined,{hour:"numeric",minute:"2-digit",month:"short",day:"numeric"});
-  const fmtT=iso=>{const d=new Date(iso);if(isNaN(d))return"—";return etFmt.format(d)+" ET"};
-  const fmtLocal=iso=>{const d=new Date(iso);if(isNaN(d))return"";return locFmt.format(d)+" your time"};
+  // Never display a time in the future (guards against a bad timestamp in the data)
+  const clampD=iso=>{const d=new Date(iso);if(isNaN(d))return d;const n=Date.now();return d.getTime()>n?new Date(n):d};
+  const fmtT=iso=>{const d=clampD(iso);if(isNaN(d))return"—";return etFmt.format(d)+" ET"};
+  const fmtLocal=iso=>{const d=clampD(iso);if(isNaN(d))return"";return locFmt.format(d)+" your time"};
   const num=v=>{const n=Number(v);return Number.isFinite(n)?n:0};
   try{const t=localStorage.getItem("nd-tab");if(t)state.tab=t;const f=localStorage.getItem("nd-filter");if(f)state.filter=f;const v=localStorage.getItem("nd-view");if(v==="map"||v==="cards")state.view=v;const mm=localStorage.getItem("nd-mapmode");if(mm==="before"||mm==="results")state.mapMode=mm}catch(e){}
 
@@ -844,8 +846,8 @@ footer a{color:inherit}
     if(!next){$("#nextline").textContent="Scheduled updates have ended";return}
     const mins=Math.round((next-now)/60000);
     const rel=mins<1?"running now":mins<60?"in "+mins+" min":"in "+Math.floor(mins/60)+" h "+(mins%60)+" min";
-    el2.textContent=fmtT(new Date(next).toISOString())+" ("+rel+")";
-    el2.title=fmtLocal(new Date(next).toISOString());
+    el2.textContent=etFmt.format(new Date(next))+" ET ("+rel+")";
+    el2.title=locFmt.format(new Date(next))+" your time";
   }
   drawNext();setInterval(drawNext,30000);
 
