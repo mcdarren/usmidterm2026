@@ -6,14 +6,14 @@
    "R": 85,
    "note": "NBC News tally of seats called as of 11:08 PM ET Nov 3 (203 uncalled); NBC News and ABC News project Democratic control."
   },
-  "phase": "Counting \u2014 21 of 35 Senate races called",
+  "phase": "Counting \u2014 24 of 35 Senate races called",
   "senate": {
-   "D": 48,
+   "D": 50,
    "O": 2,
-   "R": 36,
-   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 21 races called: 16 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA) and 5 Rep (FL special, WY, WV, KY, AR). CBS News and the CNBC Election Desk project Democratic control of the Senate."
+   "R": 37,
+   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 24 races called: 18 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN) and 6 Rep (FL special, WY, WV, KY, AR, AL). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-04T05:25:00Z"
+  "updatedAt": "2026-11-04T06:15:00Z"
  },
  "races": [
   {
@@ -1156,9 +1156,11 @@
    "id": "gov-SD"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T06:15:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Tennessee_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T06:15:00Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Jerri Green",
@@ -1170,7 +1172,8 @@
      "name": "Marsha Blackburn",
      "party": "R",
      "partyName": "Republican",
-     "pct": 45
+     "pct": 45,
+     "winner": true
     },
     {
      "name": "Misam Abidi",
@@ -1242,10 +1245,10 @@
    "label": "Tennessee",
    "openSeat": true,
    "reporting": 87.2,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "FOX 17 Nashville",
+   "sourceUrl": "https://fox17.com/news/local/marsha-blackburn-tennessee-election-2026-projected-to-win-governor-race-jerri-green-david-hatley-lauren-pinkston-first-woman-governor",
    "state": "TN",
-   "status": "counting",
+   "status": "called",
    "id": "gov-TN"
   },
   {
@@ -5700,9 +5703,11 @@
    "id": "senate-AK"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T06:15:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Alabama,_2026",
+   "calledAt": "2026-11-04T06:15:00Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Everett Wess",
@@ -5714,17 +5719,18 @@
      "name": "Barry Moore",
      "party": "R",
      "partyName": "Republican",
-     "pct": 55.3
+     "pct": 55.3,
+     "winner": true
     }
    ],
    "chamber": "senate",
    "label": "Alabama",
    "openSeat": true,
    "reporting": 77,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "Yahoo News (AP)",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/republican-barry-moore-wins-election-041801544.html",
    "state": "AL",
-   "status": "counting",
+   "status": "called",
    "id": "senate-AL"
   },
   {
@@ -5890,7 +5896,7 @@
    "id": "senate-FL-special"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T06:15:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Georgia,_2026",
    "calledAt": "2026-11-04T00:55:00Z",
@@ -5902,7 +5908,7 @@
      "party": "D",
      "partyName": "Democratic",
      "pct": 59,
-     "votes": 2356728,
+     "votes": 2453525,
      "winner": true
     },
     {
@@ -5910,15 +5916,15 @@
      "party": "R",
      "partyName": "Republican",
      "pct": 41,
-     "votes": 1637242
+     "votes": 1709237
     }
    ],
    "chamber": "senate",
    "label": "Georgia",
    "openSeat": false,
-   "reporting": 90.7,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "reporting": 95,
+   "source": "ABC News",
+   "sourceUrl": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
    "state": "GA",
    "status": "called",
    "id": "senate-GA"
@@ -6110,7 +6116,7 @@
    "id": "senate-KY"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T06:15:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Louisiana,_2026",
    "candidates": [
@@ -6129,10 +6135,11 @@
    ],
    "chamber": "senate",
    "label": "Louisiana",
+   "note": "Projected for Letlow (R) by ABC News; not yet called by AP.",
    "openSeat": true,
    "reporting": 82.2,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "ABC News",
+   "sourceUrl": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
    "state": "LA",
    "status": "counting",
    "id": "senate-LA"
@@ -6180,35 +6187,38 @@
    "id": "senate-MA"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T06:15:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Maine,_2026",
+   "calledAt": "2026-11-04T06:15:00Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Troy Jackson",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 49.8,
-     "votes": 149168
+     "pct": 53,
+     "votes": 291682,
+     "winner": true
     },
     {
      "incumbent": true,
      "name": "Susan Collins",
      "party": "R",
      "partyName": "Republican",
-     "pct": 50.1,
-     "votes": 149508
+     "pct": 47,
+     "votes": 258254
     }
    ],
    "chamber": "senate",
    "label": "Maine",
-   "note": "Maine uses ranked-choice voting for U.S. Senate.",
+   "note": "Maine uses ranked-choice voting for U.S. Senate. Collins conceded, per NPR/NHPR.",
    "openSeat": false,
-   "reporting": 38,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "reporting": 72,
+   "source": "ABC News",
+   "sourceUrl": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
    "state": "ME",
-   "status": "counting",
+   "status": "called",
    "id": "senate-ME"
   },
   {
@@ -6260,15 +6270,18 @@
    "id": "senate-MI"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T06:15:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Minnesota,_2026",
+   "calledAt": "2026-11-04T06:15:00Z",
+   "calledBy": "CBS News, ABC News",
    "candidates": [
     {
      "name": "Peggy Flanagan",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 45.8
+     "pct": 45.8,
+     "winner": true
     },
     {
      "name": "Michele Tafoya",
@@ -6291,10 +6304,10 @@
    "label": "Minnesota",
    "openSeat": true,
    "reporting": 25.1,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
    "state": "MN",
-   "status": "counting",
+   "status": "called",
    "id": "senate-MN"
   },
   {
@@ -6559,7 +6572,7 @@
    "id": "senate-NM"
   },
   {
-   "asOf": "2026-11-04T05:25:00Z",
+   "asOf": "2026-11-04T06:15:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_special_election_in_Ohio,_2026",
    "calledBy": "AP, CBS News",
@@ -6568,8 +6581,8 @@
      "name": "Sherrod Brown",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 48.6,
-     "votes": 1996306,
+     "pct": 49,
+     "votes": 2092273,
      "winner": true
     },
     {
@@ -6577,8 +6590,8 @@
      "name": "Jon Husted",
      "party": "R",
      "partyName": "Republican",
-     "pct": 46.5,
-     "votes": 1916219
+     "pct": 46,
+     "votes": 1978849
     },
     {
      "name": "Bill Redpath",
@@ -6594,16 +6607,16 @@
    "chamber": "senate",
    "label": "Ohio",
    "openSeat": false,
-   "reporting": 88,
-   "source": "Daily Kos",
-   "sourceUrl": "https://www.dailykos.com/stories/2026/11/3/800122223/elections/sherrod-brown-wins/",
+   "reporting": 90,
+   "source": "ABC News",
+   "sourceUrl": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
    "state": "OH",
    "status": "called",
    "sub": "Special",
    "id": "senate-OH-special"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T06:15:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Oklahoma,_2026",
    "candidates": [
@@ -6639,16 +6652,17 @@
    ],
    "chamber": "senate",
    "label": "Oklahoma",
-   "note": "Projected for Kevin Hern (R) by NBC News; not yet called by AP. Figures as of 8:36 p.m. ET.",
+   "note": "Projected for Hern (R) by CBS News; not yet called by AP.",
    "openSeat": true,
    "reporting": 84.1,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
    "state": "OK",
    "status": "counting",
    "id": "senate-OK"
   },
   {
+   "asOf": "2026-11-04T06:15:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Oregon,_2026",
    "candidates": [
@@ -6676,9 +6690,12 @@
    ],
    "chamber": "senate",
    "label": "Oregon",
+   "note": "Projected for Merkley (D) by CBS News; not yet called by AP.",
    "openSeat": false,
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
    "state": "OR",
-   "status": "polls_open",
+   "status": "counting",
    "id": "senate-OR"
   },
   {
@@ -6761,7 +6778,7 @@
    "id": "senate-SC"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T06:15:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_South_Dakota,_2026",
    "candidates": [
@@ -6781,16 +6798,17 @@
    ],
    "chamber": "senate",
    "label": "South Dakota",
+   "note": "Projected for Rounds (R) by CBS News; not yet called by AP.",
    "openSeat": false,
    "reporting": 42,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
    "state": "SD",
    "status": "counting",
    "id": "senate-SD"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T06:15:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Tennessee,_2026",
    "candidates": [
@@ -6850,16 +6868,17 @@
    ],
    "chamber": "senate",
    "label": "Tennessee",
+   "note": "Projected for Hagerty (R) by CBS News; not yet called by AP.",
    "openSeat": false,
    "reporting": 86.8,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
    "state": "TN",
    "status": "counting",
    "id": "senate-TN"
   },
   {
-   "asOf": "2026-11-04T04:20:00Z",
+   "asOf": "2026-11-04T06:15:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Texas,_2026",
    "calledAt": "2026-11-04T04:20:00Z",
@@ -6869,25 +6888,25 @@
      "name": "James Talarico",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 59.2,
-     "votes": 4106566,
+     "pct": 55,
+     "votes": 4916270,
      "winner": true
     },
     {
      "name": "Ken Paxton",
      "party": "R",
      "partyName": "Republican",
-     "pct": 39.2,
-     "votes": 2703872
+     "pct": 43,
+     "votes": 3862065
     }
    ],
    "chamber": "senate",
    "label": "Texas",
    "openSeat": true,
    "othersOnBallot": 5,
-   "reporting": 66.8,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "reporting": 86,
+   "source": "ABC News",
+   "sourceUrl": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
    "state": "TX",
    "status": "called",
    "id": "senate-TX"
@@ -6994,6 +7013,34 @@
   }
  ],
  "feed": [
+  {
+   "at": "2026-11-04T06:15:00Z",
+   "source": "NHPR (NPR)",
+   "sourceUrl": "https://www.nhpr.org/2026-11-04/troy-jackson-wins-maine-senate-race-over-susan-collins-in-major-coup-for-democrats",
+   "text": "AP projects Troy Jackson (D) wins the Maine Senate race, defeating incumbent Susan Collins (R).",
+   "id": "f20261104T061500a"
+  },
+  {
+   "at": "2026-11-04T06:15:00Z",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+   "text": "CBS News and ABC News project Peggy Flanagan (D) wins the Minnesota Senate race.",
+   "id": "f20261104T061500c"
+  },
+  {
+   "at": "2026-11-04T06:15:00Z",
+   "source": "FOX 17 Nashville",
+   "sourceUrl": "https://fox17.com/news/local/marsha-blackburn-tennessee-election-2026-projected-to-win-governor-race-jerri-green-david-hatley-lauren-pinkston-first-woman-governor",
+   "text": "AP projects Marsha Blackburn (R) wins the Tennessee governor race.",
+   "id": "f20261104T061500d"
+  },
+  {
+   "at": "2026-11-04T06:15:00Z",
+   "source": "Yahoo News (AP)",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/republican-barry-moore-wins-election-041801544.html",
+   "text": "AP projects Barry Moore (R) wins the Alabama Senate race.",
+   "id": "f20261104T061500b"
+  },
   {
    "at": "2026-11-04T05:25:00Z",
    "source": "CBS News",
