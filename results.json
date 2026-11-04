@@ -6,14 +6,14 @@
    "R": 0,
    "note": "No House races called yet."
   },
-  "phase": "Polls open \u2014 no results yet",
+  "phase": "Polls closing in the East \u2014 no races called yet",
   "senate": {
    "D": 32,
    "O": 2,
    "R": 31,
    "note": "Counts start from the 65 seats not on the ballot (Dem 32, Ind 2, Rep 31). Before the election the Senate stood Rep 53, Dem 45, Ind 2 (Ballotpedia)."
   },
-  "updatedAt": "2026-11-03T12:20:00Z"
+  "updatedAt": "2026-11-04T00:20:00Z"
  },
  "races": [
   {
@@ -283,6 +283,7 @@
    "id": "gov-FL"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Georgia_gubernatorial_election,_2026",
    "candidates": [
@@ -300,8 +301,10 @@
    "chamber": "governor",
    "label": "Georgia",
    "openSeat": true,
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "gov-GA"
   },
   {
@@ -2203,129 +2206,171 @@
    "id": "house-FL-28"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 1,
    "label": "Georgia 1",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-01"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 2,
    "label": "Georgia 2",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-02"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 3,
    "label": "Georgia 3",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-03"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 4,
    "label": "Georgia 4",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-04"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 5,
    "label": "Georgia 5",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-05"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 6,
    "label": "Georgia 6",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-06"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 7,
    "label": "Georgia 7",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-07"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 8,
    "label": "Georgia 8",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-08"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 9,
    "label": "Georgia 9",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-09"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 10,
    "label": "Georgia 10",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-10"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 11,
    "label": "Georgia 11",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-11"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 12,
    "label": "Georgia 12",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-12"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 13,
    "label": "Georgia 13",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-13"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "chamber": "house",
    "district": 14,
    "label": "Georgia 14",
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-GA-14"
   },
   {
@@ -5262,6 +5307,7 @@
    "id": "senate-FL-special"
   },
   {
+   "asOf": "2026-11-04T00:20:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Georgia,_2026",
    "candidates": [
@@ -5280,8 +5326,10 @@
    "chamber": "senate",
    "label": "Georgia",
    "openSeat": false,
+   "source": "CNN",
+   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
    "state": "GA",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "senate-GA"
   },
   {
