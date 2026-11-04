@@ -4,16 +4,16 @@
    "D": 0,
    "O": 0,
    "R": 0,
-   "note": "No House races called yet."
+   "note": "No House seat tally confirmed from an AP-based source yet."
   },
-  "phase": "Polls closing in the East \u2014 no races called yet",
+  "phase": "Counting \u2014 1 of 35 Senate races called",
   "senate": {
-   "D": 32,
+   "D": 33,
    "O": 2,
    "R": 31,
-   "note": "Counts start from the 65 seats not on the ballot (Dem 32, Ind 2, Rep 31). Before the election the Senate stood Rep 53, Dem 45, Ind 2 (Ballotpedia)."
+   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 1 race called: Georgia (AP call as reported by NPR). Outlet tally not checked."
   },
-  "updatedAt": "2026-11-04T00:20:00Z"
+  "updatedAt": "2026-11-04T01:10:00Z"
  },
  "races": [
   {
@@ -5307,15 +5307,18 @@
    "id": "senate-FL-special"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-04T01:10:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Georgia,_2026",
+   "calledAt": "2026-11-04T00:55:00Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "incumbent": true,
      "name": "Jon Ossoff",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Mike Collins",
@@ -5326,10 +5329,10 @@
    "chamber": "senate",
    "label": "Georgia",
    "openSeat": false,
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "NPR",
+   "sourceUrl": "https://www.npr.org/2026/11/03/g-s1-150143/georgia-senate-race-jon-ossoff-mike-collins",
    "state": "GA",
-   "status": "polls_closed",
+   "status": "called",
    "id": "senate-GA"
   },
   {
@@ -6190,6 +6193,13 @@
   }
  ],
  "feed": [
+  {
+   "at": "2026-11-04T00:55:00Z",
+   "source": "NPR",
+   "sourceUrl": "https://www.npr.org/2026/11/03/g-s1-150143/georgia-senate-race-jon-ossoff-mike-collins",
+   "text": "AP calls the Georgia Senate race for Jon Ossoff (D), the incumbent.",
+   "id": "f20261104T005500"
+  },
   {
    "at": "2026-11-03T12:20:00Z",
    "source": "Ballotpedia",
