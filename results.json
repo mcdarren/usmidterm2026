@@ -1,19 +1,19 @@
 {
  "summary": {
   "house": {
-   "D": 0,
+   "D": 205,
    "O": 0,
-   "R": 0,
-   "note": "No House seat tally confirmed from an AP-based source yet."
+   "R": 160,
+   "note": "CNBC Election Desk projection as of 9:17 PM ET Nov 3: Democrats at least 205 and Republicans at least 160 of 435; control 'leans Democratic'. Four districts called by AP are marked on this tracker."
   },
-  "phase": "Counting \u2014 1 of 35 Senate races called",
+  "phase": "Counting \u2014 14 of 35 Senate races called",
   "senate": {
-   "D": 33,
+   "D": 42,
    "O": 2,
-   "R": 31,
-   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 1 race called: Georgia (AP call as reported by NPR). Outlet tally not checked."
+   "R": 35,
+   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 14 races called: 10 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA) and 4 Rep (FL special, WY, WV, KY). Outlet tally not checked."
   },
-  "updatedAt": "2026-11-04T01:10:00Z"
+  "updatedAt": "2026-11-04T02:21:49Z"
  },
  "races": [
   {
@@ -156,13 +156,17 @@
    "id": "gov-CA"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Colorado_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, ABC News",
    "candidates": [
     {
      "name": "Phil Weiser",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Victor Marx",
@@ -198,19 +202,25 @@
    "chamber": "governor",
    "label": "Colorado",
    "openSeat": true,
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
    "state": "CO",
-   "status": "polls_open",
+   "status": "called",
    "id": "gov-CO"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Connecticut_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, ABC News",
    "candidates": [
     {
      "incumbent": true,
      "name": "Ned Lamont",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Ryan Fazio",
@@ -221,13 +231,18 @@
    "chamber": "governor",
    "label": "Connecticut",
    "openSeat": false,
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
    "state": "CT",
-   "status": "polls_open",
+   "status": "called",
    "id": "gov-CT"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Florida_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "AP, NBC News, ABC News",
    "candidates": [
     {
      "name": "David Jolly",
@@ -237,7 +252,8 @@
     {
      "name": "Byron Donalds",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "winner": true
     },
     {
      "name": "Scott Jewett",
@@ -278,12 +294,14 @@
    "chamber": "governor",
    "label": "Florida",
    "openSeat": true,
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
    "state": "FL",
-   "status": "polls_open",
+   "status": "called",
    "id": "gov-FL"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Georgia_gubernatorial_election,_2026",
    "candidates": [
@@ -300,11 +318,12 @@
    ],
    "chamber": "governor",
    "label": "Georgia",
+   "note": "Projected for Keisha Lance Bottoms (D) by NBC News; not yet called by AP.",
    "openSeat": true,
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "NBC News",
+   "sourceUrl": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763",
    "state": "GA",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "gov-GA"
   },
   {
@@ -391,14 +410,18 @@
    "id": "gov-ID"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Illinois_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, ABC News",
    "candidates": [
     {
      "incumbent": true,
      "name": "JB Pritzker",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Darren Bailey",
@@ -424,8 +447,10 @@
    "chamber": "governor",
    "label": "Illinois",
    "openSeat": false,
+   "source": "ABC7 Chicago (ABC News)",
+   "sourceUrl": "https://abc7chicago.com/post/2026-election-news-jb-pritzker-darren-bailey-face-off-day-rematch-illinois-governor/20011489",
    "state": "IL",
-   "status": "polls_open",
+   "status": "called",
    "id": "gov-IL"
   },
   {
@@ -451,6 +476,7 @@
    "id": "gov-KS"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Massachusetts_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
    "candidates": [
@@ -473,12 +499,16 @@
    ],
    "chamber": "governor",
    "label": "Massachusetts",
+   "note": "Projected for Maura Healey (D) by NBC News; not yet called by AP.",
    "openSeat": false,
+   "source": "NBC News",
+   "sourceUrl": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763",
    "state": "MA",
-   "status": "polls_open",
+   "status": "counting",
    "id": "gov-MA"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Maryland_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
    "candidates": [
@@ -506,9 +536,12 @@
    ],
    "chamber": "governor",
    "label": "Maryland",
+   "note": "Projected for Wes Moore (D) by NBC News; not yet called by AP.",
    "openSeat": false,
+   "source": "NBC News",
+   "sourceUrl": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763",
    "state": "MD",
-   "status": "polls_open",
+   "status": "counting",
    "id": "gov-MD"
   },
   {
@@ -714,14 +747,18 @@
    "id": "gov-NV"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/New_York_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, ABC News",
    "candidates": [
     {
      "incumbent": true,
      "name": "Kathy Hochul",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Bruce Blakeman",
@@ -732,8 +769,10 @@
    "chamber": "governor",
    "label": "New York",
    "openSeat": false,
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
    "state": "NY",
-   "status": "polls_open",
+   "status": "called",
    "id": "gov-NY"
   },
   {
@@ -849,6 +888,7 @@
    "id": "gov-OR"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Pennsylvania_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
    "candidates": [
@@ -871,12 +911,16 @@
    ],
    "chamber": "governor",
    "label": "Pennsylvania",
+   "note": "Projected for Josh Shapiro (D) by NBC News; not yet called by AP.",
    "openSeat": false,
+   "source": "NBC News",
+   "sourceUrl": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763",
    "state": "PA",
-   "status": "polls_open",
+   "status": "counting",
    "id": "gov-PA"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Rhode_Island_gubernatorial_election,_2026",
    "candidates": [
@@ -908,9 +952,12 @@
    ],
    "chamber": "governor",
    "label": "Rhode Island",
+   "note": "Projected for Helena Foulkes (D) by NBC News; not yet called by AP.",
    "openSeat": true,
+   "source": "NBC News",
+   "sourceUrl": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763",
    "state": "RI",
-   "status": "polls_open",
+   "status": "counting",
    "id": "gov-RI"
   },
   {
@@ -1144,8 +1191,11 @@
    "id": "gov-WI"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Wyoming_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, ABC News",
    "candidates": [
     {
      "name": "Ken Casner",
@@ -1155,7 +1205,8 @@
     {
      "name": "Eric Barlow",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "winner": true
     },
     {
      "name": "Rebecca Bextel",
@@ -1166,8 +1217,10 @@
    "chamber": "governor",
    "label": "Wyoming",
    "openSeat": true,
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
    "state": "WY",
-   "status": "polls_open",
+   "status": "called",
    "id": "gov-WY"
   },
   {
@@ -2071,12 +2124,30 @@
    "id": "house-FL-13"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Kathy Castor",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    },
+    {
+     "name": "Mike Beltran",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 14,
    "label": "Florida 14",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "called",
    "id": "house-FL-14"
   },
   {
@@ -2143,12 +2214,30 @@
    "id": "house-FL-21"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Pia Dandiya",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    },
+    {
+     "name": "Casey Askar",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 22,
    "label": "Florida 22",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "called",
    "id": "house-FL-22"
   },
   {
@@ -2170,12 +2259,30 @@
    "id": "house-FL-24"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Jared Moskowitz",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    },
+    {
+     "name": "Scott Singer",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 25,
    "label": "Florida 25",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "called",
    "id": "house-FL-25"
   },
   {
@@ -3400,12 +3507,30 @@
    "id": "house-NC-10"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Jamie Ager",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    },
+    {
+     "name": "Jennifer Balkcom",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 11,
    "label": "North Carolina 11",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_open",
+   "status": "called",
    "id": "house-NC-11"
   },
   {
@@ -5212,14 +5337,18 @@
    "id": "senate-AR"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Colorado,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, CBS News, ABC News",
    "candidates": [
     {
      "incumbent": true,
      "name": "John Hickenlooper",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Mark Baisley",
@@ -5250,19 +5379,25 @@
    "chamber": "senate",
    "label": "Colorado",
    "openSeat": false,
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
    "state": "CO",
-   "status": "polls_open",
+   "status": "called",
    "id": "senate-CO"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Delaware,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, CBS News",
    "candidates": [
     {
      "incumbent": true,
      "name": "Chris Coons",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Michael Katz",
@@ -5273,13 +5408,18 @@
    "chamber": "senate",
    "label": "Delaware",
    "openSeat": false,
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
    "state": "DE",
-   "status": "polls_open",
+   "status": "called",
    "id": "senate-DE"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_special_election_in_Florida,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Angie Nixon",
@@ -5290,7 +5430,8 @@
      "incumbent": true,
      "name": "Ashley Moody",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "winner": true
     },
     {
      "name": "Neil Gillespie",
@@ -5301,8 +5442,10 @@
    "chamber": "senate",
    "label": "Florida",
    "openSeat": false,
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
    "state": "FL",
-   "status": "polls_open",
+   "status": "called",
    "sub": "Special",
    "id": "senate-FL-special"
   },
@@ -5396,13 +5539,17 @@
    "id": "senate-ID"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Illinois,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, CBS News",
    "candidates": [
     {
      "name": "Juliana Stratton",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Don Tracy",
@@ -5418,8 +5565,10 @@
    "chamber": "senate",
    "label": "Illinois",
    "openSeat": true,
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
    "state": "IL",
-   "status": "polls_open",
+   "status": "called",
    "id": "senate-IL"
   },
   {
@@ -5451,8 +5600,11 @@
    "id": "senate-KS"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Kentucky,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, ABC News",
    "candidates": [
     {
      "name": "Charles Booker",
@@ -5462,7 +5614,8 @@
     {
      "name": "Andy Barr",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "winner": true
     },
     {
      "name": "Christopher Campbell",
@@ -5473,8 +5626,10 @@
    "chamber": "senate",
    "label": "Kentucky",
    "openSeat": true,
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
    "state": "KY",
-   "status": "polls_open",
+   "status": "called",
    "id": "senate-KY"
   },
   {
@@ -5500,14 +5655,18 @@
    "id": "senate-LA"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Massachusetts,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, CBS News",
    "candidates": [
     {
      "incumbent": true,
      "name": "Ed Markey",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "John Deaton",
@@ -5528,8 +5687,10 @@
    "chamber": "senate",
    "label": "Massachusetts",
    "openSeat": false,
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
    "state": "MA",
-   "status": "polls_open",
+   "status": "called",
    "id": "senate-MA"
   },
   {
@@ -5691,13 +5852,17 @@
    "id": "senate-MT"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Roy Cooper",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Michael Whatley",
@@ -5718,8 +5883,10 @@
    "chamber": "senate",
    "label": "North Carolina",
    "openSeat": true,
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
    "state": "NC",
-   "status": "polls_open",
+   "status": "called",
    "id": "senate-NC"
   },
   {
@@ -5761,13 +5928,17 @@
    "id": "senate-NE"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Chris Pappas",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "John Sununu",
@@ -5783,19 +5954,25 @@
    "chamber": "senate",
    "label": "New Hampshire",
    "openSeat": true,
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
    "state": "NH",
-   "status": "polls_open",
+   "status": "called",
    "id": "senate-NH"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_New_Jersey,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, CBS News",
    "candidates": [
     {
      "incumbent": true,
      "name": "Cory Booker",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Justin Murphy",
@@ -5816,19 +5993,25 @@
    "chamber": "senate",
    "label": "New Jersey",
    "openSeat": false,
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
    "state": "NJ",
-   "status": "polls_open",
+   "status": "called",
    "id": "senate-NJ"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_New_Mexico,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, CBS News, ABC News",
    "candidates": [
     {
      "incumbent": true,
      "name": "Ben Ray Luj\u00e1n",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Larry Marker",
@@ -5839,8 +6022,10 @@
    "chamber": "senate",
    "label": "New Mexico",
    "openSeat": false,
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
    "state": "NM",
-   "status": "polls_open",
+   "status": "called",
    "id": "senate-NM"
   },
   {
@@ -5948,14 +6133,18 @@
    "id": "senate-OR"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Rhode_Island,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, CBS News",
    "candidates": [
     {
      "incumbent": true,
      "name": "Jack Reed",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Raymond McKay",
@@ -5971,8 +6160,10 @@
    "chamber": "senate",
    "label": "Rhode Island",
    "openSeat": false,
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
    "state": "RI",
-   "status": "polls_open",
+   "status": "called",
    "id": "senate-RI"
   },
   {
@@ -6119,6 +6310,7 @@
    "id": "senate-TX"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Virginia,_2026",
    "candidates": [
@@ -6136,14 +6328,20 @@
    ],
    "chamber": "senate",
    "label": "Virginia",
+   "note": "Projected for Mark Warner (D) by CBS News; not yet called by AP.",
    "openSeat": false,
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
    "state": "VA",
-   "status": "polls_open",
+   "status": "counting",
    "id": "senate-VA"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_West_Virginia,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, CBS News, ABC News",
    "candidates": [
     {
      "name": "Rachel Fetty Anderson",
@@ -6154,7 +6352,8 @@
      "incumbent": true,
      "name": "Shelley Moore Capito",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "winner": true
     },
     {
      "name": "S. Marshall Wilson",
@@ -6165,13 +6364,18 @@
    "chamber": "senate",
    "label": "West Virginia",
    "openSeat": false,
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
    "state": "WV",
-   "status": "polls_open",
+   "status": "called",
    "id": "senate-WV"
   },
   {
+   "asOf": "2026-11-04T02:21:49Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Wyoming,_2026",
+   "calledAt": "2026-11-04T02:21:49Z",
+   "calledBy": "NBC News, CBS News, ABC News",
    "candidates": [
     {
      "name": "James Byrd",
@@ -6181,18 +6385,154 @@
     {
      "name": "Harriet Hageman",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "winner": true
     }
    ],
    "chamber": "senate",
    "label": "Wyoming",
    "openSeat": true,
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
    "state": "WY",
-   "status": "polls_open",
+   "status": "called",
    "id": "senate-WY"
   }
  ],
  "feed": [
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
+   "text": "AP projects Roy Cooper (D) wins the North Carolina Senate race.",
+   "id": "f20261104T02214900"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
+   "text": "NBC News, CBS News, ABC News project Shelley Moore Capito (R) wins the West Virginia Senate race.",
+   "id": "f20261104T02214906"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
+   "text": "NBC News, CBS News, ABC News project John Hickenlooper (D) wins the Colorado Senate race.",
+   "id": "f20261104T02214905"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
+   "text": "AP projects Chris Pappas (D) wins the New Hampshire Senate race.",
+   "id": "f20261104T02214901"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+   "text": "NBC News and CBS News project Chris Coons (D) wins the Delaware Senate race.",
+   "id": "f20261104T02214909"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
+   "text": "AP projects Ashley Moody (R) wins the Florida special Senate election.",
+   "id": "f20261104T02214902"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
+   "text": "AP, NBC News, ABC News project Byron Donalds (R) wins the Florida governor race.",
+   "id": "f20261104T02214913"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
+   "text": "NBC News and ABC News project Andy Barr (R) wins the Kentucky Senate race.",
+   "id": "f20261104T02214907"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
+   "text": "NBC News, CBS News, ABC News project Ben Ray Luj\u00e1n (D) wins the New Mexico Senate race.",
+   "id": "f20261104T02214903"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
+   "text": "NBC News and ABC News project Eric Barlow (R) wins the Wyoming governor race.",
+   "id": "f20261104T02214916"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
+   "text": "NBC News, CBS News, ABC News project Harriet Hageman (R) wins the Wyoming Senate race.",
+   "id": "f20261104T02214904"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
+   "text": "NBC News and ABC News project Phil Weiser (D) wins the Colorado governor race.",
+   "id": "f20261104T02214914"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+   "text": "NBC News and CBS News project Ed Markey (D) wins the Massachusetts Senate race.",
+   "id": "f20261104T02214912"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+   "text": "NBC News and CBS News project Jack Reed (D) wins the Rhode Island Senate race.",
+   "id": "f20261104T02214911"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "ABC7 Chicago (ABC News)",
+   "sourceUrl": "https://abc7chicago.com/post/2026-election-news-jb-pritzker-darren-bailey-face-off-day-rematch-illinois-governor/20011489",
+   "text": "NBC News and ABC News project JB Pritzker (D) wins the Illinois governor race.",
+   "id": "f20261104T02214918"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
+   "text": "NBC News and ABC News project Ned Lamont (D) wins the Connecticut governor race.",
+   "id": "f20261104T02214917"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "ABC7 New York (ABC News)",
+   "sourceUrl": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/",
+   "text": "NBC News and ABC News project Kathy Hochul (D) wins the New York governor race.",
+   "id": "f20261104T02214915"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+   "text": "NBC News and CBS News project Cory Booker (D) wins the New Jersey Senate race.",
+   "id": "f20261104T02214910"
+  },
+  {
+   "at": "2026-11-04T02:21:49Z",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+   "text": "NBC News and CBS News project Juliana Stratton (D) wins the Illinois Senate race.",
+   "id": "f20261104T02214908"
+  },
   {
    "at": "2026-11-04T00:55:00Z",
    "source": "NPR",
