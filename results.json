@@ -13,7 +13,7 @@
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-04T09:09:07Z"
+  "updatedAt": "2026-11-04T10:08:44Z"
  },
  "races": [
   {
@@ -862,13 +862,17 @@
    "id": "gov-NM"
   },
   {
+   "asOf": "2026-11-04T10:08:44Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Nevada_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T10:00:00Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Aaron Ford",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "incumbent": true,
@@ -885,8 +889,10 @@
    "chamber": "governor",
    "label": "Nevada",
    "openSeat": false,
+   "source": "KCTV5 (AP)",
+   "sourceUrl": "https://www.kctv5.com/2026/11/04/democrat-aaron-ford-defeats-republican-incumbent-become-nevadas-first-black-governor/",
    "state": "NV",
-   "status": "polls_open",
+   "status": "called",
    "id": "gov-NV"
   },
   {
@@ -7542,6 +7548,13 @@
   }
  ],
  "feed": [
+  {
+   "at": "2026-11-04T10:08:44Z",
+   "source": "KCTV5 (AP)",
+   "sourceUrl": "https://www.kctv5.com/2026/11/04/democrat-aaron-ford-defeats-republican-incumbent-become-nevadas-first-black-governor/",
+   "text": "AP reports Aaron Ford (D) defeats incumbent Joe Lombardo (R) in the Nevada governor race.",
+   "id": "f20261104T10084400"
+  },
   {
    "at": "2026-11-04T09:09:07Z",
    "source": "Yahoo News (AP)",
