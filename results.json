@@ -13,7 +13,7 @@
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-04T10:08:44Z"
+  "updatedAt": "2026-11-04T11:10:47Z"
  },
  "races": [
   {
@@ -382,16 +382,19 @@
    "id": "gov-GA"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T11:10:47Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Hawaii_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T11:10:47Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "incumbent": true,
      "name": "Josh Green",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 77.1
+     "pct": 77.1,
+     "winner": true
     },
     {
      "name": "Gary Cordery",
@@ -404,10 +407,10 @@
    "label": "Hawaii",
    "openSeat": false,
    "reporting": 63.6,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "CKOM (AP)",
+   "sourceUrl": "https://www.ckom.com/2026/11/03/democrat-josh-green-wins-reelection-for-governor-in-hawaii/",
    "state": "HI",
-   "status": "counting",
+   "status": "called",
    "id": "gov-HI"
   },
   {
@@ -441,9 +444,11 @@
    "id": "gov-IA"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T11:10:47Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Idaho_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T11:10:47Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Terri Pickens",
@@ -456,7 +461,8 @@
      "name": "Brad Little",
      "party": "R",
      "partyName": "Republican",
-     "pct": 55.4
+     "pct": 55.4,
+     "winner": true
     },
     {
      "name": "Paul Sand",
@@ -478,10 +484,10 @@
    "label": "Idaho",
    "openSeat": false,
    "reporting": 78.4,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "WTOP (AP)",
+   "sourceUrl": "https://wtop.com/national/2026/11/republican-brad-little-wins-reelection-for-governor-in-idaho",
    "state": "ID",
-   "status": "counting",
+   "status": "called",
    "id": "gov-ID"
   },
   {
@@ -639,15 +645,18 @@
    "id": "gov-MD"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T11:10:47Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Maine_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T11:10:47Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Hannah Pingree",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 54.8
+     "pct": 54.8,
+     "winner": true
     },
     {
      "name": "Bobby Charles",
@@ -665,10 +674,10 @@
    "label": "Maine",
    "openSeat": true,
    "reporting": 75.7,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "WAGM",
+   "sourceUrl": "https://www.wagmtv.com/2026/11/04/hannah-pingree-wins-maine-governors-race/",
    "state": "ME",
-   "status": "counting",
+   "status": "called",
    "id": "gov-ME"
   },
   {
@@ -1030,16 +1039,19 @@
    "id": "gov-OK"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T11:10:47Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Oregon_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T11:10:47Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "incumbent": true,
      "name": "Tina Kotek",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 52.3
+     "pct": 52.3,
+     "winner": true
     },
     {
      "name": "Christine Drazan",
@@ -1057,10 +1069,10 @@
    "label": "Oregon",
    "openSeat": false,
    "reporting": 68.3,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "CKOM (AP)",
+   "sourceUrl": "https://www.ckom.com/2026/11/04/democrat-tina-kotek-wins-reelection-for-governor-in-oregon/",
    "state": "OR",
-   "status": "counting",
+   "status": "called",
    "id": "gov-OR"
   },
   {
@@ -1191,9 +1203,11 @@
    "id": "gov-SC"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T11:10:47Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/South_Dakota_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T11:10:47Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Dan Ahlers",
@@ -1206,17 +1220,18 @@
      "name": "Larry Rhoden",
      "party": "R",
      "partyName": "Republican",
-     "pct": 64.7
+     "pct": 64.7,
+     "winner": true
     }
    ],
    "chamber": "governor",
    "label": "South Dakota",
    "openSeat": false,
    "reporting": 77.7,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "KOTA (AP)",
+   "sourceUrl": "https://www.kotatv.com/2026/11/04/republican-larry-rhoden-wins-south-dakota-governors-race-defeating-dan-ahlers/",
    "state": "SD",
-   "status": "counting",
+   "status": "called",
    "id": "gov-SD"
   },
   {
@@ -7548,6 +7563,41 @@
   }
  ],
  "feed": [
+  {
+   "at": "2026-11-04T11:10:47Z",
+   "source": "WTOP (AP)",
+   "sourceUrl": "https://wtop.com/national/2026/11/republican-brad-little-wins-reelection-for-governor-in-idaho",
+   "text": "AP projects Brad Little (R) wins the Idaho governor race.",
+   "id": "f20261104T111047ID"
+  },
+  {
+   "at": "2026-11-04T11:10:47Z",
+   "source": "CKOM (AP)",
+   "sourceUrl": "https://www.ckom.com/2026/11/04/democrat-tina-kotek-wins-reelection-for-governor-in-oregon/",
+   "text": "AP projects Tina Kotek (D) wins the Oregon governor race.",
+   "id": "f20261104T111047OR"
+  },
+  {
+   "at": "2026-11-04T11:10:47Z",
+   "source": "WAGM",
+   "sourceUrl": "https://www.wagmtv.com/2026/11/04/hannah-pingree-wins-maine-governors-race/",
+   "text": "AP projects Hannah Pingree (D) wins the Maine governor race.",
+   "id": "f20261104T111047ME"
+  },
+  {
+   "at": "2026-11-04T11:10:47Z",
+   "source": "KOTA (AP)",
+   "sourceUrl": "https://www.kotatv.com/2026/11/04/republican-larry-rhoden-wins-south-dakota-governors-race-defeating-dan-ahlers/",
+   "text": "AP projects Larry Rhoden (R) wins the South Dakota governor race.",
+   "id": "f20261104T111047SD"
+  },
+  {
+   "at": "2026-11-04T11:10:47Z",
+   "source": "CKOM (AP)",
+   "sourceUrl": "https://www.ckom.com/2026/11/03/democrat-josh-green-wins-reelection-for-governor-in-hawaii/",
+   "text": "AP projects Josh Green (D) wins the Hawaii governor race.",
+   "id": "f20261104T111047HI"
+  },
   {
    "at": "2026-11-04T10:08:44Z",
    "source": "KCTV5 (AP)",
