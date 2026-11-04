@@ -6,14 +6,14 @@
    "R": 160,
    "note": "CNBC Election Desk projection as of 9:17 PM ET Nov 3: Democrats at least 205 and Republicans at least 160 of 435; control 'leans Democratic'. Four districts called by AP are marked on this tracker."
   },
-  "phase": "Counting \u2014 14 of 35 Senate races called",
+  "phase": "Counting \u2014 16 of 35 Senate races called",
   "senate": {
-   "D": 42,
+   "D": 44,
    "O": 2,
    "R": 35,
-   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 14 races called: 10 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA) and 4 Rep (FL special, WY, WV, KY). Outlet tally not checked."
+   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 16 races called: 12 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC) and 4 Rep (FL special, WY, WV, KY). Outlet tally not checked."
   },
-  "updatedAt": "2026-11-04T02:21:49Z"
+  "updatedAt": "2026-11-04T03:08:17Z"
  },
  "races": [
   {
@@ -301,14 +301,16 @@
    "id": "gov-FL"
   },
   {
-   "asOf": "2026-11-04T02:21:49Z",
+   "asOf": "2026-11-04T03:08:17Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Georgia_gubernatorial_election,_2026",
+   "calledBy": "AP, NBC News",
    "candidates": [
     {
      "name": "Keisha Lance Bottoms",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Rick Jackson",
@@ -318,12 +320,11 @@
    ],
    "chamber": "governor",
    "label": "Georgia",
-   "note": "Projected for Keisha Lance Bottoms (D) by NBC News; not yet called by AP.",
    "openSeat": true,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763",
+   "source": "FOX 5 Atlanta",
+   "sourceUrl": "https://www.fox5atlanta.com/news/bottoms-wins-georgia-governor-race-after-jackson-concedes",
    "state": "GA",
-   "status": "counting",
+   "status": "called",
    "id": "gov-GA"
   },
   {
@@ -888,7 +889,7 @@
    "id": "gov-OR"
   },
   {
-   "asOf": "2026-11-04T02:21:49Z",
+   "asOf": "2026-11-04T03:08:17Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Pennsylvania_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
    "candidates": [
@@ -896,25 +897,32 @@
      "incumbent": true,
      "name": "Josh Shapiro",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "pct": 62.9,
+     "votes": 1899975
     },
     {
      "name": "Stacy Garrity",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "pct": 35.9,
+     "votes": 1083906
     },
     {
      "name": "Ken Krawchuk",
      "party": "L",
-     "partyName": "Libertarian"
+     "partyName": "Libertarian",
+     "pct": 1.2,
+     "votes": 37542
     }
    ],
    "chamber": "governor",
    "label": "Pennsylvania",
    "note": "Projected for Josh Shapiro (D) by NBC News; not yet called by AP.",
    "openSeat": false,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763",
+   "reporting": 57.2,
+   "source": "NBC10 Philadelphia (NBC News)",
+   "sourceUrl": "https://nbcphiladelphia.com/elections/election-day-pennsylvania-new-jersey-delaware-midterms-live-updates/4486990",
    "state": "PA",
    "status": "counting",
    "id": "gov-PA"
@@ -4263,48 +4271,153 @@
    "id": "house-PA-01"
   },
   {
+   "asOf": "2026-11-04T03:08:17Z",
+   "candidates": [
+    {
+     "name": "Brendan Boyle",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 79.9,
+     "votes": 127444
+    },
+    {
+     "name": "Jessica Arriaga",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 20.1,
+     "votes": 32025
+    }
+   ],
    "chamber": "house",
    "district": 2,
    "label": "Pennsylvania 2",
+   "note": "Projected for Brendan Boyle by NBC News; not yet called by AP.",
+   "reporting": 79.8,
+   "source": "NBC10 Philadelphia (NBC News)",
+   "sourceUrl": "https://nbcphiladelphia.com/elections/election-day-pennsylvania-new-jersey-delaware-midterms-live-updates/4486990",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "counting",
    "id": "house-PA-02"
   },
   {
+   "asOf": "2026-11-04T03:08:17Z",
+   "candidates": [
+    {
+     "name": "Chris Rabb",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 93.4,
+     "votes": 178997
+    },
+    {
+     "name": "Dennis Mahoney",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 6.6,
+     "votes": 12660
+    }
+   ],
    "chamber": "house",
    "district": 3,
    "label": "Pennsylvania 3",
+   "note": "Projected for Chris Rabb by NBC News; not yet called by AP.",
+   "reporting": 67.8,
+   "source": "NBC10 Philadelphia (NBC News)",
+   "sourceUrl": "https://nbcphiladelphia.com/elections/election-day-pennsylvania-new-jersey-delaware-midterms-live-updates/4486990",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "counting",
    "id": "house-PA-03"
   },
   {
+   "asOf": "2026-11-04T03:08:17Z",
+   "candidates": [
+    {
+     "name": "Madeleine Dean",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 75.1,
+     "votes": 83466
+    },
+    {
+     "name": "Aurora Stuski",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 24.9,
+     "votes": 27669
+    }
+   ],
    "chamber": "house",
    "district": 4,
    "label": "Pennsylvania 4",
+   "note": "Projected for Madeleine Dean by NBC News; not yet called by AP.",
+   "reporting": 30,
+   "source": "NBC10 Philadelphia (NBC News)",
+   "sourceUrl": "https://nbcphiladelphia.com/elections/election-day-pennsylvania-new-jersey-delaware-midterms-live-updates/4486990",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "counting",
    "id": "house-PA-04"
   },
   {
+   "asOf": "2026-11-04T03:08:17Z",
+   "candidates": [
+    {
+     "name": "Mary Gay Scanlon",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 77.5,
+     "votes": 73884
+    },
+    {
+     "name": "Nick Manganaro",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 22.5,
+     "votes": 21446
+    }
+   ],
    "chamber": "house",
    "district": 5,
    "label": "Pennsylvania 5",
+   "note": "Projected for Mary Gay Scanlon by NBC News; not yet called by AP.",
+   "reporting": 30.1,
+   "source": "NBC10 Philadelphia (NBC News)",
+   "sourceUrl": "https://nbcphiladelphia.com/elections/election-day-pennsylvania-new-jersey-delaware-midterms-live-updates/4486990",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "counting",
    "id": "house-PA-05"
   },
   {
+   "asOf": "2026-11-04T03:08:17Z",
+   "candidates": [
+    {
+     "name": "Chrissy Houlahan",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 67.2,
+     "votes": 130116
+    },
+    {
+     "name": "Marty Young",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 32.8,
+     "votes": 63405
+    }
+   ],
    "chamber": "house",
    "district": 6,
    "label": "Pennsylvania 6",
+   "note": "Projected for Chrissy Houlahan by NBC News; not yet called by AP.",
+   "reporting": 59.2,
+   "source": "NBC10 Philadelphia (NBC News)",
+   "sourceUrl": "https://nbcphiladelphia.com/elections/election-day-pennsylvania-new-jersey-delaware-midterms-live-updates/4486990",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "counting",
    "id": "house-PA-06"
   },
   {
@@ -4317,12 +4430,33 @@
    "id": "house-PA-07"
   },
   {
+   "asOf": "2026-11-04T03:08:17Z",
+   "candidates": [
+    {
+     "name": "Paige Cognetti",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 57.4,
+     "votes": 125592
+    },
+    {
+     "name": "Rob Bresnahan Jr.",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 42.6,
+     "votes": 93215
+    }
+   ],
    "chamber": "house",
    "district": 8,
    "label": "Pennsylvania 8",
+   "note": "Projected for Paige Cognetti by NBC News; not yet called by AP.",
+   "reporting": 77.6,
+   "source": "NBC10 Philadelphia (NBC News)",
+   "sourceUrl": "https://nbcphiladelphia.com/elections/election-day-pennsylvania-new-jersey-delaware-midterms-live-updates/4486990",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "counting",
    "id": "house-PA-08"
   },
   {
@@ -4353,21 +4487,63 @@
    "id": "house-PA-11"
   },
   {
+   "asOf": "2026-11-04T03:08:17Z",
+   "candidates": [
+    {
+     "name": "Summer Lee",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 69.3,
+     "votes": 150349
+    },
+    {
+     "name": "James Hayes",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 30.7,
+     "votes": 66576
+    }
+   ],
    "chamber": "house",
    "district": 12,
    "label": "Pennsylvania 12",
+   "note": "Projected for Summer Lee by NBC News; not yet called by AP.",
+   "reporting": 70.4,
+   "source": "NBC10 Philadelphia (NBC News)",
+   "sourceUrl": "https://nbcphiladelphia.com/elections/election-day-pennsylvania-new-jersey-delaware-midterms-live-updates/4486990",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "counting",
    "id": "house-PA-12"
   },
   {
+   "asOf": "2026-11-04T03:08:17Z",
+   "candidates": [
+    {
+     "name": "John Joyce",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 69.1,
+     "votes": 135435
+    },
+    {
+     "name": "Beth Farnham",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 30.9,
+     "votes": 60452
+    }
+   ],
    "chamber": "house",
    "district": 13,
    "label": "Pennsylvania 13",
+   "note": "Projected for John Joyce by NBC News; not yet called by AP.",
+   "reporting": 76.9,
+   "source": "NBC10 Philadelphia (NBC News)",
+   "sourceUrl": "https://nbcphiladelphia.com/elections/election-day-pennsylvania-new-jersey-delaware-midterms-live-updates/4486990",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "counting",
    "id": "house-PA-13"
   },
   {
@@ -4380,12 +4556,33 @@
    "id": "house-PA-14"
   },
   {
+   "asOf": "2026-11-04T03:08:17Z",
+   "candidates": [
+    {
+     "name": "Glenn Thompson",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 65.7,
+     "votes": 137816
+    },
+    {
+     "name": "Ray Bilger",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 34.3,
+     "votes": 72065
+    }
+   ],
    "chamber": "house",
    "district": 15,
    "label": "Pennsylvania 15",
+   "note": "Projected for Glenn Thompson by NBC News; not yet called by AP.",
+   "reporting": 73.4,
+   "source": "NBC10 Philadelphia (NBC News)",
+   "sourceUrl": "https://nbcphiladelphia.com/elections/election-day-pennsylvania-new-jersey-delaware-midterms-live-updates/4486990",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "counting",
    "id": "house-PA-15"
   },
   {
@@ -4398,12 +4595,33 @@
    "id": "house-PA-16"
   },
   {
+   "asOf": "2026-11-04T03:08:17Z",
+   "candidates": [
+    {
+     "name": "Chris Deluzio",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 66,
+     "votes": 175440
+    },
+    {
+     "name": "Tony Guy",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 34,
+     "votes": 90539
+    }
+   ],
    "chamber": "house",
    "district": 17,
    "label": "Pennsylvania 17",
+   "note": "Projected for Chris Deluzio by NBC News; not yet called by AP.",
+   "reporting": 77.6,
+   "source": "NBC10 Philadelphia (NBC News)",
+   "sourceUrl": "https://nbcphiladelphia.com/elections/election-day-pennsylvania-new-jersey-delaware-midterms-live-updates/4486990",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "counting",
    "id": "house-PA-17"
   },
   {
@@ -6063,18 +6281,23 @@
    "id": "senate-OH-special"
   },
   {
+   "asOf": "2026-11-04T03:08:17Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Oklahoma,_2026",
    "candidates": [
     {
      "name": "N'Kiyla Thomas",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "pct": 36,
+     "votes": 262340
     },
     {
      "name": "Kevin Hern",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "pct": 60.6,
+     "votes": 441549
     },
     {
      "name": "Sevier White",
@@ -6094,9 +6317,13 @@
    ],
    "chamber": "senate",
    "label": "Oklahoma",
+   "note": "Projected for Kevin Hern (R) by NBC News; not yet called by AP. Figures as of 8:36 p.m. ET.",
    "openSeat": true,
+   "reporting": 59,
+   "source": "OU Daily",
+   "sourceUrl": "https://www.oudaily.com/news/oklahoma-senate-election-results-hern-thomas-2026/article_421f27b4-fde2-4fc6-b34b-179f12e7c080.html",
    "state": "OK",
-   "status": "polls_open",
+   "status": "counting",
    "id": "senate-OK"
   },
   {
@@ -6167,13 +6394,16 @@
    "id": "senate-RI"
   },
   {
+   "asOf": "2026-11-04T03:08:17Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_South_Carolina,_2026",
+   "calledBy": "AP, Decision Desk HQ, NBC News",
    "candidates": [
     {
      "name": "Annie Andrews",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "incumbent": true,
@@ -6196,8 +6426,10 @@
    "label": "South Carolina",
    "note": "Darline Graham was appointed in July 2026 after the death of Sen. Lindsey Graham.",
    "openSeat": false,
+   "source": "Fox Carolina",
+   "sourceUrl": "https://www.foxcarolina.com/2026/11/04/annie-andrews-projected-win-us-senate-race-flipping-south-carolina-seat-blue/",
    "state": "SC",
-   "status": "polls_open",
+   "status": "called",
    "id": "senate-SC"
   },
   {
@@ -6310,15 +6542,17 @@
    "id": "senate-TX"
   },
   {
-   "asOf": "2026-11-04T02:21:49Z",
+   "asOf": "2026-11-04T03:08:17Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Virginia,_2026",
+   "calledBy": "AP",
    "candidates": [
     {
      "incumbent": true,
      "name": "Mark Warner",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Bert Mizusawa",
@@ -6328,12 +6562,12 @@
    ],
    "chamber": "senate",
    "label": "Virginia",
-   "note": "Projected for Mark Warner (D) by CBS News; not yet called by AP.",
+   "note": "Called by AP with less than 1% of the vote reported.",
    "openSeat": false,
-   "source": "CBS News",
-   "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+   "source": "GV Wire",
+   "sourceUrl": "https://gvwire.com/2026/11/03/mark-warner-wins-reelection-in-virginia-ap-makes-first-senate-call-of-night/",
    "state": "VA",
-   "status": "counting",
+   "status": "called",
    "id": "senate-VA"
   },
   {
@@ -6400,6 +6634,27 @@
   }
  ],
  "feed": [
+  {
+   "at": "2026-11-04T03:08:17Z",
+   "source": "GV Wire",
+   "sourceUrl": "https://gvwire.com/2026/11/03/mark-warner-wins-reelection-in-virginia-ap-makes-first-senate-call-of-night/",
+   "text": "AP projects Mark Warner (D) wins the Virginia Senate race.",
+   "id": "f20261104T030817a"
+  },
+  {
+   "at": "2026-11-04T03:08:17Z",
+   "source": "Fox Carolina",
+   "sourceUrl": "https://www.foxcarolina.com/2026/11/04/annie-andrews-projected-win-us-senate-race-flipping-south-carolina-seat-blue/",
+   "text": "AP, Decision Desk HQ and NBC News project Annie Andrews (D) wins the South Carolina Senate race.",
+   "id": "f20261104T030817b"
+  },
+  {
+   "at": "2026-11-04T03:08:17Z",
+   "source": "FOX 5 Atlanta",
+   "sourceUrl": "https://www.fox5atlanta.com/news/bottoms-wins-georgia-governor-race-after-jackson-concedes",
+   "text": "AP projects Keisha Lance Bottoms (D) wins the Georgia governor race.",
+   "id": "f20261104T030817c"
+  },
   {
    "at": "2026-11-04T02:21:49Z",
    "source": "CNBC",
