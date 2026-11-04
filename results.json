@@ -13,7 +13,7 @@
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-04T16:04:31Z"
+  "updatedAt": "2026-11-04T20:15:43Z"
  },
  "races": [
   {
@@ -538,7 +538,7 @@
    "id": "gov-IL"
   },
   {
-   "asOf": "2026-11-04T16:04:31Z",
+   "asOf": "2026-11-04T20:15:43Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Kansas_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
    "candidates": [
@@ -546,22 +546,24 @@
      "name": "Cindy Holscher",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 50.4
+     "pct": 50.3,
+     "votes": 546587
     },
     {
      "name": "Ty Masterson",
      "party": "R",
      "partyName": "Republican",
-     "pct": 49.6
+     "pct": 49.7,
+     "votes": 541030
     }
    ],
    "chamber": "governor",
    "label": "Kansas",
-   "note": "Holscher led Masterson by 5,557 votes; mail ballots postmarked by Election Day are accepted through Friday. Not called.",
+   "note": "Holscher led Masterson by 5,557 votes; mail ballots postmarked by Election Day accepted through Friday. Not called by AP.",
    "openSeat": true,
-   "reporting": 93.9,
-   "source": "KWCH",
-   "sourceUrl": "https://www.kwch.com/2026/11/04/holscher-holds-narrow-lead-over-masterson-uncalled-kansas-governors-race/",
+   "reporting": 97.9,
+   "source": "WIBW",
+   "sourceUrl": "https://www.wibw.com/2026/11/04/holscher-claims-victory-kansas-gubernatorial-race-thats-still-too-close-call/",
    "state": "KS",
    "status": "counting",
    "id": "gov-KS"
@@ -6449,7 +6451,7 @@
    "id": "senate-GA"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T20:15:43Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Iowa,_2026",
    "calledBy": "AP, CBS News",
@@ -6458,14 +6460,16 @@
      "name": "Josh Turek",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 50.4,
+     "pct": 50.5,
+     "votes": 686487,
      "winner": true
     },
     {
      "name": "Ashley Hinson",
      "party": "R",
      "partyName": "Republican",
-     "pct": 46.5
+     "pct": 46.4,
+     "votes": 630615
     },
     {
      "name": "Thomas Laehn",
@@ -6476,9 +6480,9 @@
    "chamber": "senate",
    "label": "Iowa",
    "openSeat": true,
-   "reporting": 97.2,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "reporting": 98.1,
+   "source": "The World Data",
+   "sourceUrl": "https://theworlddata.com/us-senate-election-results-by-state/",
    "state": "IA",
    "status": "called",
    "id": "senate-IA"
@@ -6562,7 +6566,7 @@
    "id": "senate-IL"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T20:15:43Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Kansas,_2026",
    "calledBy": "AP, CBS News, NBC News",
@@ -6571,8 +6575,8 @@
      "name": "Adam Hamilton",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 51.1,
-     "votes": 541771,
+     "pct": 50.9,
+     "votes": 556414,
      "winner": true
     },
     {
@@ -6580,8 +6584,8 @@
      "name": "Roger Marshall",
      "party": "R",
      "partyName": "Republican",
-     "pct": 45.9,
-     "votes": 466980
+     "pct": 46.1,
+     "votes": 503230
     },
     {
      "name": "David Graham",
@@ -6594,9 +6598,9 @@
    "chamber": "senate",
    "label": "Kansas",
    "openSeat": false,
-   "reporting": 94.6,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "reporting": 98.5,
+   "source": "The World Data",
+   "sourceUrl": "https://theworlddata.com/us-senate-election-results-by-state/",
    "state": "KS",
    "status": "called",
    "id": "senate-KS"
@@ -6713,7 +6717,7 @@
    "id": "senate-MA"
   },
   {
-   "asOf": "2026-11-04T06:15:00Z",
+   "asOf": "2026-11-04T20:15:43Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Maine,_2026",
    "calledAt": "2026-11-04T06:15:00Z",
@@ -6723,8 +6727,8 @@
      "name": "Troy Jackson",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 53,
-     "votes": 291682,
+     "pct": 53.8,
+     "votes": 342661,
      "winner": true
     },
     {
@@ -6732,17 +6736,17 @@
      "name": "Susan Collins",
      "party": "R",
      "partyName": "Republican",
-     "pct": 47,
-     "votes": 258254
+     "pct": 46.1,
+     "votes": 293629
     }
    ],
    "chamber": "senate",
    "label": "Maine",
    "note": "Maine uses ranked-choice voting for U.S. Senate. Collins conceded, per NPR/NHPR.",
    "openSeat": false,
-   "reporting": 72,
-   "source": "ABC News",
-   "sourceUrl": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
+   "reporting": 86,
+   "source": "The World Data",
+   "sourceUrl": "https://theworlddata.com/us-senate-election-results-by-state/",
    "state": "ME",
    "status": "called",
    "id": "senate-ME"
@@ -6840,7 +6844,7 @@
    "id": "senate-MN"
   },
   {
-   "asOf": "2026-11-04T09:09:07Z",
+   "asOf": "2026-11-04T20:15:43Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Mississippi,_2026",
    "candidates": [
@@ -6849,7 +6853,7 @@
      "party": "D",
      "partyName": "Democratic",
      "pct": 48.9,
-     "votes": 462779
+     "votes": 462857
     },
     {
      "incumbent": true,
@@ -6857,22 +6861,23 @@
      "party": "R",
      "partyName": "Republican",
      "pct": 48.9,
-     "votes": 462751
+     "votes": 462792
     },
     {
      "name": "Ty Pinkins",
      "party": "I",
      "partyName": "Independent",
      "pct": 2.1,
-     "votes": 19934
+     "votes": 19938
     }
    ],
    "chamber": "senate",
    "label": "Mississippi",
+   "note": "Colom led Hyde-Smith by 65 votes; not called.",
    "openSeat": false,
-   "reporting": 97.2,
-   "source": "WLOX",
-   "sourceUrl": "https://www.wlox.com/2026/11/04/hyde-smith-colom-address-watch-parties-election-night-comes-close/",
+   "reporting": 95.6,
+   "source": "WLOX / Gray News (via KBTX)",
+   "sourceUrl": "https://www.kbtx.com/2026/11/04/colom-hyde-smith-separated-by-narrow-margin-mississippi-senate-race/",
    "state": "MS",
    "status": "counting",
    "id": "senate-MS"
@@ -6921,7 +6926,7 @@
    "id": "senate-MT"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T20:15:43Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026",
    "calledAt": "2026-11-04T02:21:49Z",
@@ -6955,8 +6960,8 @@
    "label": "North Carolina",
    "openSeat": true,
    "reporting": 99,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "The World Data",
+   "sourceUrl": "https://theworlddata.com/us-senate-election-results-by-state/",
    "state": "NC",
    "status": "called",
    "id": "senate-NC"
@@ -7087,7 +7092,7 @@
    "id": "senate-NJ"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T20:15:43Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_New_Mexico,_2026",
    "calledAt": "2026-11-04T02:21:49Z",
@@ -7098,28 +7103,28 @@
      "name": "Ben Ray Luj\u00e1n",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 63.1,
+     "pct": 63.2,
      "winner": true
     },
     {
      "name": "Larry Marker",
      "party": "R",
      "partyName": "Republican",
-     "pct": 36.9
+     "pct": 36.8
     }
    ],
    "chamber": "senate",
    "label": "New Mexico",
    "openSeat": false,
-   "reporting": 96.1,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "reporting": 98,
+   "source": "The World Data",
+   "sourceUrl": "https://theworlddata.com/us-senate-election-results-by-state/",
    "state": "NM",
    "status": "called",
    "id": "senate-NM"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T20:15:43Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_special_election_in_Ohio,_2026",
    "calledBy": "AP, CBS News",
@@ -7128,7 +7133,7 @@
      "name": "Sherrod Brown",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 49,
+     "pct": 50,
      "votes": 2131644,
      "winner": true
     },
@@ -7137,7 +7142,7 @@
      "name": "Jon Husted",
      "party": "R",
      "partyName": "Republican",
-     "pct": 46,
+     "pct": 45.2,
      "votes": 1998474
     },
     {
@@ -7155,8 +7160,8 @@
    "label": "Ohio",
    "openSeat": false,
    "reporting": 91,
-   "source": "ABC News",
-   "sourceUrl": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
+   "source": "The World Data",
+   "sourceUrl": "https://theworlddata.com/us-senate-election-results-by-state/",
    "state": "OH",
    "status": "called",
    "sub": "Special",
@@ -7253,7 +7258,7 @@
    "id": "senate-OR"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T20:15:43Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Rhode_Island,_2026",
    "calledAt": "2026-11-04T02:21:49Z",
@@ -7282,15 +7287,15 @@
    "chamber": "senate",
    "label": "Rhode Island",
    "openSeat": false,
-   "reporting": 93.9,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "reporting": 97.1,
+   "source": "The World Data",
+   "sourceUrl": "https://theworlddata.com/us-senate-election-results-by-state/",
    "state": "RI",
    "status": "called",
    "id": "senate-RI"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T20:15:43Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_South_Carolina,_2026",
    "calledBy": "AP, Decision Desk HQ, NBC News",
@@ -7300,6 +7305,7 @@
      "party": "D",
      "partyName": "Democratic",
      "pct": 51.1,
+     "votes": 1042362,
      "winner": true
     },
     {
@@ -7307,7 +7313,8 @@
      "name": "Darline Graham",
      "party": "R",
      "partyName": "Republican",
-     "pct": 46.7
+     "pct": 46.7,
+     "votes": 951165
     },
     {
      "name": "Kasie Whitener",
@@ -7324,9 +7331,9 @@
    "label": "South Carolina",
    "note": "Darline Graham was appointed in July 2026 after the death of Sen. Lindsey Graham.",
    "openSeat": false,
-   "reporting": 94.5,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "reporting": 99,
+   "source": "The World Data",
+   "sourceUrl": "https://theworlddata.com/us-senate-election-results-by-state/",
    "state": "SC",
    "status": "called",
    "id": "senate-SC"
@@ -7436,7 +7443,7 @@
    "id": "senate-TN"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T20:15:43Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Texas,_2026",
    "calledAt": "2026-11-04T04:20:00Z",
@@ -7446,25 +7453,25 @@
      "name": "James Talarico",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 55,
-     "votes": 5029764,
+     "pct": 55.2,
+     "votes": 5388840,
      "winner": true
     },
     {
      "name": "Ken Paxton",
      "party": "R",
      "partyName": "Republican",
-     "pct": 43,
-     "votes": 3967071
+     "pct": 42.9,
+     "votes": 4184417
     }
    ],
    "chamber": "senate",
    "label": "Texas",
    "openSeat": true,
    "othersOnBallot": 5,
-   "reporting": 88,
-   "source": "ABC News",
-   "sourceUrl": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
+   "reporting": 96.95,
+   "source": "The World Data",
+   "sourceUrl": "https://theworlddata.com/us-senate-election-results-by-state/",
    "state": "TX",
    "status": "called",
    "id": "senate-TX"
