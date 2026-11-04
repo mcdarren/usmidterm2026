@@ -6,14 +6,14 @@
    "R": 136,
    "note": "NBC News tally of seats called as of 1:45 AM ET Nov 4 (73 uncalled); NBC News and ABC News project Democratic control."
   },
-  "phase": "Counting \u2014 29 of 35 Senate races called",
+  "phase": "Counting \u2014 31 of 35 Senate races called",
   "senate": {
-   "D": 51,
+   "D": 52,
    "O": 2,
-   "R": 41,
-   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 29 races called: 19 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR) and 10 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID). CBS News and the CNBC Election Desk project Democratic control of the Senate."
+   "R": 42,
+   "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 31 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 11 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-04T07:10:00Z"
+  "updatedAt": "2026-11-04T08:20:00Z"
  },
  "races": [
   {
@@ -6693,15 +6693,18 @@
    "id": "senate-ME"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T08:20:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Michigan,_2026",
+   "calledAt": "2026-11-04T07:08:00Z",
+   "calledBy": "CBS News, ABC News",
    "candidates": [
     {
      "name": "Abdul El-Sayed",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 51.8
+     "pct": 51.8,
+     "winner": true
     },
     {
      "name": "Mike Rogers",
@@ -6734,10 +6737,10 @@
    "label": "Michigan",
    "openSeat": true,
    "reporting": 79.3,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "ABC News",
+   "sourceUrl": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
    "state": "MI",
-   "status": "counting",
+   "status": "called",
    "id": "senate-MI"
   },
   {
@@ -6820,9 +6823,11 @@
    "id": "senate-MS"
   },
   {
-   "asOf": "2026-11-04T07:10:00Z",
+   "asOf": "2026-11-04T08:20:00Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Montana,_2026",
+   "calledAt": "2026-11-04T07:08:00Z",
+   "calledBy": "CBS News, ABC News",
    "candidates": [
     {
      "name": "Alani Bankhead",
@@ -6834,7 +6839,8 @@
      "name": "Kurt Alme",
      "party": "R",
      "partyName": "Republican",
-     "pct": 50
+     "pct": 50,
+     "winner": true
     },
     {
      "name": "Seth Bodnar",
@@ -6851,12 +6857,12 @@
    ],
    "chamber": "senate",
    "label": "Montana",
-   "note": "Projected for Kurt Alme (R) by CBS News; not yet called by AP.",
+   "note": "Called by CBS News and ABC News; not yet called by AP. Percentages are from an earlier partial count.",
    "openSeat": true,
-   "source": "Daily Montanan",
-   "sourceUrl": "https://dailymontanan.com/2026/11/03/republican-kurt-alme-leading-in-us-senate-race-independent-seth-bodnar-still-hopeful/",
+   "source": "ABC News",
+   "sourceUrl": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
    "state": "MT",
-   "status": "counting",
+   "status": "called",
    "id": "senate-MT"
   },
   {
@@ -7507,6 +7513,20 @@
   }
  ],
  "feed": [
+  {
+   "at": "2026-11-04T07:08:00Z",
+   "source": "ABC News",
+   "sourceUrl": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
+   "text": "CBS News and ABC News project Abdul El-Sayed (D) wins the Michigan Senate race.",
+   "id": "f20261104T072000a"
+  },
+  {
+   "at": "2026-11-04T07:08:00Z",
+   "source": "ABC News",
+   "sourceUrl": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
+   "text": "CBS News and ABC News project Kurt Alme (R) wins the Montana Senate race.",
+   "id": "f20261104T072000b"
+  },
   {
    "at": "2026-11-04T06:46:00Z",
    "source": "CBS News",
