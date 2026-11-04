@@ -13,7 +13,7 @@
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-04T11:10:47Z"
+  "updatedAt": "2026-11-04T12:09:21Z"
  },
  "races": [
   {
@@ -805,9 +805,11 @@
    "id": "gov-NE"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T12:09:21Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/New_Hampshire_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T12:09:21Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Cinde Warmington",
@@ -820,7 +822,8 @@
      "name": "Kelly Ayotte",
      "party": "R",
      "partyName": "Republican",
-     "pct": 51.1
+     "pct": 51.1,
+     "winner": true
     },
     {
      "name": "Stephen Villee",
@@ -830,13 +833,12 @@
    ],
    "chamber": "governor",
    "label": "New Hampshire",
-   "note": "Projected for Kelly Ayotte (R) by ABC News; not yet called by AP.",
    "openSeat": false,
    "reporting": 85.3,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "InDepthNH (AP)",
+   "sourceUrl": "https://indepthnh.org/2026/11/04/kelly-ayotte-wins-re-election-as-governor-of-new-hampshire/",
    "state": "NH",
-   "status": "counting",
+   "status": "called",
    "id": "gov-NH"
   },
   {
@@ -1118,15 +1120,18 @@
    "id": "gov-PA"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T12:09:21Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Rhode_Island_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T12:09:21Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Helena Foulkes",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 57.5
+     "pct": 57.5,
+     "winner": true
     },
     {
      "name": "Aaron Guckian",
@@ -1152,13 +1157,12 @@
    ],
    "chamber": "governor",
    "label": "Rhode Island",
-   "note": "Projected for Helena Foulkes (D) by NBC News; not yet called by AP.",
    "openSeat": true,
    "reporting": 93.9,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "Yahoo News (AP)",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/democrat-helena-foulkes-wins-election-015743948.html",
    "state": "RI",
-   "status": "counting",
+   "status": "called",
    "id": "gov-RI"
   },
   {
@@ -1367,9 +1371,11 @@
    "id": "gov-TX"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T12:09:21Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Vermont_gubernatorial_election,_2026",
+   "calledAt": "2026-11-04T12:09:21Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Amanda Janoo",
@@ -1382,7 +1388,8 @@
      "name": "Phil Scott",
      "party": "R",
      "partyName": "Republican",
-     "pct": 52.4
+     "pct": 52.4,
+     "winner": true
     },
     {
      "name": "Dean Roy",
@@ -1404,10 +1411,10 @@
    "label": "Vermont",
    "openSeat": false,
    "reporting": 98.7,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "Yahoo News (AP)",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/republican-phil-scott-wins-reelection-053529746.html",
    "state": "VT",
-   "status": "counting",
+   "status": "called",
    "id": "gov-VT"
   },
   {
@@ -7774,6 +7781,20 @@
    "id": "f20261104T061500b"
   },
   {
+   "at": "2026-11-04T05:42:00Z",
+   "source": "InDepthNH (AP)",
+   "sourceUrl": "https://indepthnh.org/2026/11/04/kelly-ayotte-wins-re-election-as-governor-of-new-hampshire/",
+   "text": "AP projects Kelly Ayotte (R) wins the New Hampshire governor race.",
+   "id": "f20261104T120921NH"
+  },
+  {
+   "at": "2026-11-04T05:35:00Z",
+   "source": "Yahoo News (AP)",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/republican-phil-scott-wins-reelection-053529746.html",
+   "text": "AP projects Phil Scott (R) wins the Vermont governor race.",
+   "id": "f20261104T120921VT"
+  },
+  {
    "at": "2026-11-04T05:25:00Z",
    "source": "CBS News",
    "sourceUrl": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
@@ -8017,6 +8038,13 @@
    "sourceUrl": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
    "text": "NBC News and CBS News project Juliana Stratton (D) wins the Illinois Senate race.",
    "id": "f20261104T02214908"
+  },
+  {
+   "at": "2026-11-04T01:57:00Z",
+   "source": "Yahoo News (AP)",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/democrat-helena-foulkes-wins-election-015743948.html",
+   "text": "AP projects Helena Foulkes (D) wins the Rhode Island governor race.",
+   "id": "f20261104T120921RI"
   },
   {
    "at": "2026-11-04T00:55:00Z",
