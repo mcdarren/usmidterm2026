@@ -1,19 +1,19 @@
 {
  "summary": {
   "house": {
-   "D": 226,
+   "D": 228,
    "O": 0,
-   "R": 136,
-   "note": "NBC News tally of seats called as of 1:45 AM ET Nov 4 (73 uncalled); NBC News and ABC News project Democratic control."
+   "R": 139,
+   "note": "Associated Press tally of seats called as of 7 a.m. ET Nov 4 (68 uncalled), as reported by State Capital Lobbyist; AP projects Democratic control."
   },
-  "phase": "Counting \u2014 33 of 35 Senate races called",
+  "phase": "Counting \u2014 33 of 35 Senate races called; Alaska and Mississippi uncalled",
   "senate": {
    "D": 52,
    "O": 2,
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-04T12:09:21Z"
+  "updatedAt": "2026-11-04T16:04:31Z"
  },
  "races": [
   {
@@ -538,7 +538,7 @@
    "id": "gov-IL"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T16:04:31Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Kansas_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
    "candidates": [
@@ -557,10 +557,11 @@
    ],
    "chamber": "governor",
    "label": "Kansas",
+   "note": "Holscher led Masterson by 5,557 votes; mail ballots postmarked by Election Day are accepted through Friday. Not called.",
    "openSeat": true,
    "reporting": 93.9,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "source": "KWCH",
+   "sourceUrl": "https://www.kwch.com/2026/11/04/holscher-holds-narrow-lead-over-masterson-uncalled-kansas-governors-race/",
    "state": "KS",
    "status": "counting",
    "id": "gov-KS"
@@ -6181,7 +6182,7 @@
    "id": "house-WY-AL"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-04T16:04:31Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Alaska,_2026",
    "candidates": [
@@ -6189,14 +6190,14 @@
      "name": "Mary Peltola",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 48.1
+     "pct": 48
     },
     {
      "incumbent": true,
      "name": "Dan Sullivan",
      "party": "R",
      "partyName": "Republican",
-     "pct": 48
+     "pct": 47.7
     },
     {
      "name": "Gerald Heikes",
@@ -6211,11 +6212,11 @@
    ],
    "chamber": "senate",
    "label": "Alaska",
-   "note": "Alaska uses ranked-choice voting in the general election.",
+   "note": "Peltola led by 626 votes; no candidate above 50%, so ranked-choice tabulation is scheduled for Nov. 18. Not called.",
    "openSeat": false,
    "reporting": 54.3,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "source": "Alaska Public Media",
+   "sourceUrl": "https://alaskapublic.org/news/politics/elections/2026-11-03/peltola-takes-early-lead-in-alaskas-u-s-senate-race",
    "state": "AK",
    "status": "counting",
    "id": "senate-AK"
