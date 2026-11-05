@@ -1492,7 +1492,7 @@
    "label": "Alaska at-large",
    "state": "AK",
    "stateName": "Alaska",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AK-AL"
   },
   {
@@ -1501,7 +1501,7 @@
    "label": "Alabama 1",
    "state": "AL",
    "stateName": "Alabama",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AL-01"
   },
   {
@@ -1510,7 +1510,7 @@
    "label": "Alabama 2",
    "state": "AL",
    "stateName": "Alabama",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AL-02"
   },
   {
@@ -1519,7 +1519,7 @@
    "label": "Alabama 3",
    "state": "AL",
    "stateName": "Alabama",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AL-03"
   },
   {
@@ -1528,7 +1528,7 @@
    "label": "Alabama 4",
    "state": "AL",
    "stateName": "Alabama",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AL-04"
   },
   {
@@ -1537,7 +1537,7 @@
    "label": "Alabama 5",
    "state": "AL",
    "stateName": "Alabama",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AL-05"
   },
   {
@@ -1546,7 +1546,7 @@
    "label": "Alabama 6",
    "state": "AL",
    "stateName": "Alabama",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AL-06"
   },
   {
@@ -1555,7 +1555,7 @@
    "label": "Alabama 7",
    "state": "AL",
    "stateName": "Alabama",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AL-07"
   },
   {
@@ -1564,7 +1564,7 @@
    "label": "Arkansas 1",
    "state": "AR",
    "stateName": "Arkansas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AR-01"
   },
   {
@@ -1573,7 +1573,7 @@
    "label": "Arkansas 2",
    "state": "AR",
    "stateName": "Arkansas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AR-02"
   },
   {
@@ -1582,7 +1582,7 @@
    "label": "Arkansas 3",
    "state": "AR",
    "stateName": "Arkansas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AR-03"
   },
   {
@@ -1591,7 +1591,7 @@
    "label": "Arkansas 4",
    "state": "AR",
    "stateName": "Arkansas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AR-04"
   },
   {
@@ -1627,7 +1627,7 @@
    "label": "Arizona 2",
    "state": "AZ",
    "stateName": "Arizona",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AZ-02"
   },
   {
@@ -1636,7 +1636,7 @@
    "label": "Arizona 3",
    "state": "AZ",
    "stateName": "Arizona",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AZ-03"
   },
   {
@@ -1645,7 +1645,7 @@
    "label": "Arizona 4",
    "state": "AZ",
    "stateName": "Arizona",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AZ-04"
   },
   {
@@ -1654,7 +1654,7 @@
    "label": "Arizona 5",
    "state": "AZ",
    "stateName": "Arizona",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AZ-05"
   },
   {
@@ -1690,7 +1690,7 @@
    "label": "Arizona 7",
    "state": "AZ",
    "stateName": "Arizona",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AZ-07"
   },
   {
@@ -1699,7 +1699,7 @@
    "label": "Arizona 8",
    "state": "AZ",
    "stateName": "Arizona",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AZ-08"
   },
   {
@@ -1708,7 +1708,7 @@
    "label": "Arizona 9",
    "state": "AZ",
    "stateName": "Arizona",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-AZ-09"
   },
   {
@@ -1717,7 +1717,7 @@
    "label": "California 1",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-01"
   },
   {
@@ -1726,7 +1726,7 @@
    "label": "California 2",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-02"
   },
   {
@@ -1735,7 +1735,7 @@
    "label": "California 3",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-03"
   },
   {
@@ -1744,7 +1744,7 @@
    "label": "California 4",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-04"
   },
   {
@@ -1753,7 +1753,7 @@
    "label": "California 5",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-05"
   },
   {
@@ -1762,7 +1762,7 @@
    "label": "California 6",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-06"
   },
   {
@@ -1771,7 +1771,7 @@
    "label": "California 7",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-07"
   },
   {
@@ -1780,7 +1780,7 @@
    "label": "California 8",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-08"
   },
   {
@@ -1789,7 +1789,7 @@
    "label": "California 9",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-09"
   },
   {
@@ -1798,7 +1798,7 @@
    "label": "California 10",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-10"
   },
   {
@@ -1807,7 +1807,7 @@
    "label": "California 11",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-11"
   },
   {
@@ -1816,7 +1816,7 @@
    "label": "California 12",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-12"
   },
   {
@@ -1825,7 +1825,7 @@
    "label": "California 13",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-13"
   },
   {
@@ -1834,7 +1834,7 @@
    "label": "California 14",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-14"
   },
   {
@@ -1843,7 +1843,7 @@
    "label": "California 15",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-15"
   },
   {
@@ -1852,7 +1852,7 @@
    "label": "California 16",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-16"
   },
   {
@@ -1861,7 +1861,7 @@
    "label": "California 17",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-17"
   },
   {
@@ -1870,7 +1870,7 @@
    "label": "California 18",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-18"
   },
   {
@@ -1879,7 +1879,7 @@
    "label": "California 19",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-19"
   },
   {
@@ -1888,7 +1888,7 @@
    "label": "California 20",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-20"
   },
   {
@@ -1897,7 +1897,7 @@
    "label": "California 21",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-21"
   },
   {
@@ -1933,7 +1933,7 @@
    "label": "California 23",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-23"
   },
   {
@@ -1942,7 +1942,7 @@
    "label": "California 24",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-24"
   },
   {
@@ -1951,7 +1951,7 @@
    "label": "California 25",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-25"
   },
   {
@@ -1960,7 +1960,7 @@
    "label": "California 26",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-26"
   },
   {
@@ -1969,7 +1969,7 @@
    "label": "California 27",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-27"
   },
   {
@@ -1978,7 +1978,7 @@
    "label": "California 28",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-28"
   },
   {
@@ -1987,7 +1987,7 @@
    "label": "California 29",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-29"
   },
   {
@@ -1996,7 +1996,7 @@
    "label": "California 30",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-30"
   },
   {
@@ -2005,7 +2005,7 @@
    "label": "California 31",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-31"
   },
   {
@@ -2014,7 +2014,7 @@
    "label": "California 32",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-32"
   },
   {
@@ -2023,7 +2023,7 @@
    "label": "California 33",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-33"
   },
   {
@@ -2032,7 +2032,7 @@
    "label": "California 34",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-34"
   },
   {
@@ -2041,7 +2041,7 @@
    "label": "California 35",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-35"
   },
   {
@@ -2050,7 +2050,7 @@
    "label": "California 36",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-36"
   },
   {
@@ -2059,7 +2059,7 @@
    "label": "California 37",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-37"
   },
   {
@@ -2068,7 +2068,7 @@
    "label": "California 38",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-38"
   },
   {
@@ -2077,7 +2077,7 @@
    "label": "California 39",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-39"
   },
   {
@@ -2086,7 +2086,7 @@
    "label": "California 40",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-40"
   },
   {
@@ -2095,7 +2095,7 @@
    "label": "California 41",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-41"
   },
   {
@@ -2104,7 +2104,7 @@
    "label": "California 42",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-42"
   },
   {
@@ -2113,7 +2113,7 @@
    "label": "California 43",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-43"
   },
   {
@@ -2122,7 +2122,7 @@
    "label": "California 44",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-44"
   },
   {
@@ -2131,7 +2131,7 @@
    "label": "California 45",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-45"
   },
   {
@@ -2140,7 +2140,7 @@
    "label": "California 46",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-46"
   },
   {
@@ -2149,7 +2149,7 @@
    "label": "California 47",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-47"
   },
   {
@@ -2158,7 +2158,7 @@
    "label": "California 48",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-48"
   },
   {
@@ -2167,7 +2167,7 @@
    "label": "California 49",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-49"
   },
   {
@@ -2176,7 +2176,7 @@
    "label": "California 50",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-50"
   },
   {
@@ -2185,7 +2185,7 @@
    "label": "California 51",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-51"
   },
   {
@@ -2194,7 +2194,7 @@
    "label": "California 52",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CA-52"
   },
   {
@@ -2203,7 +2203,7 @@
    "label": "Colorado 1",
    "state": "CO",
    "stateName": "Colorado",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CO-01"
   },
   {
@@ -2212,7 +2212,7 @@
    "label": "Colorado 2",
    "state": "CO",
    "stateName": "Colorado",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CO-02"
   },
   {
@@ -2221,7 +2221,7 @@
    "label": "Colorado 3",
    "state": "CO",
    "stateName": "Colorado",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CO-03"
   },
   {
@@ -2230,7 +2230,7 @@
    "label": "Colorado 4",
    "state": "CO",
    "stateName": "Colorado",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CO-04"
   },
   {
@@ -2239,7 +2239,7 @@
    "label": "Colorado 5",
    "state": "CO",
    "stateName": "Colorado",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CO-05"
   },
   {
@@ -2248,7 +2248,7 @@
    "label": "Colorado 6",
    "state": "CO",
    "stateName": "Colorado",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CO-06"
   },
   {
@@ -2257,7 +2257,7 @@
    "label": "Colorado 7",
    "state": "CO",
    "stateName": "Colorado",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CO-07"
   },
   {
@@ -2293,7 +2293,7 @@
    "label": "Connecticut 1",
    "state": "CT",
    "stateName": "Connecticut",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CT-01"
   },
   {
@@ -2302,7 +2302,7 @@
    "label": "Connecticut 2",
    "state": "CT",
    "stateName": "Connecticut",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CT-02"
   },
   {
@@ -2311,7 +2311,7 @@
    "label": "Connecticut 3",
    "state": "CT",
    "stateName": "Connecticut",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CT-03"
   },
   {
@@ -2320,7 +2320,7 @@
    "label": "Connecticut 4",
    "state": "CT",
    "stateName": "Connecticut",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CT-04"
   },
   {
@@ -2329,7 +2329,7 @@
    "label": "Connecticut 5",
    "state": "CT",
    "stateName": "Connecticut",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-CT-05"
   },
   {
@@ -2338,7 +2338,7 @@
    "label": "Delaware at-large",
    "state": "DE",
    "stateName": "Delaware",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-DE-AL"
   },
   {
@@ -2347,7 +2347,7 @@
    "label": "Florida 1",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-01"
   },
   {
@@ -2356,7 +2356,7 @@
    "label": "Florida 2",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-02"
   },
   {
@@ -2365,7 +2365,7 @@
    "label": "Florida 3",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-03"
   },
   {
@@ -2374,7 +2374,7 @@
    "label": "Florida 4",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-04"
   },
   {
@@ -2383,7 +2383,7 @@
    "label": "Florida 5",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-05"
   },
   {
@@ -2392,7 +2392,7 @@
    "label": "Florida 6",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-06"
   },
   {
@@ -2401,7 +2401,7 @@
    "label": "Florida 7",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-07"
   },
   {
@@ -2410,7 +2410,7 @@
    "label": "Florida 8",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-08"
   },
   {
@@ -2419,7 +2419,7 @@
    "label": "Florida 9",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-09"
   },
   {
@@ -2428,7 +2428,7 @@
    "label": "Florida 10",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-10"
   },
   {
@@ -2437,7 +2437,7 @@
    "label": "Florida 11",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-11"
   },
   {
@@ -2446,7 +2446,7 @@
    "label": "Florida 12",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-12"
   },
   {
@@ -2455,7 +2455,7 @@
    "label": "Florida 13",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-13"
   },
   {
@@ -2491,7 +2491,7 @@
    "label": "Florida 15",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-15"
   },
   {
@@ -2500,7 +2500,7 @@
    "label": "Florida 16",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-16"
   },
   {
@@ -2509,7 +2509,7 @@
    "label": "Florida 17",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-17"
   },
   {
@@ -2518,7 +2518,7 @@
    "label": "Florida 18",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-18"
   },
   {
@@ -2527,7 +2527,7 @@
    "label": "Florida 19",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-19"
   },
   {
@@ -2536,7 +2536,7 @@
    "label": "Florida 20",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-20"
   },
   {
@@ -2545,7 +2545,7 @@
    "label": "Florida 21",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-21"
   },
   {
@@ -2581,7 +2581,7 @@
    "label": "Florida 23",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-23"
   },
   {
@@ -2590,7 +2590,7 @@
    "label": "Florida 24",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-24"
   },
   {
@@ -2628,7 +2628,7 @@
    "label": "Florida 26",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-26"
   },
   {
@@ -2637,7 +2637,7 @@
    "label": "Florida 27",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-27"
   },
   {
@@ -2646,7 +2646,7 @@
    "label": "Florida 28",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-FL-28"
   },
   {
@@ -2823,7 +2823,7 @@
    "label": "Hawaii 1",
    "state": "HI",
    "stateName": "Hawaii",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-HI-01"
   },
   {
@@ -2832,7 +2832,7 @@
    "label": "Hawaii 2",
    "state": "HI",
    "stateName": "Hawaii",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-HI-02"
   },
   {
@@ -2868,7 +2868,7 @@
    "label": "Iowa 2",
    "state": "IA",
    "stateName": "Iowa",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IA-02"
   },
   {
@@ -2904,7 +2904,7 @@
    "label": "Iowa 4",
    "state": "IA",
    "stateName": "Iowa",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IA-04"
   },
   {
@@ -2913,7 +2913,7 @@
    "label": "Idaho 1",
    "state": "ID",
    "stateName": "Idaho",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-ID-01"
   },
   {
@@ -2922,7 +2922,7 @@
    "label": "Idaho 2",
    "state": "ID",
    "stateName": "Idaho",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-ID-02"
   },
   {
@@ -2931,7 +2931,7 @@
    "label": "Illinois 1",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-01"
   },
   {
@@ -2940,7 +2940,7 @@
    "label": "Illinois 2",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-02"
   },
   {
@@ -2949,7 +2949,7 @@
    "label": "Illinois 3",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-03"
   },
   {
@@ -2958,7 +2958,7 @@
    "label": "Illinois 4",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-04"
   },
   {
@@ -2967,7 +2967,7 @@
    "label": "Illinois 5",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-05"
   },
   {
@@ -2976,7 +2976,7 @@
    "label": "Illinois 6",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-06"
   },
   {
@@ -2985,7 +2985,7 @@
    "label": "Illinois 7",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-07"
   },
   {
@@ -2994,7 +2994,7 @@
    "label": "Illinois 8",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-08"
   },
   {
@@ -3003,7 +3003,7 @@
    "label": "Illinois 9",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-09"
   },
   {
@@ -3012,7 +3012,7 @@
    "label": "Illinois 10",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-10"
   },
   {
@@ -3021,7 +3021,7 @@
    "label": "Illinois 11",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-11"
   },
   {
@@ -3030,7 +3030,7 @@
    "label": "Illinois 12",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-12"
   },
   {
@@ -3039,7 +3039,7 @@
    "label": "Illinois 13",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-13"
   },
   {
@@ -3048,7 +3048,7 @@
    "label": "Illinois 14",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-14"
   },
   {
@@ -3057,7 +3057,7 @@
    "label": "Illinois 15",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-15"
   },
   {
@@ -3066,7 +3066,7 @@
    "label": "Illinois 16",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-16"
   },
   {
@@ -3075,7 +3075,7 @@
    "label": "Illinois 17",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IL-17"
   },
   {
@@ -3084,7 +3084,7 @@
    "label": "Indiana 1",
    "state": "IN",
    "stateName": "Indiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IN-01"
   },
   {
@@ -3093,7 +3093,7 @@
    "label": "Indiana 2",
    "state": "IN",
    "stateName": "Indiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IN-02"
   },
   {
@@ -3102,7 +3102,7 @@
    "label": "Indiana 3",
    "state": "IN",
    "stateName": "Indiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IN-03"
   },
   {
@@ -3111,7 +3111,7 @@
    "label": "Indiana 4",
    "state": "IN",
    "stateName": "Indiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IN-04"
   },
   {
@@ -3120,7 +3120,7 @@
    "label": "Indiana 5",
    "state": "IN",
    "stateName": "Indiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IN-05"
   },
   {
@@ -3129,7 +3129,7 @@
    "label": "Indiana 6",
    "state": "IN",
    "stateName": "Indiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IN-06"
   },
   {
@@ -3138,7 +3138,7 @@
    "label": "Indiana 7",
    "state": "IN",
    "stateName": "Indiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IN-07"
   },
   {
@@ -3147,7 +3147,7 @@
    "label": "Indiana 8",
    "state": "IN",
    "stateName": "Indiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IN-08"
   },
   {
@@ -3156,7 +3156,7 @@
    "label": "Indiana 9",
    "state": "IN",
    "stateName": "Indiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-IN-09"
   },
   {
@@ -3165,7 +3165,7 @@
    "label": "Kansas 1",
    "state": "KS",
    "stateName": "Kansas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-KS-01"
   },
   {
@@ -3174,7 +3174,7 @@
    "label": "Kansas 2",
    "state": "KS",
    "stateName": "Kansas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-KS-02"
   },
   {
@@ -3183,7 +3183,7 @@
    "label": "Kansas 3",
    "state": "KS",
    "stateName": "Kansas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-KS-03"
   },
   {
@@ -3205,7 +3205,7 @@
    "label": "Kentucky 1",
    "state": "KY",
    "stateName": "Kentucky",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-KY-01"
   },
   {
@@ -3214,7 +3214,7 @@
    "label": "Kentucky 2",
    "state": "KY",
    "stateName": "Kentucky",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-KY-02"
   },
   {
@@ -3223,7 +3223,7 @@
    "label": "Kentucky 3",
    "state": "KY",
    "stateName": "Kentucky",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-KY-03"
   },
   {
@@ -3232,7 +3232,7 @@
    "label": "Kentucky 4",
    "state": "KY",
    "stateName": "Kentucky",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-KY-04"
   },
   {
@@ -3241,7 +3241,7 @@
    "label": "Kentucky 5",
    "state": "KY",
    "stateName": "Kentucky",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-KY-05"
   },
   {
@@ -3250,7 +3250,7 @@
    "label": "Kentucky 6",
    "state": "KY",
    "stateName": "Kentucky",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-KY-06"
   },
   {
@@ -3259,7 +3259,7 @@
    "label": "Louisiana 1",
    "state": "LA",
    "stateName": "Louisiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-LA-01"
   },
   {
@@ -3268,7 +3268,7 @@
    "label": "Louisiana 2",
    "state": "LA",
    "stateName": "Louisiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-LA-02"
   },
   {
@@ -3277,7 +3277,7 @@
    "label": "Louisiana 3",
    "state": "LA",
    "stateName": "Louisiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-LA-03"
   },
   {
@@ -3286,7 +3286,7 @@
    "label": "Louisiana 4",
    "state": "LA",
    "stateName": "Louisiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-LA-04"
   },
   {
@@ -3295,7 +3295,7 @@
    "label": "Louisiana 5",
    "state": "LA",
    "stateName": "Louisiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-LA-05"
   },
   {
@@ -3304,7 +3304,7 @@
    "label": "Louisiana 6",
    "state": "LA",
    "stateName": "Louisiana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-LA-06"
   },
   {
@@ -3313,7 +3313,7 @@
    "label": "Massachusetts 1",
    "state": "MA",
    "stateName": "Massachusetts",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MA-01"
   },
   {
@@ -3322,7 +3322,7 @@
    "label": "Massachusetts 2",
    "state": "MA",
    "stateName": "Massachusetts",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MA-02"
   },
   {
@@ -3331,7 +3331,7 @@
    "label": "Massachusetts 3",
    "state": "MA",
    "stateName": "Massachusetts",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MA-03"
   },
   {
@@ -3340,7 +3340,7 @@
    "label": "Massachusetts 4",
    "state": "MA",
    "stateName": "Massachusetts",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MA-04"
   },
   {
@@ -3349,7 +3349,7 @@
    "label": "Massachusetts 5",
    "state": "MA",
    "stateName": "Massachusetts",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MA-05"
   },
   {
@@ -3358,7 +3358,7 @@
    "label": "Massachusetts 6",
    "state": "MA",
    "stateName": "Massachusetts",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MA-06"
   },
   {
@@ -3367,7 +3367,7 @@
    "label": "Massachusetts 7",
    "state": "MA",
    "stateName": "Massachusetts",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MA-07"
   },
   {
@@ -3376,7 +3376,7 @@
    "label": "Massachusetts 8",
    "state": "MA",
    "stateName": "Massachusetts",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MA-08"
   },
   {
@@ -3385,7 +3385,7 @@
    "label": "Massachusetts 9",
    "state": "MA",
    "stateName": "Massachusetts",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MA-09"
   },
   {
@@ -3394,7 +3394,7 @@
    "label": "Maryland 1",
    "state": "MD",
    "stateName": "Maryland",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MD-01"
   },
   {
@@ -3403,7 +3403,7 @@
    "label": "Maryland 2",
    "state": "MD",
    "stateName": "Maryland",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MD-02"
   },
   {
@@ -3412,7 +3412,7 @@
    "label": "Maryland 3",
    "state": "MD",
    "stateName": "Maryland",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MD-03"
   },
   {
@@ -3421,7 +3421,7 @@
    "label": "Maryland 4",
    "state": "MD",
    "stateName": "Maryland",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MD-04"
   },
   {
@@ -3430,7 +3430,7 @@
    "label": "Maryland 5",
    "state": "MD",
    "stateName": "Maryland",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MD-05"
   },
   {
@@ -3439,7 +3439,7 @@
    "label": "Maryland 6",
    "state": "MD",
    "stateName": "Maryland",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MD-06"
   },
   {
@@ -3448,7 +3448,7 @@
    "label": "Maryland 7",
    "state": "MD",
    "stateName": "Maryland",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MD-07"
   },
   {
@@ -3457,7 +3457,7 @@
    "label": "Maryland 8",
    "state": "MD",
    "stateName": "Maryland",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MD-08"
   },
   {
@@ -3466,7 +3466,7 @@
    "label": "Maine 1",
    "state": "ME",
    "stateName": "Maine",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-ME-01"
   },
   {
@@ -3503,7 +3503,7 @@
    "label": "Michigan 1",
    "state": "MI",
    "stateName": "Michigan",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MI-01"
   },
   {
@@ -3512,7 +3512,7 @@
    "label": "Michigan 2",
    "state": "MI",
    "stateName": "Michigan",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MI-02"
   },
   {
@@ -3521,7 +3521,7 @@
    "label": "Michigan 3",
    "state": "MI",
    "stateName": "Michigan",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MI-03"
   },
   {
@@ -3557,7 +3557,7 @@
    "label": "Michigan 5",
    "state": "MI",
    "stateName": "Michigan",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MI-05"
   },
   {
@@ -3566,7 +3566,7 @@
    "label": "Michigan 6",
    "state": "MI",
    "stateName": "Michigan",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MI-06"
   },
   {
@@ -3609,7 +3609,7 @@
    "label": "Michigan 8",
    "state": "MI",
    "stateName": "Michigan",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MI-08"
   },
   {
@@ -3618,7 +3618,7 @@
    "label": "Michigan 9",
    "state": "MI",
    "stateName": "Michigan",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MI-09"
   },
   {
@@ -3654,7 +3654,7 @@
    "label": "Michigan 11",
    "state": "MI",
    "stateName": "Michigan",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MI-11"
   },
   {
@@ -3663,7 +3663,7 @@
    "label": "Michigan 12",
    "state": "MI",
    "stateName": "Michigan",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MI-12"
   },
   {
@@ -3672,7 +3672,7 @@
    "label": "Michigan 13",
    "state": "MI",
    "stateName": "Michigan",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MI-13"
   },
   {
@@ -3681,7 +3681,7 @@
    "label": "Minnesota 1",
    "state": "MN",
    "stateName": "Minnesota",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MN-01"
   },
   {
@@ -3690,7 +3690,7 @@
    "label": "Minnesota 2",
    "state": "MN",
    "stateName": "Minnesota",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MN-02"
   },
   {
@@ -3699,7 +3699,7 @@
    "label": "Minnesota 3",
    "state": "MN",
    "stateName": "Minnesota",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MN-03"
   },
   {
@@ -3708,7 +3708,7 @@
    "label": "Minnesota 4",
    "state": "MN",
    "stateName": "Minnesota",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MN-04"
   },
   {
@@ -3717,7 +3717,7 @@
    "label": "Minnesota 5",
    "state": "MN",
    "stateName": "Minnesota",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MN-05"
   },
   {
@@ -3726,7 +3726,7 @@
    "label": "Minnesota 6",
    "state": "MN",
    "stateName": "Minnesota",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MN-06"
   },
   {
@@ -3735,7 +3735,7 @@
    "label": "Minnesota 7",
    "state": "MN",
    "stateName": "Minnesota",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MN-07"
   },
   {
@@ -3744,7 +3744,7 @@
    "label": "Minnesota 8",
    "state": "MN",
    "stateName": "Minnesota",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MN-08"
   },
   {
@@ -3753,7 +3753,7 @@
    "label": "Missouri 1",
    "state": "MO",
    "stateName": "Missouri",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MO-01"
   },
   {
@@ -3762,7 +3762,7 @@
    "label": "Missouri 2",
    "state": "MO",
    "stateName": "Missouri",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MO-02"
   },
   {
@@ -3771,7 +3771,7 @@
    "label": "Missouri 3",
    "state": "MO",
    "stateName": "Missouri",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MO-03"
   },
   {
@@ -3780,7 +3780,7 @@
    "label": "Missouri 4",
    "state": "MO",
    "stateName": "Missouri",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MO-04"
   },
   {
@@ -3789,7 +3789,7 @@
    "label": "Missouri 5",
    "state": "MO",
    "stateName": "Missouri",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MO-05"
   },
   {
@@ -3798,7 +3798,7 @@
    "label": "Missouri 6",
    "state": "MO",
    "stateName": "Missouri",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MO-06"
   },
   {
@@ -3807,7 +3807,7 @@
    "label": "Missouri 7",
    "state": "MO",
    "stateName": "Missouri",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MO-07"
   },
   {
@@ -3816,7 +3816,7 @@
    "label": "Missouri 8",
    "state": "MO",
    "stateName": "Missouri",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MO-08"
   },
   {
@@ -3825,7 +3825,7 @@
    "label": "Mississippi 1",
    "state": "MS",
    "stateName": "Mississippi",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MS-01"
   },
   {
@@ -3834,7 +3834,7 @@
    "label": "Mississippi 2",
    "state": "MS",
    "stateName": "Mississippi",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MS-02"
   },
   {
@@ -3843,7 +3843,7 @@
    "label": "Mississippi 3",
    "state": "MS",
    "stateName": "Mississippi",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MS-03"
   },
   {
@@ -3852,7 +3852,7 @@
    "label": "Mississippi 4",
    "state": "MS",
    "stateName": "Mississippi",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MS-04"
   },
   {
@@ -3861,7 +3861,7 @@
    "label": "Montana 1",
    "state": "MT",
    "stateName": "Montana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MT-01"
   },
   {
@@ -3870,7 +3870,7 @@
    "label": "Montana 2",
    "state": "MT",
    "stateName": "Montana",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-MT-02"
   },
   {
@@ -3906,7 +3906,7 @@
    "label": "North Carolina 2",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NC-02"
   },
   {
@@ -3915,7 +3915,7 @@
    "label": "North Carolina 3",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NC-03"
   },
   {
@@ -3924,7 +3924,7 @@
    "label": "North Carolina 4",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NC-04"
   },
   {
@@ -3933,7 +3933,7 @@
    "label": "North Carolina 5",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NC-05"
   },
   {
@@ -3942,7 +3942,7 @@
    "label": "North Carolina 6",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NC-06"
   },
   {
@@ -3951,7 +3951,7 @@
    "label": "North Carolina 7",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NC-07"
   },
   {
@@ -3960,7 +3960,7 @@
    "label": "North Carolina 8",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NC-08"
   },
   {
@@ -3969,7 +3969,7 @@
    "label": "North Carolina 9",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NC-09"
   },
   {
@@ -3978,7 +3978,7 @@
    "label": "North Carolina 10",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NC-10"
   },
   {
@@ -4016,7 +4016,7 @@
    "label": "North Carolina 12",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NC-12"
   },
   {
@@ -4025,7 +4025,7 @@
    "label": "North Carolina 13",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NC-13"
   },
   {
@@ -4034,7 +4034,7 @@
    "label": "North Carolina 14",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NC-14"
   },
   {
@@ -4043,7 +4043,7 @@
    "label": "North Dakota at-large",
    "state": "ND",
    "stateName": "North Dakota",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-ND-AL"
   },
   {
@@ -4052,7 +4052,7 @@
    "label": "Nebraska 1",
    "state": "NE",
    "stateName": "Nebraska",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NE-01"
   },
   {
@@ -4088,7 +4088,7 @@
    "label": "Nebraska 3",
    "state": "NE",
    "stateName": "Nebraska",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NE-03"
   },
   {
@@ -4097,7 +4097,7 @@
    "label": "New Hampshire 1",
    "state": "NH",
    "stateName": "New Hampshire",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NH-01"
   },
   {
@@ -4106,7 +4106,7 @@
    "label": "New Hampshire 2",
    "state": "NH",
    "stateName": "New Hampshire",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NH-02"
   },
   {
@@ -4115,7 +4115,7 @@
    "label": "New Jersey 1",
    "state": "NJ",
    "stateName": "New Jersey",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NJ-01"
   },
   {
@@ -4124,7 +4124,7 @@
    "label": "New Jersey 2",
    "state": "NJ",
    "stateName": "New Jersey",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NJ-02"
   },
   {
@@ -4133,7 +4133,7 @@
    "label": "New Jersey 3",
    "state": "NJ",
    "stateName": "New Jersey",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NJ-03"
   },
   {
@@ -4142,7 +4142,7 @@
    "label": "New Jersey 4",
    "state": "NJ",
    "stateName": "New Jersey",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NJ-04"
   },
   {
@@ -4151,7 +4151,7 @@
    "label": "New Jersey 5",
    "state": "NJ",
    "stateName": "New Jersey",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NJ-05"
   },
   {
@@ -4160,7 +4160,7 @@
    "label": "New Jersey 6",
    "state": "NJ",
    "stateName": "New Jersey",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NJ-06"
   },
   {
@@ -4196,7 +4196,7 @@
    "label": "New Jersey 8",
    "state": "NJ",
    "stateName": "New Jersey",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NJ-08"
   },
   {
@@ -4205,7 +4205,7 @@
    "label": "New Jersey 9",
    "state": "NJ",
    "stateName": "New Jersey",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NJ-09"
   },
   {
@@ -4214,7 +4214,7 @@
    "label": "New Jersey 10",
    "state": "NJ",
    "stateName": "New Jersey",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NJ-10"
   },
   {
@@ -4223,7 +4223,7 @@
    "label": "New Jersey 11",
    "state": "NJ",
    "stateName": "New Jersey",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NJ-11"
   },
   {
@@ -4232,7 +4232,7 @@
    "label": "New Jersey 12",
    "state": "NJ",
    "stateName": "New Jersey",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NJ-12"
   },
   {
@@ -4241,7 +4241,7 @@
    "label": "New Mexico 1",
    "state": "NM",
    "stateName": "New Mexico",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NM-01"
   },
   {
@@ -4250,7 +4250,7 @@
    "label": "New Mexico 2",
    "state": "NM",
    "stateName": "New Mexico",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NM-02"
   },
   {
@@ -4259,7 +4259,7 @@
    "label": "New Mexico 3",
    "state": "NM",
    "stateName": "New Mexico",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NM-03"
   },
   {
@@ -4268,7 +4268,7 @@
    "label": "Nevada 1",
    "state": "NV",
    "stateName": "Nevada",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NV-01"
   },
   {
@@ -4277,7 +4277,7 @@
    "label": "Nevada 2",
    "state": "NV",
    "stateName": "Nevada",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NV-02"
   },
   {
@@ -4286,7 +4286,7 @@
    "label": "Nevada 3",
    "state": "NV",
    "stateName": "Nevada",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NV-03"
   },
   {
@@ -4295,7 +4295,7 @@
    "label": "Nevada 4",
    "state": "NV",
    "stateName": "Nevada",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NV-04"
   },
   {
@@ -4304,7 +4304,7 @@
    "label": "New York 1",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-01"
   },
   {
@@ -4313,7 +4313,7 @@
    "label": "New York 2",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-02"
   },
   {
@@ -4322,7 +4322,7 @@
    "label": "New York 3",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-03"
   },
   {
@@ -4331,7 +4331,7 @@
    "label": "New York 4",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-04"
   },
   {
@@ -4340,7 +4340,7 @@
    "label": "New York 5",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-05"
   },
   {
@@ -4349,7 +4349,7 @@
    "label": "New York 6",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-06"
   },
   {
@@ -4358,7 +4358,7 @@
    "label": "New York 7",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-07"
   },
   {
@@ -4367,7 +4367,7 @@
    "label": "New York 8",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-08"
   },
   {
@@ -4376,7 +4376,7 @@
    "label": "New York 9",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-09"
   },
   {
@@ -4385,7 +4385,7 @@
    "label": "New York 10",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-10"
   },
   {
@@ -4394,7 +4394,7 @@
    "label": "New York 11",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-11"
   },
   {
@@ -4403,7 +4403,7 @@
    "label": "New York 12",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-12"
   },
   {
@@ -4412,7 +4412,7 @@
    "label": "New York 13",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-13"
   },
   {
@@ -4421,7 +4421,7 @@
    "label": "New York 14",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-14"
   },
   {
@@ -4430,7 +4430,7 @@
    "label": "New York 15",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-15"
   },
   {
@@ -4439,7 +4439,7 @@
    "label": "New York 16",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-16"
   },
   {
@@ -4475,7 +4475,7 @@
    "label": "New York 18",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-18"
   },
   {
@@ -4484,7 +4484,7 @@
    "label": "New York 19",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-19"
   },
   {
@@ -4493,7 +4493,7 @@
    "label": "New York 20",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-20"
   },
   {
@@ -4502,7 +4502,7 @@
    "label": "New York 21",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-21"
   },
   {
@@ -4511,7 +4511,7 @@
    "label": "New York 22",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-22"
   },
   {
@@ -4520,7 +4520,7 @@
    "label": "New York 23",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-23"
   },
   {
@@ -4529,7 +4529,7 @@
    "label": "New York 24",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-24"
   },
   {
@@ -4538,7 +4538,7 @@
    "label": "New York 25",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-25"
   },
   {
@@ -4547,7 +4547,7 @@
    "label": "New York 26",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-NY-26"
   },
   {
@@ -4556,7 +4556,7 @@
    "label": "Ohio 1",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OH-01"
   },
   {
@@ -4565,7 +4565,7 @@
    "label": "Ohio 2",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OH-02"
   },
   {
@@ -4574,7 +4574,7 @@
    "label": "Ohio 3",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OH-03"
   },
   {
@@ -4583,7 +4583,7 @@
    "label": "Ohio 4",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OH-04"
   },
   {
@@ -4592,7 +4592,7 @@
    "label": "Ohio 5",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OH-05"
   },
   {
@@ -4601,7 +4601,7 @@
    "label": "Ohio 6",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OH-06"
   },
   {
@@ -4637,7 +4637,7 @@
    "label": "Ohio 8",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OH-08"
   },
   {
@@ -4673,7 +4673,7 @@
    "label": "Ohio 10",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OH-10"
   },
   {
@@ -4682,7 +4682,7 @@
    "label": "Ohio 11",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OH-11"
   },
   {
@@ -4691,7 +4691,7 @@
    "label": "Ohio 12",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OH-12"
   },
   {
@@ -4700,7 +4700,7 @@
    "label": "Ohio 13",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OH-13"
   },
   {
@@ -4709,7 +4709,7 @@
    "label": "Ohio 14",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OH-14"
   },
   {
@@ -4718,7 +4718,7 @@
    "label": "Ohio 15",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OH-15"
   },
   {
@@ -4727,7 +4727,7 @@
    "label": "Oklahoma 1",
    "state": "OK",
    "stateName": "Oklahoma",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OK-01"
   },
   {
@@ -4736,7 +4736,7 @@
    "label": "Oklahoma 2",
    "state": "OK",
    "stateName": "Oklahoma",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OK-02"
   },
   {
@@ -4745,7 +4745,7 @@
    "label": "Oklahoma 3",
    "state": "OK",
    "stateName": "Oklahoma",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OK-03"
   },
   {
@@ -4754,7 +4754,7 @@
    "label": "Oklahoma 4",
    "state": "OK",
    "stateName": "Oklahoma",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OK-04"
   },
   {
@@ -4763,7 +4763,7 @@
    "label": "Oklahoma 5",
    "state": "OK",
    "stateName": "Oklahoma",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OK-05"
   },
   {
@@ -4772,7 +4772,7 @@
    "label": "Oregon 1",
    "state": "OR",
    "stateName": "Oregon",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OR-01"
   },
   {
@@ -4781,7 +4781,7 @@
    "label": "Oregon 2",
    "state": "OR",
    "stateName": "Oregon",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OR-02"
   },
   {
@@ -4790,7 +4790,7 @@
    "label": "Oregon 3",
    "state": "OR",
    "stateName": "Oregon",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OR-03"
   },
   {
@@ -4799,7 +4799,7 @@
    "label": "Oregon 4",
    "state": "OR",
    "stateName": "Oregon",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OR-04"
   },
   {
@@ -4808,7 +4808,7 @@
    "label": "Oregon 5",
    "state": "OR",
    "stateName": "Oregon",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OR-05"
   },
   {
@@ -4817,7 +4817,7 @@
    "label": "Oregon 6",
    "state": "OR",
    "stateName": "Oregon",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-OR-06"
   },
   {
@@ -5060,7 +5060,7 @@
    "label": "Pennsylvania 9",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-PA-09"
   },
   {
@@ -5096,7 +5096,7 @@
    "label": "Pennsylvania 11",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-PA-11"
   },
   {
@@ -5165,7 +5165,7 @@
    "label": "Pennsylvania 14",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-PA-14"
   },
   {
@@ -5204,7 +5204,7 @@
    "label": "Pennsylvania 16",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-PA-16"
   },
   {
@@ -5243,7 +5243,7 @@
    "label": "Rhode Island 1",
    "state": "RI",
    "stateName": "Rhode Island",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-RI-01"
   },
   {
@@ -5252,7 +5252,7 @@
    "label": "Rhode Island 2",
    "state": "RI",
    "stateName": "Rhode Island",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-RI-02"
   },
   {
@@ -5261,7 +5261,7 @@
    "label": "South Carolina 1",
    "state": "SC",
    "stateName": "South Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-SC-01"
   },
   {
@@ -5270,7 +5270,7 @@
    "label": "South Carolina 2",
    "state": "SC",
    "stateName": "South Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-SC-02"
   },
   {
@@ -5279,7 +5279,7 @@
    "label": "South Carolina 3",
    "state": "SC",
    "stateName": "South Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-SC-03"
   },
   {
@@ -5288,7 +5288,7 @@
    "label": "South Carolina 4",
    "state": "SC",
    "stateName": "South Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-SC-04"
   },
   {
@@ -5297,7 +5297,7 @@
    "label": "South Carolina 5",
    "state": "SC",
    "stateName": "South Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-SC-05"
   },
   {
@@ -5306,7 +5306,7 @@
    "label": "South Carolina 6",
    "state": "SC",
    "stateName": "South Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-SC-06"
   },
   {
@@ -5315,7 +5315,7 @@
    "label": "South Carolina 7",
    "state": "SC",
    "stateName": "South Carolina",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-SC-07"
   },
   {
@@ -5324,7 +5324,7 @@
    "label": "South Dakota at-large",
    "state": "SD",
    "stateName": "South Dakota",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-SD-AL"
   },
   {
@@ -5333,7 +5333,7 @@
    "label": "Tennessee 1",
    "state": "TN",
    "stateName": "Tennessee",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TN-01"
   },
   {
@@ -5342,7 +5342,7 @@
    "label": "Tennessee 2",
    "state": "TN",
    "stateName": "Tennessee",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TN-02"
   },
   {
@@ -5351,7 +5351,7 @@
    "label": "Tennessee 3",
    "state": "TN",
    "stateName": "Tennessee",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TN-03"
   },
   {
@@ -5360,7 +5360,7 @@
    "label": "Tennessee 4",
    "state": "TN",
    "stateName": "Tennessee",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TN-04"
   },
   {
@@ -5369,7 +5369,7 @@
    "label": "Tennessee 5",
    "state": "TN",
    "stateName": "Tennessee",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TN-05"
   },
   {
@@ -5378,7 +5378,7 @@
    "label": "Tennessee 6",
    "state": "TN",
    "stateName": "Tennessee",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TN-06"
   },
   {
@@ -5387,7 +5387,7 @@
    "label": "Tennessee 7",
    "state": "TN",
    "stateName": "Tennessee",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TN-07"
   },
   {
@@ -5396,7 +5396,7 @@
    "label": "Tennessee 8",
    "state": "TN",
    "stateName": "Tennessee",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TN-08"
   },
   {
@@ -5405,7 +5405,7 @@
    "label": "Tennessee 9",
    "state": "TN",
    "stateName": "Tennessee",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TN-09"
   },
   {
@@ -5414,7 +5414,7 @@
    "label": "Texas 1",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-01"
   },
   {
@@ -5423,7 +5423,7 @@
    "label": "Texas 2",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-02"
   },
   {
@@ -5432,7 +5432,7 @@
    "label": "Texas 3",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-03"
   },
   {
@@ -5441,7 +5441,7 @@
    "label": "Texas 4",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-04"
   },
   {
@@ -5450,7 +5450,7 @@
    "label": "Texas 5",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-05"
   },
   {
@@ -5459,7 +5459,7 @@
    "label": "Texas 6",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-06"
   },
   {
@@ -5468,7 +5468,7 @@
    "label": "Texas 7",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-07"
   },
   {
@@ -5477,7 +5477,7 @@
    "label": "Texas 8",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-08"
   },
   {
@@ -5486,7 +5486,7 @@
    "label": "Texas 9",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-09"
   },
   {
@@ -5495,7 +5495,7 @@
    "label": "Texas 10",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-10"
   },
   {
@@ -5504,7 +5504,7 @@
    "label": "Texas 11",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-11"
   },
   {
@@ -5513,7 +5513,7 @@
    "label": "Texas 12",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-12"
   },
   {
@@ -5522,7 +5522,7 @@
    "label": "Texas 13",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-13"
   },
   {
@@ -5531,7 +5531,7 @@
    "label": "Texas 14",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-14"
   },
   {
@@ -5540,7 +5540,7 @@
    "label": "Texas 15",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-15"
   },
   {
@@ -5549,7 +5549,7 @@
    "label": "Texas 16",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-16"
   },
   {
@@ -5558,7 +5558,7 @@
    "label": "Texas 17",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-17"
   },
   {
@@ -5567,7 +5567,7 @@
    "label": "Texas 18",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-18"
   },
   {
@@ -5576,7 +5576,7 @@
    "label": "Texas 19",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-19"
   },
   {
@@ -5585,7 +5585,7 @@
    "label": "Texas 20",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-20"
   },
   {
@@ -5594,7 +5594,7 @@
    "label": "Texas 21",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-21"
   },
   {
@@ -5603,7 +5603,7 @@
    "label": "Texas 22",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-22"
   },
   {
@@ -5612,7 +5612,7 @@
    "label": "Texas 23",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-23"
   },
   {
@@ -5621,7 +5621,7 @@
    "label": "Texas 24",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-24"
   },
   {
@@ -5630,7 +5630,7 @@
    "label": "Texas 25",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-25"
   },
   {
@@ -5639,7 +5639,7 @@
    "label": "Texas 26",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-26"
   },
   {
@@ -5648,7 +5648,7 @@
    "label": "Texas 27",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-27"
   },
   {
@@ -5684,7 +5684,7 @@
    "label": "Texas 29",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-29"
   },
   {
@@ -5693,7 +5693,7 @@
    "label": "Texas 30",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-30"
   },
   {
@@ -5702,7 +5702,7 @@
    "label": "Texas 31",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-31"
   },
   {
@@ -5711,7 +5711,7 @@
    "label": "Texas 32",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-32"
   },
   {
@@ -5720,7 +5720,7 @@
    "label": "Texas 33",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-33"
   },
   {
@@ -5756,7 +5756,7 @@
    "label": "Texas 35",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-35"
   },
   {
@@ -5765,7 +5765,7 @@
    "label": "Texas 36",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-36"
   },
   {
@@ -5774,7 +5774,7 @@
    "label": "Texas 37",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-37"
   },
   {
@@ -5783,7 +5783,7 @@
    "label": "Texas 38",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-TX-38"
   },
   {
@@ -5792,7 +5792,7 @@
    "label": "Utah 1",
    "state": "UT",
    "stateName": "Utah",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-UT-01"
   },
   {
@@ -5801,7 +5801,7 @@
    "label": "Utah 2",
    "state": "UT",
    "stateName": "Utah",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-UT-02"
   },
   {
@@ -5810,7 +5810,7 @@
    "label": "Utah 3",
    "state": "UT",
    "stateName": "Utah",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-UT-03"
   },
   {
@@ -5819,7 +5819,7 @@
    "label": "Utah 4",
    "state": "UT",
    "stateName": "Utah",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-UT-04"
   },
   {
@@ -5882,7 +5882,7 @@
    "label": "Virginia 3",
    "state": "VA",
    "stateName": "Virginia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-VA-03"
   },
   {
@@ -5891,7 +5891,7 @@
    "label": "Virginia 4",
    "state": "VA",
    "stateName": "Virginia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-VA-04"
   },
   {
@@ -5900,7 +5900,7 @@
    "label": "Virginia 5",
    "state": "VA",
    "stateName": "Virginia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-VA-05"
   },
   {
@@ -5909,7 +5909,7 @@
    "label": "Virginia 6",
    "state": "VA",
    "stateName": "Virginia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-VA-06"
   },
   {
@@ -5918,7 +5918,7 @@
    "label": "Virginia 7",
    "state": "VA",
    "stateName": "Virginia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-VA-07"
   },
   {
@@ -5927,7 +5927,7 @@
    "label": "Virginia 8",
    "state": "VA",
    "stateName": "Virginia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-VA-08"
   },
   {
@@ -5936,7 +5936,7 @@
    "label": "Virginia 9",
    "state": "VA",
    "stateName": "Virginia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-VA-09"
   },
   {
@@ -5945,7 +5945,7 @@
    "label": "Virginia 10",
    "state": "VA",
    "stateName": "Virginia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-VA-10"
   },
   {
@@ -5954,7 +5954,7 @@
    "label": "Virginia 11",
    "state": "VA",
    "stateName": "Virginia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-VA-11"
   },
   {
@@ -5963,7 +5963,7 @@
    "label": "Vermont at-large",
    "state": "VT",
    "stateName": "Vermont",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-VT-AL"
   },
   {
@@ -5972,7 +5972,7 @@
    "label": "Washington 1",
    "state": "WA",
    "stateName": "Washington",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WA-01"
   },
   {
@@ -5981,7 +5981,7 @@
    "label": "Washington 2",
    "state": "WA",
    "stateName": "Washington",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WA-02"
   },
   {
@@ -6017,7 +6017,7 @@
    "label": "Washington 4",
    "state": "WA",
    "stateName": "Washington",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WA-04"
   },
   {
@@ -6026,7 +6026,7 @@
    "label": "Washington 5",
    "state": "WA",
    "stateName": "Washington",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WA-05"
   },
   {
@@ -6035,7 +6035,7 @@
    "label": "Washington 6",
    "state": "WA",
    "stateName": "Washington",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WA-06"
   },
   {
@@ -6044,7 +6044,7 @@
    "label": "Washington 7",
    "state": "WA",
    "stateName": "Washington",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WA-07"
   },
   {
@@ -6053,7 +6053,7 @@
    "label": "Washington 8",
    "state": "WA",
    "stateName": "Washington",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WA-08"
   },
   {
@@ -6062,7 +6062,7 @@
    "label": "Washington 9",
    "state": "WA",
    "stateName": "Washington",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WA-09"
   },
   {
@@ -6071,7 +6071,7 @@
    "label": "Washington 10",
    "state": "WA",
    "stateName": "Washington",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WA-10"
   },
   {
@@ -6080,7 +6080,7 @@
    "label": "Wisconsin 1",
    "state": "WI",
    "stateName": "Wisconsin",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WI-01"
   },
   {
@@ -6089,7 +6089,7 @@
    "label": "Wisconsin 2",
    "state": "WI",
    "stateName": "Wisconsin",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WI-02"
   },
   {
@@ -6125,7 +6125,7 @@
    "label": "Wisconsin 4",
    "state": "WI",
    "stateName": "Wisconsin",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WI-04"
   },
   {
@@ -6134,7 +6134,7 @@
    "label": "Wisconsin 5",
    "state": "WI",
    "stateName": "Wisconsin",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WI-05"
   },
   {
@@ -6143,7 +6143,7 @@
    "label": "Wisconsin 6",
    "state": "WI",
    "stateName": "Wisconsin",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WI-06"
   },
   {
@@ -6152,7 +6152,7 @@
    "label": "Wisconsin 7",
    "state": "WI",
    "stateName": "Wisconsin",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WI-07"
   },
   {
@@ -6161,7 +6161,7 @@
    "label": "Wisconsin 8",
    "state": "WI",
    "stateName": "Wisconsin",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WI-08"
   },
   {
@@ -6170,7 +6170,7 @@
    "label": "West Virginia 1",
    "state": "WV",
    "stateName": "West Virginia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WV-01"
   },
   {
@@ -6179,7 +6179,7 @@
    "label": "West Virginia 2",
    "state": "WV",
    "stateName": "West Virginia",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WV-02"
   },
   {
@@ -6188,7 +6188,7 @@
    "label": "Wyoming at-large",
    "state": "WY",
    "stateName": "Wyoming",
-   "status": "polls_open",
+   "status": "polls_closed",
    "id": "house-WY-AL"
   },
   {
