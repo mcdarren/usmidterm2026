@@ -13,7 +13,7 @@
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-05T16:18:35Z"
+  "updatedAt": "2026-11-05T20:14:11Z"
  },
  "races": [
   {
@@ -538,7 +538,7 @@
    "id": "gov-IL"
   },
   {
-   "asOf": "2026-11-05T00:16:13Z",
+   "asOf": "2026-11-05T20:14:11Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Kansas_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
    "candidates": [
@@ -559,11 +559,11 @@
    ],
    "chamber": "governor",
    "label": "Kansas",
-   "note": "Holscher led Masterson by 5,557 votes (0.51%) per Kansas Secretary of State figures; Holscher declared victory and Masterson asked for another look. Mail ballots postmarked by Election Day accepted through Friday. Not called by AP.",
+   "note": "Holscher led Masterson by 7,045 votes with an estimated 99% counted (AP, Nov. 5); provisional ballots remain to be counted. Not called by AP.",
    "openSeat": true,
-   "reporting": 97.9,
-   "source": "KCUR",
-   "sourceUrl": "https://www.kcur.org/politics-elections-and-government/2026-11-04/ty-masterson-trails-in-kansas-governor-race-by-5-500-votes-he-says-the-results-need-another-look",
+   "reporting": 99,
+   "source": "AP (via jcpost.com)",
+   "sourceUrl": "https://jcpost.com/posts/656e6fcc-4d8d-4e5f-a076-a581300632e6",
    "state": "KS",
    "status": "counting",
    "id": "gov-KS"
@@ -2927,171 +2927,306 @@
    "id": "house-FL-28"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-05T05:14:00Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Jim Kingston",
+     "party": "R",
+     "partyName": "Republican",
+     "winner": true
+    },
+    {
+     "name": "Amanda Hollowell",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 1,
    "label": "Georgia 1",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-01"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-04T00:59:00Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Sanford Bishop",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    }
+   ],
    "chamber": "house",
    "district": 2,
    "label": "Georgia 2",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-02"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-04T01:59:00Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Brian Jack",
+     "party": "R",
+     "partyName": "Republican",
+     "winner": true
+    }
+   ],
    "chamber": "house",
    "district": 3,
    "label": "Georgia 3",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-03"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-04T00:38:00Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Hank Johnson",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    }
+   ],
    "chamber": "house",
    "district": 4,
    "label": "Georgia 4",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-04"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-04T00:24:00Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Nikema Williams",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    }
+   ],
    "chamber": "house",
    "district": 5,
    "label": "Georgia 5",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-05"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-04T00:34:00Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Lucy McBath",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    }
+   ],
    "chamber": "house",
    "district": 6,
    "label": "Georgia 6",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-06"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-04T02:32:00Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Rich McCormick",
+     "party": "R",
+     "partyName": "Republican",
+     "winner": true
+    }
+   ],
    "chamber": "house",
    "district": 7,
    "label": "Georgia 7",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-07"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-04T01:28:00Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Austin Scott",
+     "party": "R",
+     "partyName": "Republican",
+     "winner": true
+    }
+   ],
    "chamber": "house",
    "district": 8,
    "label": "Georgia 8",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-08"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-04T01:10:00Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Andrew Clyde",
+     "party": "R",
+     "partyName": "Republican",
+     "winner": true
+    }
+   ],
    "chamber": "house",
    "district": 9,
    "label": "Georgia 9",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-09"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-04T02:54:00Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Houston Gaines",
+     "party": "R",
+     "partyName": "Republican",
+     "winner": true
+    }
+   ],
    "chamber": "house",
    "district": 10,
    "label": "Georgia 10",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-10"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-04T03:17:00Z",
+   "calledBy": "AP",
    "chamber": "house",
    "district": 11,
    "label": "Georgia 11",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "note": "AP called the race for John Cowan.",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-11"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-04T03:57:00Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Rick Allen",
+     "party": "R",
+     "partyName": "Republican",
+     "winner": true
+    }
+   ],
    "chamber": "house",
    "district": 12,
    "label": "Georgia 12",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-12"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-04T00:21:00Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Jasmine Clark",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    }
+   ],
    "chamber": "house",
    "district": 13,
    "label": "Georgia 13",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-13"
   },
   {
-   "asOf": "2026-11-04T00:20:00Z",
+   "asOf": "2026-11-05T20:14:11Z",
+   "calledAt": "2026-11-04T01:55:00Z",
+   "calledBy": "AP",
    "chamber": "house",
    "district": 14,
    "label": "Georgia 14",
-   "source": "CNN",
-   "sourceUrl": "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
+   "note": "AP called the race for Clay Fuller.",
+   "source": "Fox 5 Atlanta (AP)",
+   "sourceUrl": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
    "state": "GA",
    "stateName": "Georgia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-GA-14"
   },
   {
@@ -5341,38 +5476,57 @@
    "id": "house-NY-18"
   },
   {
-   "asOf": "2026-11-05T12:20:02Z",
+   "asOf": "2026-11-05T20:14:11Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "Josh Riley",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "votes": 158597
     },
     {
      "name": "Peter Oberacker",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "votes": 113714
     }
    ],
    "chamber": "house",
    "district": 19,
    "label": "New York 19",
    "note": "Projected for Josh Riley by CBS News; not yet called by AP.",
-   "source": "CBS News",
-   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+   "source": "CBS 6 Albany",
+   "sourceUrl": "https://cbs6albany.com/news/local/election-2026-new-york-statewide-results-key-capital-region-races-governor-hochul-republican-bruce-blakeman-attorney-general-letitia-james-comptroller-thomas-dinapoli-paul-tonko-sarah-rogerson-patricia-fahy-martha-mchugh-chloe-pierce-cbs6-wrgb",
    "state": "NY",
    "stateName": "New York",
    "status": "counting",
    "id": "house-NY-19"
   },
   {
+   "asOf": "2026-11-05T20:14:11Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Paul Tonko",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Ralph Ambrosio",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 20,
    "label": "New York 20",
+   "note": "CBS 6 Albany reports Paul Tonko won reelection; projecting organization not stated, not yet called by AP.",
+   "source": "CBS 6 Albany",
+   "sourceUrl": "https://cbs6albany.com/news/local/election-2026-new-york-statewide-results-key-capital-region-races-governor-hochul-republican-bruce-blakeman-attorney-general-letitia-james-comptroller-thomas-dinapoli-paul-tonko-sarah-rogerson-patricia-fahy-martha-mchugh-chloe-pierce-cbs6-wrgb",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-NY-20"
   },
   {
@@ -5403,21 +5557,55 @@
    "id": "house-NY-23"
   },
   {
+   "asOf": "2026-11-05T20:14:11Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Claudia Tenney",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Alissa Ellman",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 24,
    "label": "New York 24",
+   "note": "13WHAM reports Claudia Tenney won reelection; projecting organization not stated, not yet called by AP.",
+   "source": "13WHAM",
+   "sourceUrl": "https://13wham.com/news/election/election-results-winners-emerge-in-rochester-area-and-new-york-state-races",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-NY-24"
   },
   {
+   "asOf": "2026-11-05T20:14:11Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Joe Morelle",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Virginia McIntyre",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 25,
    "label": "New York 25",
+   "note": "13WHAM reports Joe Morelle won reelection; projecting organization not stated, not yet called by AP.",
+   "source": "13WHAM",
+   "sourceUrl": "https://13wham.com/news/election/election-results-winners-emerge-in-rochester-area-and-new-york-state-races",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-NY-25"
   },
   {
