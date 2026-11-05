@@ -6852,7 +6852,7 @@
    "id": "senate-MN"
   },
   {
-   "asOf": "2026-11-05T00:16:13Z",
+   "asOf": "2026-11-05T08:15:59Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Mississippi,_2026",
    "candidates": [
@@ -6860,8 +6860,8 @@
      "name": "Scott Colom",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 48.9,
-     "votes": 462857
+     "pct": 49,
+     "votes": 464926
     },
     {
      "incumbent": true,
@@ -6869,23 +6869,23 @@
      "party": "R",
      "partyName": "Republican",
      "pct": 48.9,
-     "votes": 462792
+     "votes": 463788
     },
     {
      "name": "Ty Pinkins",
      "party": "I",
      "partyName": "Independent",
      "pct": 2.1,
-     "votes": 19938
+     "votes": 19934
     }
    ],
    "chamber": "senate",
    "label": "Mississippi",
-   "note": "Colom's lead grew to 1,138 votes per AP, with an estimated 96% of votes counted (Nov. 4, 5:30 pm CT); not called. Candidate totals shown are from an earlier count.",
+   "note": "Colom leads by 1,138 votes in unofficial results with about 95.6% of expected vote counted (Nov. 4, 6 p.m. CT); not called.",
    "openSeat": false,
-   "reporting": 96,
-   "source": "Mississippi Free Press",
-   "sourceUrl": "https://www.mississippifreepress.org/liveblog-mississippis-2026-u-s-senate-election-results/",
+   "reporting": 95.6,
+   "source": "WLBT",
+   "sourceUrl": "https://www.wlbt.com/2026/11/05/did-your-county-help-make-mississippis-senate-race-this-close/",
    "state": "MS",
    "status": "counting",
    "id": "senate-MS"
