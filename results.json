@@ -1505,12 +1505,29 @@
    "id": "house-AL-01"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Shomari Figures",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Rhett Marques",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 2,
    "label": "Alabama 2",
+   "note": "Projected for Shomari Figures by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "AL",
    "stateName": "Alabama",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-AL-02"
   },
   {
@@ -1712,12 +1729,28 @@
    "id": "house-AZ-09"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "name": "Mike McGuire",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "James Gallagher",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 1,
    "label": "California 1",
+   "note": "Projected for Mike McGuire by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-01"
   },
   {
@@ -1757,12 +1790,31 @@
    "id": "house-CA-05"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "calledAt": "2026-11-05T12:20:02Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Richard Pan",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    },
+    {
+     "incumbent": true,
+     "name": "Kevin Kiley",
+     "party": "I",
+     "partyName": "Independent"
+    }
+   ],
    "chamber": "house",
    "district": 6,
    "label": "California 6",
+   "source": "CalMatters",
+   "sourceUrl": "https://calmatters.org/politics/2026/11/california-election-2026-congress/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-CA-06"
   },
   {
@@ -1901,16 +1953,20 @@
    "id": "house-CA-21"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T12:20:02Z",
+   "calledAt": "2026-11-05T12:20:02Z",
+   "calledBy": "AP",
    "candidates": [
     {
-     "name": "Villegas",
+     "name": "Randy Villegas",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 65.1
+     "pct": 65.1,
+     "winner": true
     },
     {
-     "name": "Valadao",
+     "incumbent": true,
+     "name": "David Valadao",
      "party": "R",
      "partyName": "Republican",
      "pct": 34.9
@@ -1920,11 +1976,11 @@
    "district": 22,
    "label": "California 22",
    "reporting": 44.2,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "source": "CalMatters",
+   "sourceUrl": "https://calmatters.org/politics/2026/11/california-election-2026-congress/",
    "state": "CA",
    "stateName": "California",
-   "status": "counting",
+   "status": "called",
    "id": "house-CA-22"
   },
   {
@@ -2027,12 +2083,31 @@
    "id": "house-CA-33"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "calledAt": "2026-11-05T12:20:02Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Angela Gonzales-Torres",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    },
+    {
+     "incumbent": true,
+     "name": "Jimmy Gomez",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 34,
    "label": "California 34",
+   "source": "CalMatters",
+   "sourceUrl": "https://calmatters.org/politics/2026/11/california-election-2026-congress/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-CA-34"
   },
   {
@@ -2153,12 +2228,28 @@
    "id": "house-CA-47"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "name": "Marni von Wilpert",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Jim Desmond",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 48,
    "label": "California 48",
+   "note": "Projected for Marni von Wilpert by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-48"
   },
   {
@@ -2261,16 +2352,17 @@
    "id": "house-CO-07"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T12:20:02Z",
    "candidates": [
     {
-     "name": "Rutinel",
+     "name": "Manny Rutinel",
      "party": "D",
      "partyName": "Democratic",
      "pct": 55.5
     },
     {
-     "name": "Evans",
+     "incumbent": true,
+     "name": "Gabe Evans",
      "party": "R",
      "partyName": "Republican",
      "pct": 40.8
@@ -2279,9 +2371,9 @@
    "chamber": "house",
    "district": 8,
    "label": "Colorado 8",
-   "note": "Projected for Rutinel (D) by NBC News; not yet called by AP.",
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "note": "Projected for Manny Rutinel by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "CO",
    "stateName": "Colorado",
    "status": "counting",
@@ -2549,7 +2641,7 @@
    "id": "house-FL-21"
   },
   {
-   "asOf": "2026-11-04T02:21:49Z",
+   "asOf": "2026-11-05T12:20:02Z",
    "calledAt": "2026-11-04T02:21:49Z",
    "calledBy": "AP",
    "candidates": [
@@ -2836,16 +2928,17 @@
    "id": "house-HI-02"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T12:20:02Z",
    "candidates": [
     {
-     "name": "Bohannan",
+     "name": "Christina Bohannan",
      "party": "D",
      "partyName": "Democratic",
      "pct": 52.8
     },
     {
-     "name": "Miller-Meeks",
+     "incumbent": true,
+     "name": "Mariannette Miller-Meeks",
      "party": "R",
      "partyName": "Republican",
      "pct": 43.6
@@ -2854,34 +2947,51 @@
    "chamber": "house",
    "district": 1,
    "label": "Iowa 1",
-   "note": "Projected for Bohannan (D) by NBC News; not yet called by AP.",
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "note": "Projected for Christina Bohannan by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "IA",
    "stateName": "Iowa",
    "status": "counting",
    "id": "house-IA-01"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "name": "Lindsay James",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Joe Mitchell",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 2,
    "label": "Iowa 2",
+   "note": "Projected for Lindsay James by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "IA",
    "stateName": "Iowa",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-IA-02"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T12:20:02Z",
    "candidates": [
     {
-     "name": "Trone Garriott",
+     "name": "Sarah Trone Garriott",
      "party": "D",
      "partyName": "Democratic",
      "pct": 53.9
     },
     {
-     "name": "Nunn",
+     "incumbent": true,
+     "name": "Zach Nunn",
      "party": "R",
      "partyName": "Republican",
      "pct": 46.1
@@ -2890,9 +3000,9 @@
    "chamber": "house",
    "district": 3,
    "label": "Iowa 3",
-   "note": "Projected for Trone Garriott (D) by NBC News; not yet called by AP.",
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "note": "Projected for Sarah Trone Garriott by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "IA",
    "stateName": "Iowa",
    "status": "counting",
@@ -3115,12 +3225,29 @@
    "id": "house-IN-04"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "name": "J.D. Ford",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Victoria Spartz",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 5,
    "label": "Indiana 5",
+   "note": "Projected for J.D. Ford by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "IN",
    "stateName": "Indiana",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-IN-05"
   },
   {
@@ -3245,12 +3372,28 @@
    "id": "house-KY-05"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "name": "Zach Dembo",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Ralph Alvarado",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 6,
    "label": "Kentucky 6",
+   "note": "Projected for Zach Dembo by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "KY",
    "stateName": "Kentucky",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-KY-06"
   },
   {
@@ -3604,12 +3747,29 @@
    "id": "house-MI-07"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Kristen McDonald Rivet",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Thomas Smith",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 8,
    "label": "Michigan 8",
+   "note": "Projected for Kristen McDonald Rivet by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "MI",
    "stateName": "Michigan",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-MI-08"
   },
   {
@@ -3622,16 +3782,16 @@
    "id": "house-MI-09"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T12:20:02Z",
    "candidates": [
     {
-     "name": "Hines",
+     "name": "Christina Hines",
      "party": "D",
      "partyName": "Democratic",
      "pct": 50.3
     },
     {
-     "name": "Bouchard",
+     "name": "Michael Bouchard",
      "party": "R",
      "partyName": "Republican",
      "pct": 47.3
@@ -3640,9 +3800,10 @@
    "chamber": "house",
    "district": 10,
    "label": "Michigan 10",
+   "note": "Projected for Christina Hines by CBS News; not yet called by AP.",
    "reporting": 61.9,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "MI",
    "stateName": "Michigan",
    "status": "counting",
@@ -3757,12 +3918,29 @@
    "id": "house-MO-01"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "name": "Fred Wellman",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Ann Wagner",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 2,
    "label": "Missouri 2",
+   "note": "Projected for Fred Wellman by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "MO",
    "stateName": "Missouri",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-MO-02"
   },
   {
@@ -4056,16 +4234,16 @@
    "id": "house-NE-01"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T12:20:02Z",
    "candidates": [
     {
-     "name": "Powell",
+     "name": "Denise Powell",
      "party": "D",
      "partyName": "Democratic",
      "pct": 57
     },
     {
-     "name": "Harding",
+     "name": "Brinker Harding",
      "party": "R",
      "partyName": "Republican",
      "pct": 40.5
@@ -4074,9 +4252,9 @@
    "chamber": "house",
    "district": 2,
    "label": "Nebraska 2",
-   "note": "Projected for Powell (D) by NBC News; not yet called by AP.",
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "note": "Projected for Denise Powell by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "NE",
    "stateName": "Nebraska",
    "status": "counting",
@@ -4164,16 +4342,17 @@
    "id": "house-NJ-06"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T12:20:02Z",
    "candidates": [
     {
-     "name": "Bennett",
+     "name": "Rebecca Bennett",
      "party": "D",
      "partyName": "Democratic",
      "pct": 57.1
     },
     {
-     "name": "Kean Jr.",
+     "incumbent": true,
+     "name": "Tom Kean Jr.",
      "party": "R",
      "partyName": "Republican",
      "pct": 41.4
@@ -4182,9 +4361,9 @@
    "chamber": "house",
    "district": 7,
    "label": "New Jersey 7",
-   "note": "Projected for Bennett (D) by NBC News; not yet called by AP.",
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "note": "Projected for Rebecca Bennett by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "NJ",
    "stateName": "New Jersey",
    "status": "counting",
@@ -4245,12 +4424,29 @@
    "id": "house-NM-01"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Gabe Vasquez",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Greg Cunningham",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 2,
    "label": "New Mexico 2",
+   "note": "Projected for Gabe Vasquez by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "NM",
    "stateName": "New Mexico",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-NM-02"
   },
   {
@@ -4272,12 +4468,28 @@
    "id": "house-NV-01"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "name": "Teresa Benitez-Thompson",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "David Flippo",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 2,
    "label": "Nevada 2",
+   "note": "Projected for Teresa Benitez-Thompson by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "NV",
    "stateName": "Nevada",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-NV-02"
   },
   {
@@ -4479,12 +4691,29 @@
    "id": "house-NY-18"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Josh Riley",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Peter Oberacker",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 19,
    "label": "New York 19",
+   "note": "Projected for Josh Riley by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-NY-19"
   },
   {
@@ -4605,16 +4834,17 @@
    "id": "house-OH-06"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T12:20:02Z",
    "candidates": [
     {
-     "name": "Poindexter",
+     "name": "Brian Poindexter",
      "party": "D",
      "partyName": "Democratic",
      "pct": 54.4
     },
     {
-     "name": "Miller",
+     "incumbent": true,
+     "name": "Max Miller",
      "party": "R",
      "partyName": "Republican",
      "pct": 45.6
@@ -4623,9 +4853,9 @@
    "chamber": "house",
    "district": 7,
    "label": "Ohio 7",
-   "note": "Projected for Poindexter (D) by NBC News; not yet called by AP.",
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "note": "Projected for Brian Poindexter by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "OH",
    "stateName": "Ohio",
    "status": "counting",
@@ -4713,12 +4943,29 @@
    "id": "house-OH-14"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "name": "Don Leonard",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Mike Carey",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 15,
    "label": "Ohio 15",
+   "note": "Projected for Don Leonard by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-OH-15"
   },
   {
@@ -4998,16 +5245,17 @@
    "id": "house-PA-06"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T12:20:02Z",
    "candidates": [
     {
-     "name": "Brooks",
+     "name": "Bob Brooks",
      "party": "D",
      "partyName": "Democratic",
      "pct": 56
     },
     {
-     "name": "Mackenzie",
+     "incumbent": true,
+     "name": "Ryan Mackenzie",
      "party": "R",
      "partyName": "Republican",
      "pct": 44
@@ -5016,9 +5264,9 @@
    "chamber": "house",
    "district": 7,
    "label": "Pennsylvania 7",
-   "note": "Projected for Brooks (D) by NBC News; not yet called by AP.",
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "note": "Projected for Bob Brooks by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "PA",
    "stateName": "Pennsylvania",
    "status": "counting",
@@ -5064,16 +5312,17 @@
    "id": "house-PA-09"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T12:20:02Z",
    "candidates": [
     {
-     "name": "Stelson",
+     "name": "Janelle Stelson",
      "party": "D",
      "partyName": "Democratic",
      "pct": 55
     },
     {
-     "name": "Perry",
+     "incumbent": true,
+     "name": "Scott Perry",
      "party": "R",
      "partyName": "Republican",
      "pct": 45
@@ -5082,9 +5331,9 @@
    "chamber": "house",
    "district": 10,
    "label": "Pennsylvania 10",
-   "note": "Projected for Stelson (D) by NBC News; not yet called by AP.",
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "note": "Projected for Janelle Stelson by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "PA",
    "stateName": "Pennsylvania",
    "status": "counting",
@@ -5535,12 +5784,31 @@
    "id": "house-TX-14"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "calledAt": "2026-11-05T12:20:02Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Bobby Pulido",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    },
+    {
+     "incumbent": true,
+     "name": "Monica De La Cruz",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 15,
    "label": "Texas 15",
+   "source": "KSAT",
+   "sourceUrl": "https://www.ksat.com/news/local/2026/11/04/what-happened-in-the-nov-3-2026-historic-midterm-election-in-texas/",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-TX-15"
   },
   {
@@ -5607,12 +5875,30 @@
    "id": "house-TX-22"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "calledAt": "2026-11-05T12:20:02Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "name": "Katy Padilla Stout",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    },
+    {
+     "name": "Brandon Herrera",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 23,
    "label": "Texas 23",
+   "source": "KSAT",
+   "sourceUrl": "https://www.ksat.com/news/local/2026/11/04/what-happened-in-the-nov-3-2026-historic-midterm-election-in-texas/",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-TX-23"
   },
   {
@@ -5706,12 +5992,28 @@
    "id": "house-TX-31"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "name": "Jace Yarbrough",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Dan Barrios",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 32,
    "label": "Texas 32",
+   "note": "Projected for Jace Yarbrough by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-TX-32"
   },
   {
@@ -5724,16 +6026,17 @@
    "id": "house-TX-33"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T12:20:02Z",
    "candidates": [
     {
-     "name": "Gonzalez",
+     "incumbent": true,
+     "name": "Vicente Gonzalez",
      "party": "D",
      "partyName": "Democratic",
      "pct": 55.6
     },
     {
-     "name": "Flores",
+     "name": "Eric Flores",
      "party": "R",
      "partyName": "Republican",
      "pct": 39.8
@@ -5742,21 +6045,37 @@
    "chamber": "house",
    "district": 34,
    "label": "Texas 34",
-   "note": "Projected for Gonzalez (D) by NBC News; not yet called by AP.",
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "note": "Projected for Vicente Gonzalez by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "TX",
    "stateName": "Texas",
    "status": "counting",
    "id": "house-TX-34"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "name": "Johnny Garcia",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Carlos De La Cruz",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 35,
    "label": "Texas 35",
+   "note": "Projected for Johnny Garcia by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-TX-35"
   },
   {
@@ -5850,16 +6169,17 @@
    "id": "house-VA-01"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T12:20:02Z",
    "candidates": [
     {
-     "name": "Luria",
+     "name": "Elaine Luria",
      "party": "D",
      "partyName": "Democratic",
      "pct": 53.1
     },
     {
-     "name": "Kiggans",
+     "incumbent": true,
+     "name": "Jen Kiggans",
      "party": "R",
      "partyName": "Republican",
      "pct": 44.6
@@ -5868,9 +6188,9 @@
    "chamber": "house",
    "district": 2,
    "label": "Virginia 2",
-   "note": "Projected for Luria (D) by NBC News; not yet called by AP.",
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "note": "Projected for Elaine Luria by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "VA",
    "stateName": "Virginia",
    "status": "counting",
@@ -6075,12 +6395,29 @@
    "id": "house-WA-10"
   },
   {
+   "asOf": "2026-11-05T12:20:02Z",
+   "candidates": [
+    {
+     "name": "Mitchell Berman",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Brian Steil",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 1,
    "label": "Wisconsin 1",
+   "note": "Projected for Mitchell Berman by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "WI",
    "stateName": "Wisconsin",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-WI-01"
   },
   {
@@ -6093,16 +6430,17 @@
    "id": "house-WI-02"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T12:20:02Z",
    "candidates": [
     {
-     "name": "Cooke",
+     "name": "Rebecca Cooke",
      "party": "D",
      "partyName": "Democratic",
      "pct": 52.4
     },
     {
-     "name": "Van Orden",
+     "incumbent": true,
+     "name": "Derrick Van Orden",
      "party": "R",
      "partyName": "Republican",
      "pct": 45.8
@@ -6111,9 +6449,9 @@
    "chamber": "house",
    "district": 3,
    "label": "Wisconsin 3",
-   "note": "Projected for Cooke (D) by NBC News; not yet called by AP.",
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "note": "Projected for Rebecca Cooke by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "WI",
    "stateName": "Wisconsin",
    "status": "counting",
