@@ -6,18 +6,18 @@
    "R": 139,
    "note": "Associated Press tally of seats called as of 7 a.m. ET Nov 4 (68 uncalled), as reported by State Capital Lobbyist; AP projects Democratic control."
   },
-  "phase": "Counting \u2014 33 of 35 Senate races called; Alaska and Mississippi uncalled",
+  "phase": "Counting \u2014 33 of 35 Senate races called; Alaska and Mississippi uncalled; Kansas and Alaska governor races uncalled",
   "senate": {
    "D": 52,
    "O": 2,
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-04T20:15:43Z"
+  "updatedAt": "2026-11-05T00:16:13Z"
  },
  "races": [
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T00:16:13Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Alaska_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
    "candidates": [
@@ -25,7 +25,7 @@
      "name": "Jonathan Kreiss-Tomkins",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 49.9
+     "pct": 49.2
     },
     {
      "name": "David Bronson",
@@ -46,11 +46,11 @@
    ],
    "chamber": "governor",
    "label": "Alaska",
-   "note": "Alaska uses ranked-choice voting in the general election.",
+   "note": "Alaska uses ranked-choice voting in the general election; Kreiss-Tomkins was below 50% with about 74% counted. Not called by AP.",
    "openSeat": true,
-   "reporting": 53.7,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/governor-results",
+   "reporting": 74,
+   "source": "CP24 (AP)",
+   "sourceUrl": "https://www.cp24.com/news/world/2026/11/04/which-us-senate-governors-races-are-still-uncalled-by-the-associated-press/",
    "state": "AK",
    "status": "counting",
    "id": "gov-AK"
@@ -538,7 +538,7 @@
    "id": "gov-IL"
   },
   {
-   "asOf": "2026-11-04T20:15:43Z",
+   "asOf": "2026-11-05T00:16:13Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/Kansas_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
    "candidates": [
@@ -559,11 +559,11 @@
    ],
    "chamber": "governor",
    "label": "Kansas",
-   "note": "Holscher led Masterson by 5,557 votes; mail ballots postmarked by Election Day accepted through Friday. Not called by AP.",
+   "note": "Holscher led Masterson by 5,557 votes (0.51%) per Kansas Secretary of State figures; Holscher declared victory and Masterson asked for another look. Mail ballots postmarked by Election Day accepted through Friday. Not called by AP.",
    "openSeat": true,
    "reporting": 97.9,
-   "source": "WIBW",
-   "sourceUrl": "https://www.wibw.com/2026/11/04/holscher-claims-victory-kansas-gubernatorial-race-thats-still-too-close-call/",
+   "source": "KCUR",
+   "sourceUrl": "https://www.kcur.org/politics-elections-and-government/2026-11-04/ty-masterson-trails-in-kansas-governor-race-by-5-500-votes-he-says-the-results-need-another-look",
    "state": "KS",
    "status": "counting",
    "id": "gov-KS"
@@ -3470,7 +3470,7 @@
    "id": "house-ME-01"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T00:16:13Z",
    "candidates": [
     {
      "name": "Dunlap",
@@ -3488,9 +3488,10 @@
    "chamber": "house",
    "district": 2,
    "label": "Maine 2",
+   "note": "LePage led by fewer than 300 votes with about 30,000 votes outstanding (Nov. 4, 6:15 pm ET); not called by AP.",
    "reporting": 73.5,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "source": "Portland Press Herald",
+   "sourceUrl": "https://www.pressherald.com/2026/11/04/the-maine-2nd-district-race-is-still-uncalled-but-paul-lepage-is-in-good-shape/",
    "state": "ME",
    "stateName": "Maine",
    "status": "counting",
@@ -3569,30 +3570,37 @@
    "id": "house-MI-06"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-05T00:16:13Z",
+   "calledAt": "2026-11-04T18:50:00Z",
+   "calledBy": "AP",
    "candidates": [
     {
-     "name": "Lawrence",
+     "name": "William Lawrence",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 48.9
+     "pct": 51,
+     "votes": 202657,
+     "winner": true
     },
     {
-     "name": "Barrett",
+     "incumbent": true,
+     "name": "Tom Barrett",
      "party": "R",
      "partyName": "Republican",
-     "pct": 49.8
+     "pct": 48,
+     "votes": 189482
     }
    ],
    "chamber": "house",
    "district": 7,
    "label": "Michigan 7",
-   "reporting": 85,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "note": "Reporting figure is share of precincts counted at the time of the call.",
+   "reporting": 63.4,
+   "source": "ClickOnDetroit",
+   "sourceUrl": "https://www.clickondetroit.com/decision-2026/2026/11/04/william-lawrence-wins-michigan-us-house-district-7-ap-projects/",
    "state": "MI",
    "stateName": "Michigan",
-   "status": "counting",
+   "status": "called",
    "id": "house-MI-07"
   },
   {
@@ -6184,7 +6192,7 @@
    "id": "house-WY-AL"
   },
   {
-   "asOf": "2026-11-04T16:04:31Z",
+   "asOf": "2026-11-05T00:16:13Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Alaska,_2026",
    "candidates": [
@@ -6216,9 +6224,9 @@
    "label": "Alaska",
    "note": "Peltola led by 626 votes; no candidate above 50%, so ranked-choice tabulation is scheduled for Nov. 18. Not called.",
    "openSeat": false,
-   "reporting": 54.3,
-   "source": "Alaska Public Media",
-   "sourceUrl": "https://alaskapublic.org/news/politics/elections/2026-11-03/peltola-takes-early-lead-in-alaskas-u-s-senate-race",
+   "reporting": 74,
+   "source": "CP24 (AP)",
+   "sourceUrl": "https://www.cp24.com/news/world/2026/11/04/which-us-senate-governors-races-are-still-uncalled-by-the-associated-press/",
    "state": "AK",
    "status": "counting",
    "id": "senate-AK"
@@ -6844,7 +6852,7 @@
    "id": "senate-MN"
   },
   {
-   "asOf": "2026-11-04T20:15:43Z",
+   "asOf": "2026-11-05T00:16:13Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Mississippi,_2026",
    "candidates": [
@@ -6873,11 +6881,11 @@
    ],
    "chamber": "senate",
    "label": "Mississippi",
-   "note": "Colom led Hyde-Smith by 65 votes; not called.",
+   "note": "Colom's lead grew to 1,138 votes per AP, with an estimated 96% of votes counted (Nov. 4, 5:30 pm CT); not called. Candidate totals shown are from an earlier count.",
    "openSeat": false,
-   "reporting": 95.6,
-   "source": "WLOX / Gray News (via KBTX)",
-   "sourceUrl": "https://www.kbtx.com/2026/11/04/colom-hyde-smith-separated-by-narrow-margin-mississippi-senate-race/",
+   "reporting": 96,
+   "source": "Mississippi Free Press",
+   "sourceUrl": "https://www.mississippifreepress.org/liveblog-mississippis-2026-u-s-senate-election-results/",
    "state": "MS",
    "status": "counting",
    "id": "senate-MS"
@@ -7578,6 +7586,13 @@
   }
  ],
  "feed": [
+  {
+   "at": "2026-11-04T18:50:00Z",
+   "source": "ClickOnDetroit",
+   "sourceUrl": "https://www.clickondetroit.com/decision-2026/2026/11/04/william-lawrence-wins-michigan-us-house-district-7-ap-projects/",
+   "text": "AP projects William Lawrence (D) wins Michigan's 7th House district, defeating incumbent Tom Barrett (R).",
+   "id": "f20261105T001613"
+  },
   {
    "at": "2026-11-04T11:10:47Z",
    "source": "WTOP (AP)",
