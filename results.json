@@ -13,7 +13,7 @@
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-06T04:16:21Z"
+  "updatedAt": "2026-11-06T08:17:41Z"
  },
  "races": [
   {
@@ -3443,13 +3443,15 @@
    "id": "house-ID-02"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-06T08:17:41Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "incumbent": true,
      "name": "Jonathan Jackson",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Christian Maxwell",
@@ -3460,21 +3462,23 @@
    "chamber": "house",
    "district": 1,
    "label": "Illinois 1",
-   "note": "Projected for Jonathan Jackson by CBS News; not yet called by AP.",
-   "source": "CBS Chicago",
-   "sourceUrl": "https://www.cbsnews.com/chicago/live-updates/illinois-midterm-election-results-2026-live/",
+   "note": "AP call reported by Block Club Chicago; also projected by CBS News.",
+   "source": "Block Club Chicago (AP)",
+   "sourceUrl": "https://blockclubchicago.org/2026/11/03/illinois-midterm-election-2026-pritzker-seeks-3rd-term-voters-to-choose-fully-elected-school-board/",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "counting",
+   "status": "called",
    "id": "house-IL-01"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-06T08:17:41Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Donna Miller",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Mike Noack",
@@ -3485,12 +3489,12 @@
    "chamber": "house",
    "district": 2,
    "label": "Illinois 2",
-   "note": "Projected for Donna Miller by CBS News; not yet called by AP.",
-   "source": "CBS Chicago",
-   "sourceUrl": "https://www.cbsnews.com/chicago/live-updates/illinois-midterm-election-results-2026-live/",
+   "note": "AP call reported by Block Club Chicago; also projected by CBS News.",
+   "source": "Block Club Chicago (AP)",
+   "sourceUrl": "https://blockclubchicago.org/2026/11/03/illinois-midterm-election-2026-pritzker-seeks-3rd-term-voters-to-choose-fully-elected-school-board/",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "counting",
+   "status": "called",
    "id": "house-IL-02"
   },
   {
@@ -3597,12 +3601,14 @@
    "id": "house-IL-06"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-06T08:17:41Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "La Shawn Ford",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Chad Koppie",
@@ -3613,12 +3619,12 @@
    "chamber": "house",
    "district": 7,
    "label": "Illinois 7",
-   "note": "Projected for La Shawn Ford by CBS News; not yet called by AP.",
-   "source": "CBS Chicago",
-   "sourceUrl": "https://www.cbsnews.com/chicago/live-updates/illinois-midterm-election-results-2026-live/",
+   "note": "AP call reported by Block Club Chicago; also projected by CBS News.",
+   "source": "Block Club Chicago (AP)",
+   "sourceUrl": "https://blockclubchicago.org/2026/11/03/illinois-midterm-election-2026-pritzker-seeks-3rd-term-voters-to-choose-fully-elected-school-board/",
    "state": "IL",
    "stateName": "Illinois",
-   "status": "counting",
+   "status": "called",
    "id": "house-IL-07"
   },
   {
@@ -6314,31 +6320,35 @@
    "id": "house-PA-06"
   },
   {
-   "asOf": "2026-11-05T12:20:02Z",
+   "asOf": "2026-11-06T08:17:41Z",
+   "calledBy": "NBC News, CBS News",
    "candidates": [
     {
      "name": "Bob Brooks",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 56
+     "pct": 56.8,
+     "votes": 135315,
+     "winner": true
     },
     {
      "incumbent": true,
      "name": "Ryan Mackenzie",
      "party": "R",
      "partyName": "Republican",
-     "pct": 44
+     "votes": 102872
     }
    ],
    "chamber": "house",
    "district": 7,
    "label": "Pennsylvania 7",
-   "note": "Projected for Bob Brooks by CBS News; not yet called by AP.",
-   "source": "CBS News",
-   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+   "note": "Vote figures as of about 9:39 p.m. ET Nov. 3 per Daily Voice (NBC News projection); CBS News also projects Brooks.",
+   "reporting": 79.6,
+   "source": "Daily Voice (NBC News)",
+   "sourceUrl": "https://dailyvoice.com/article/pa-house-results-scott-perry-rob-bresnahan-face-challenges/",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "counting",
+   "status": "called",
    "id": "house-PA-07"
   },
   {
@@ -6374,49 +6384,92 @@
    "id": "house-PA-08"
   },
   {
+   "asOf": "2026-11-06T08:17:41Z",
+   "candidates": [
+    {
+     "name": "Dan Meuser",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 61.8,
+     "votes": 145618
+    },
+    {
+     "name": "Rachel Wallace",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 9,
    "label": "Pennsylvania 9",
+   "note": "Projected for Dan Meuser by NBC News; not yet called by AP.",
+   "reporting": 79.9,
+   "source": "Daily Voice (NBC News)",
+   "sourceUrl": "https://dailyvoice.com/article/pa-house-results-scott-perry-rob-bresnahan-face-challenges/",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-PA-09"
   },
   {
-   "asOf": "2026-11-05T12:20:02Z",
+   "asOf": "2026-11-06T08:17:41Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Janelle Stelson",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 55
+     "pct": 56.5,
+     "votes": 150213,
+     "winner": true
     },
     {
      "incumbent": true,
      "name": "Scott Perry",
      "party": "R",
      "partyName": "Republican",
-     "pct": 45
+     "pct": 43.5,
+     "votes": 115537
     }
    ],
    "chamber": "house",
    "district": 10,
    "label": "Pennsylvania 10",
-   "note": "Projected for Janelle Stelson by CBS News; not yet called by AP.",
-   "source": "CBS News",
-   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+   "note": "Vote figures as of about 9:39 p.m. ET Nov. 3 per Daily Voice; AP projection reported by The Philadelphia Inquirer.",
+   "reporting": 84.7,
+   "source": "The Philadelphia Inquirer (AP)",
+   "sourceUrl": "https://www.inquirer.com/politics/election/live/midterm-election-2026-results-updates-candidates-polls-pa-nj-20261103.html",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "counting",
+   "status": "called",
    "id": "house-PA-10"
   },
   {
+   "asOf": "2026-11-06T08:17:41Z",
+   "candidates": [
+    {
+     "name": "Lloyd Smucker",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 55.5,
+     "votes": 164555
+    },
+    {
+     "name": "Nancy Mannion",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 11,
    "label": "Pennsylvania 11",
+   "note": "Projected for Lloyd Smucker by NBC News; not yet called by AP.",
+   "reporting": 93,
+   "source": "Daily Voice (NBC News)",
+   "sourceUrl": "https://dailyvoice.com/article/pa-house-results-scott-perry-rob-bresnahan-face-challenges/",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-PA-11"
   },
   {
@@ -6480,12 +6533,30 @@
    "id": "house-PA-13"
   },
   {
+   "asOf": "2026-11-06T08:17:41Z",
+   "candidates": [
+    {
+     "name": "Guy Reschenthaler",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 58.1,
+     "votes": 110095
+    },
+    {
+     "name": "Alan Bradstock",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 14,
    "label": "Pennsylvania 14",
+   "reporting": 84.2,
+   "source": "Daily Voice (NBC News)",
+   "sourceUrl": "https://dailyvoice.com/article/pa-house-results-scott-perry-rob-bresnahan-face-challenges/",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-PA-14"
   },
   {
@@ -6519,12 +6590,30 @@
    "id": "house-PA-15"
   },
   {
+   "asOf": "2026-11-06T08:17:41Z",
+   "candidates": [
+    {
+     "name": "Mike Kelly",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 54,
+     "votes": 142584
+    },
+    {
+     "name": "Justin Wagner",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 16,
    "label": "Pennsylvania 16",
+   "reporting": 86.2,
+   "source": "Daily Voice (NBC News)",
+   "sourceUrl": "https://dailyvoice.com/article/pa-house-results-scott-perry-rob-bresnahan-face-challenges/",
    "state": "PA",
    "stateName": "Pennsylvania",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-PA-16"
   },
   {
