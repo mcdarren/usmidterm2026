@@ -4,7 +4,7 @@
    "D": 228,
    "O": 0,
    "R": 139,
-   "note": "Associated Press tally of seats called as of 7 a.m. ET Nov 4 (68 uncalled), as reported by State Capital Lobbyist; AP projects Democratic control."
+   "note": "Associated Press tally of seats called as of 7 a.m. ET Nov 4 (68 uncalled), as reported by State Capital Lobbyist; AP projects Democratic control. NBC News Decision Desk estimates Democrats will control at least 259 seats, with about 30 House races uncalled (NBC News live blog, Nov. 5, 10:08 p.m. ET)."
   },
   "phase": "Counting \u2014 33 of 35 Senate races called; Alaska and Mississippi uncalled; Kansas and Alaska governor races uncalled",
   "senate": {
@@ -13,7 +13,7 @@
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-06T08:17:41Z"
+  "updatedAt": "2026-11-06T12:18:00Z"
  },
  "races": [
   {
@@ -1612,13 +1612,15 @@
    "id": "house-AR-04"
   },
   {
-   "asOf": "2026-11-06T04:16:21Z",
+   "asOf": "2026-11-06T12:18:00Z",
+   "calledBy": "CBS News, NBC News",
    "candidates": [
     {
      "name": "Shah",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 54.9
+     "pct": 54.9,
+     "winner": true
     },
     {
      "name": "Feely",
@@ -1630,13 +1632,13 @@
    "chamber": "house",
    "district": 1,
    "label": "Arizona 1",
-   "note": "Projected for Amish Shah by CBS News; not yet called by AP.",
+   "note": "Projected for Amish Shah by CBS News and NBC News; not yet called by AP.",
    "reporting": 73.6,
-   "source": "CBS News",
-   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+   "source": "NBC News",
+   "sourceUrl": "https://www.nbcnews.com/politics/2026-election/live-blog/election-results-house-senate-trump-congress-live-updates-rcna607549",
    "state": "AZ",
    "stateName": "Arizona",
-   "status": "counting",
+   "status": "called",
    "id": "house-AZ-01"
   },
   {
@@ -1676,13 +1678,15 @@
    "id": "house-AZ-05"
   },
   {
-   "asOf": "2026-11-06T04:16:21Z",
+   "asOf": "2026-11-06T12:18:00Z",
+   "calledBy": "CBS News, NBC News",
    "candidates": [
     {
      "name": "Mendoza",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 54.9
+     "pct": 54.9,
+     "winner": true
     },
     {
      "name": "Ciscomani",
@@ -1694,13 +1698,13 @@
    "chamber": "house",
    "district": 6,
    "label": "Arizona 6",
-   "note": "Projected for JoAnna Mendoza by CBS News; not yet called by AP.",
+   "note": "Projected for JoAnna Mendoza by CBS News and NBC News; not yet called by AP.",
    "reporting": 71.3,
-   "source": "CBS News",
-   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+   "source": "NBC News",
+   "sourceUrl": "https://www.nbcnews.com/politics/2026-election/live-blog/election-results-house-senate-trump-congress-live-updates-rcna607549",
    "state": "AZ",
    "stateName": "Arizona",
-   "status": "counting",
+   "status": "called",
    "id": "house-AZ-06"
   },
   {
@@ -5616,7 +5620,8 @@
    "id": "house-NY-16"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-06T12:18:00Z",
+   "calledBy": "CBS News, NBC News",
    "candidates": [
     {
      "incumbent": true,
@@ -5629,19 +5634,20 @@
      "name": "Cait Conley",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 52.2
+     "pct": 52.2,
+     "winner": true
     }
    ],
    "chamber": "house",
    "district": 17,
    "label": "New York 17",
-   "note": "Lawler conceded to Conley, per CBS News; not yet called by AP.",
+   "note": "Projected for Cait Conley by CBS News and NBC News; Lawler conceded; not yet called by AP.",
    "reporting": 60.9,
-   "source": "CBS News",
-   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+   "source": "NBC News",
+   "sourceUrl": "https://www.nbcnews.com/politics/2026-election/live-blog/election-results-house-senate-trump-congress-live-updates-rcna607549",
    "state": "NY",
    "stateName": "New York",
-   "status": "counting",
+   "status": "called",
    "id": "house-NY-17"
   },
   {
