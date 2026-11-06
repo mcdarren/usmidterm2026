@@ -13,7 +13,7 @@
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-05T20:14:11Z"
+  "updatedAt": "2026-11-06T00:17:05Z"
  },
  "races": [
   {
@@ -5618,13 +5618,15 @@
    "id": "house-NY-26"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-06T00:17:05Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "incumbent": true,
      "name": "Greg Landsman",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "name": "Eric Conroy",
@@ -5635,12 +5637,11 @@
    "chamber": "house",
    "district": 1,
    "label": "Ohio 1",
-   "note": "Projected for Greg Landsman by CBS News; not yet called by AP.",
-   "source": "CBS News",
-   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+   "source": "Ohio Capital Journal",
+   "sourceUrl": "https://ohiocapitaljournal.com/2026/11/04/ohio-democrats-flip-two-us-congressional-districts-delegation-stands-at-7-7-with-1-race-undecided/",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "counting",
+   "status": "called",
    "id": "house-OH-01"
   },
   {
@@ -5689,13 +5690,15 @@
    "id": "house-OH-06"
   },
   {
-   "asOf": "2026-11-05T12:20:02Z",
+   "asOf": "2026-11-06T00:17:05Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Brian Poindexter",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 54.4
+     "pct": 54.4,
+     "winner": true
     },
     {
      "incumbent": true,
@@ -5708,12 +5711,11 @@
    "chamber": "house",
    "district": 7,
    "label": "Ohio 7",
-   "note": "Projected for Brian Poindexter by CBS News; not yet called by AP.",
-   "source": "CBS News",
-   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+   "source": "Ohio Capital Journal",
+   "sourceUrl": "https://ohiocapitaljournal.com/2026/11/04/ohio-democrats-flip-two-us-congressional-districts-delegation-stands-at-7-7-with-1-race-undecided/",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "counting",
+   "status": "called",
    "id": "house-OH-07"
   },
   {
@@ -5726,39 +5728,57 @@
    "id": "house-OH-08"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-06T00:17:05Z",
+   "calledBy": "AP",
    "candidates": [
     {
-     "name": "Kaptur",
+     "incumbent": true,
+     "name": "Marcy Kaptur",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 40.9
+     "winner": true
     },
     {
-     "name": "Merrin",
+     "name": "Derek Merrin",
      "party": "R",
-     "partyName": "Republican",
-     "pct": 59.1
+     "partyName": "Republican"
     }
    ],
    "chamber": "house",
    "district": 9,
    "label": "Ohio 9",
-   "reporting": 47.7,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "source": "Ohio Capital Journal",
+   "sourceUrl": "https://ohiocapitaljournal.com/2026/11/04/ohio-democrats-flip-two-us-congressional-districts-delegation-stands-at-7-7-with-1-race-undecided/",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "counting",
+   "status": "called",
    "id": "house-OH-09"
   },
   {
+   "asOf": "2026-11-06T00:17:05Z",
+   "calledBy": "CBS News, Decision Desk HQ",
+   "candidates": [
+    {
+     "name": "Kristina Knickerbocker",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    },
+    {
+     "incumbent": true,
+     "name": "Mike Turner",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 10,
    "label": "Ohio 10",
+   "source": "Ohio Capital Journal",
+   "sourceUrl": "https://ohiocapitaljournal.com/2026/11/04/ohio-democrats-flip-two-us-congressional-districts-delegation-stands-at-7-7-with-1-race-undecided/",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-OH-10"
   },
   {
@@ -5780,12 +5800,30 @@
    "id": "house-OH-12"
   },
   {
+   "asOf": "2026-11-06T00:17:05Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Emilia Sykes",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    },
+    {
+     "name": "Carey Coleman",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 13,
    "label": "Ohio 13",
+   "source": "Ohio Capital Journal",
+   "sourceUrl": "https://ohiocapitaljournal.com/2026/11/04/ohio-democrats-flip-two-us-congressional-districts-delegation-stands-at-7-7-with-1-race-undecided/",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-OH-13"
   },
   {
@@ -5798,12 +5836,14 @@
    "id": "house-OH-14"
   },
   {
-   "asOf": "2026-11-05T12:20:02Z",
+   "asOf": "2026-11-06T00:17:05Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Don Leonard",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "winner": true
     },
     {
      "incumbent": true,
@@ -5815,12 +5855,11 @@
    "chamber": "house",
    "district": 15,
    "label": "Ohio 15",
-   "note": "Projected for Don Leonard by CBS News; not yet called by AP.",
-   "source": "CBS News",
-   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+   "source": "Ohio Capital Journal",
+   "sourceUrl": "https://ohiocapitaljournal.com/2026/11/04/ohio-democrats-flip-two-us-congressional-districts-delegation-stands-at-7-7-with-1-race-undecided/",
    "state": "OH",
    "stateName": "Ohio",
-   "status": "counting",
+   "status": "called",
    "id": "house-OH-15"
   },
   {
@@ -7165,12 +7204,39 @@
    "id": "house-VA-04"
   },
   {
+   "asOf": "2026-11-06T00:17:05Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "John McGuire",
+     "party": "R",
+     "partyName": "Republican",
+     "votes": 181290,
+     "winner": true
+    },
+    {
+     "name": "Tom Perriello",
+     "party": "D",
+     "partyName": "Democratic",
+     "votes": 173417
+    },
+    {
+     "name": "Cooke Harvey",
+     "party": "I",
+     "partyName": "Independent",
+     "votes": 5763
+    }
+   ],
    "chamber": "house",
    "district": 5,
    "label": "Virginia 5",
+   "reporting": 98,
+   "source": "WDBJ7",
+   "sourceUrl": "https://www.wdbj7.com/2026/11/05/mcguire-wins-reelection-district-5-congressional-seat/",
    "state": "VA",
    "stateName": "Virginia",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-VA-05"
   },
   {
@@ -8140,7 +8206,7 @@
    "id": "senate-MN"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-06T00:17:05Z",
    "ballotSource": "Ballotpedia",
    "ballotSourceUrl": "https://ballotpedia.org/United_States_Senate_election_in_Mississippi,_2026",
    "candidates": [
@@ -8148,32 +8214,30 @@
      "name": "Scott Colom",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 49,
-     "votes": 464926
+     "pct": 49.04
     },
     {
      "incumbent": true,
      "name": "Cindy Hyde-Smith",
      "party": "R",
      "partyName": "Republican",
-     "pct": 48.9,
-     "votes": 463788
+     "pct": 48.85
     },
     {
      "name": "Ty Pinkins",
      "party": "I",
      "partyName": "Independent",
      "pct": 2.1,
-     "votes": 19934
+     "votes": 20007
     }
    ],
    "chamber": "senate",
    "label": "Mississippi",
-   "note": "Colom led by 1,138 votes per AP with about 96% of expected vote counted (Nov. 4); Decision Desk HQ showed a 1,818-vote lead on the morning of Nov. 5. Affidavit and absentee ballots outstanding; not called.",
+   "note": "Colom led by 1,813 votes with 951,744 votes counted as of 6:17 p.m. ET Nov. 5; AP estimates more than 95% of votes in. An estimated 10,000 to 15,000 provisional ballots remain to be verified. Not called.",
    "openSeat": false,
-   "reporting": 95.6,
-   "source": "Mississippi Free Press",
-   "sourceUrl": "https://www.mississippifreepress.org/liveblog-mississippis-2026-u-s-senate-election-results/",
+   "reporting": 95,
+   "source": "CNBC",
+   "sourceUrl": "https://www.cnbc.com/2026/11/05/mississippi-senate-election-scott-colom-hyde-smith.html",
    "state": "MS",
    "status": "counting",
    "id": "senate-MS"
