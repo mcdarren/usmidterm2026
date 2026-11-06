@@ -13,7 +13,7 @@
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-06T00:17:05Z"
+  "updatedAt": "2026-11-06T04:16:21Z"
  },
  "races": [
   {
@@ -1612,7 +1612,7 @@
    "id": "house-AR-04"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-06T04:16:21Z",
    "candidates": [
     {
      "name": "Shah",
@@ -1630,9 +1630,10 @@
    "chamber": "house",
    "district": 1,
    "label": "Arizona 1",
+   "note": "Projected for Amish Shah by CBS News; not yet called by AP.",
    "reporting": 73.6,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "AZ",
    "stateName": "Arizona",
    "status": "counting",
@@ -1675,7 +1676,7 @@
    "id": "house-AZ-05"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-06T04:16:21Z",
    "candidates": [
     {
      "name": "Mendoza",
@@ -1693,9 +1694,10 @@
    "chamber": "house",
    "district": 6,
    "label": "Arizona 6",
+   "note": "Projected for JoAnna Mendoza by CBS News; not yet called by AP.",
    "reporting": 71.3,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "AZ",
    "stateName": "Arizona",
    "status": "counting",
@@ -1806,12 +1808,29 @@
    "id": "house-CA-04"
   },
   {
+   "asOf": "2026-11-06T04:16:21Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Tom McClintock",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Michael Masuda",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 5,
    "label": "California 5",
+   "note": "CapRadio reports McClintock re-elected; no projecting organization named; not yet called by AP.",
+   "source": "CapRadio",
+   "sourceUrl": "https://www.capradio.org/articles/2026/11/03/here-are-the-latest-northern-california-congressional-race-results/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-05"
   },
   {
@@ -1856,21 +1875,55 @@
    "id": "house-CA-07"
   },
   {
+   "asOf": "2026-11-06T04:16:21Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "John Garamendi",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Rudy Recile",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 8,
    "label": "California 8",
+   "note": "CapRadio reports Garamendi won; no projecting organization named; not yet called by AP.",
+   "source": "CapRadio",
+   "sourceUrl": "https://www.capradio.org/articles/2026/11/03/here-are-the-latest-northern-california-congressional-race-results/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-08"
   },
   {
+   "asOf": "2026-11-06T04:16:21Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Josh Harder",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "John McBride",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 9,
    "label": "California 9",
+   "note": "CapRadio reports Harder defeated McBride; no projecting organization named; not yet called by AP.",
+   "source": "CapRadio",
+   "sourceUrl": "https://www.capradio.org/articles/2026/11/03/here-are-the-latest-northern-california-congressional-race-results/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-09"
   },
   {
@@ -2510,12 +2563,29 @@
    "id": "house-CO-04"
   },
   {
+   "asOf": "2026-11-06T04:16:21Z",
+   "candidates": [
+    {
+     "name": "Jessica Killin",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Jeff Crank",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 5,
    "label": "Colorado 5",
+   "note": "Projected for Jessica Killin by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "CO",
    "stateName": "Colorado",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CO-05"
   },
   {
@@ -2727,12 +2797,29 @@
    "id": "house-FL-12"
   },
   {
+   "asOf": "2026-11-06T04:16:21Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Anna Paulina Luna",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Leela Gray",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 13,
    "label": "Florida 13",
+   "note": "Projected for Anna Paulina Luna by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-FL-13"
   },
   {
@@ -4272,7 +4359,7 @@
    "id": "house-MI-03"
   },
   {
-   "asOf": "2026-11-04T06:46:00Z",
+   "asOf": "2026-11-06T04:16:21Z",
    "candidates": [
     {
      "name": "McCann",
@@ -4290,9 +4377,10 @@
    "chamber": "house",
    "district": 4,
    "label": "Michigan 4",
+   "note": "Projected for Sean McCann by CBS News; not yet called by AP.",
    "reporting": 67.1,
-   "source": "NBC News",
-   "sourceUrl": "https://www.nbcnews.com/politics/2026-elections/house-results",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "MI",
    "stateName": "Michigan",
    "status": "counting",
@@ -4638,12 +4726,28 @@
    "id": "house-MS-04"
   },
   {
+   "asOf": "2026-11-06T04:16:21Z",
+   "candidates": [
+    {
+     "name": "Sam Forstag",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Aaron Flint",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 1,
    "label": "Montana 1",
+   "note": "Projected for Sam Forstag by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "MT",
    "stateName": "Montana",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-MT-01"
   },
   {
@@ -4760,12 +4864,29 @@
    "id": "house-NC-05"
   },
   {
+   "asOf": "2026-11-06T04:16:21Z",
+   "candidates": [
+    {
+     "name": "Cyril Jefferson",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Addison McDowell",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 6,
    "label": "North Carolina 6",
+   "note": "Projected for Cyril Jefferson by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-NC-06"
   },
   {
@@ -4872,21 +4993,55 @@
    "id": "house-NC-12"
   },
   {
+   "asOf": "2026-11-06T04:16:21Z",
+   "candidates": [
+    {
+     "name": "Paul Barringer",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Brad Knott",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 13,
    "label": "North Carolina 13",
+   "note": "Projected for Paul Barringer by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-NC-13"
   },
   {
+   "asOf": "2026-11-06T04:16:21Z",
+   "candidates": [
+    {
+     "name": "Lakesha Womack",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Tim Moore",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 14,
    "label": "North Carolina 14",
+   "note": "Projected for Lakesha Womack by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "NC",
    "stateName": "North Carolina",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-NC-14"
   },
   {
@@ -4987,12 +5142,29 @@
    "id": "house-NJ-01"
   },
   {
+   "asOf": "2026-11-06T04:16:21Z",
+   "candidates": [
+    {
+     "name": "Zack Mullock",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "incumbent": true,
+     "name": "Jeff Van Drew",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 2,
    "label": "New Jersey 2",
+   "note": "Projected for Zack Mullock by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "NJ",
    "stateName": "New Jersey",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-NJ-02"
   },
   {
@@ -6548,12 +6720,28 @@
    "id": "house-TN-08"
   },
   {
+   "asOf": "2026-11-06T04:16:21Z",
+   "candidates": [
+    {
+     "name": "Brent Taylor",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Justin Pearson",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 9,
    "label": "Tennessee 9",
+   "note": "Projected for Brent Taylor by CBS News; not yet called by AP.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "TN",
    "stateName": "Tennessee",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-TN-09"
   },
   {
