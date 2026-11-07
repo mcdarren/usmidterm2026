@@ -13,7 +13,7 @@
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-07T13:01:33Z"
+  "updatedAt": "2026-11-07T15:38:03Z"
  },
  "races": [
   {
@@ -1735,710 +1735,1237 @@
    "id": "house-AZ-09"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
-   "calledBy": "AP",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "name": "Mike McGuire",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 57,
-     "votes": 88089,
-     "winner": true
+     "pct": 55.2,
+     "votes": 97294
     },
     {
      "incumbent": true,
      "name": "James Gallagher",
      "party": "R",
      "partyName": "Republican",
-     "pct": 43,
-     "votes": 66369
+     "pct": 44.8,
+     "votes": 78852
     }
    ],
    "chamber": "house",
    "district": 1,
    "label": "California 1",
-   "source": "California Today",
-   "sourceUrl": "https://californiatoday.com/guides/elections/2026-california-election-results-master-guide/",
+   "note": "Projected for Mike McGuire by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 60.8,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "called",
+   "status": "counting",
    "id": "house-CA-01"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Jared Huffman",
+     "pct": 65,
+     "votes": 118456
+    },
+    {
+     "name": "Robin Littau",
+     "pct": 35,
+     "votes": 63878
+    }
+   ],
    "chamber": "house",
    "district": 2,
    "label": "California 2",
+   "note": "Projected for Jared Huffman by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 56.4,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-02"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "name": "Ami Bera",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 57.1,
-     "votes": 95372
+     "pct": 58,
+     "votes": 120081
     },
     {
      "name": "Robb Tucker",
      "party": "R",
      "partyName": "Republican",
-     "pct": 42.9,
-     "votes": 71774
+     "pct": 42,
+     "votes": 87087
     }
    ],
    "chamber": "house",
    "district": 3,
    "label": "California 3",
-   "source": "California Today",
-   "sourceUrl": "https://californiatoday.com/guides/elections/2026-california-election-results-master-guide/",
+   "note": "Projected for Ami Bera by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 63.4,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-03"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Eric Jones",
+     "pct": 51.6,
+     "votes": 72473
+    },
+    {
+     "name": "Mike Thompson",
+     "pct": 48.4,
+     "votes": 68108
+    }
+   ],
    "chamber": "house",
    "district": 4,
    "label": "California 4",
+   "note": "Eric Jones leads in the count; no projection marked (NBC News Decision Desk page updated Nov. 4, 2026, 10:33 a.m.).",
+   "reporting": 54.8,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-04"
   },
   {
-   "asOf": "2026-11-06T04:16:21Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "Tom McClintock",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "pct": 56.4,
+     "votes": 122601
     },
     {
      "name": "Michael Masuda",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "pct": 43.6,
+     "votes": 94932
     }
    ],
    "chamber": "house",
    "district": 5,
    "label": "California 5",
-   "note": "CapRadio reports McClintock re-elected; no projecting organization named; not yet called by AP.",
-   "source": "CapRadio",
-   "sourceUrl": "https://www.capradio.org/articles/2026/11/03/here-are-the-latest-northern-california-congressional-race-results/",
+   "note": "Projected for Tom McClintock by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 71.3,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-05"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
-   "calledAt": "2026-11-05T12:20:02Z",
-   "calledBy": "AP",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "name": "Richard Pan",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 57.5,
-     "votes": 86732,
-     "winner": true
+     "pct": 58.6,
+     "votes": 108065
     },
     {
      "incumbent": true,
      "name": "Kevin Kiley",
      "party": "I",
      "partyName": "Independent",
-     "pct": 42.5,
-     "votes": 64143
+     "pct": 41.4,
+     "votes": 76313
     }
    ],
    "chamber": "house",
    "district": 6,
    "label": "California 6",
-   "source": "California Today",
-   "sourceUrl": "https://californiatoday.com/guides/elections/2026-california-election-results-master-guide/",
+   "note": "Projected for Richard Pan by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 63.6,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "called",
+   "status": "counting",
    "id": "house-CA-06"
   },
   {
-   "asOf": "2026-11-07T12:58:58Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "Doris Matsui",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 57
+     "pct": 55.7,
+     "votes": 97765
     },
     {
      "name": "Mai Vang",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "pct": 44.3,
+     "votes": 77894
     }
    ],
    "chamber": "house",
    "district": 7,
    "label": "California 7",
-   "note": "Matsui leading per AP figure cited by CalMatters (57% with 41% of ballots counted); not called.",
-   "reporting": 41,
-   "source": "CalMatters",
-   "sourceUrl": "https://calmatters.org/politics/2026/11/california-election-2026-congress/",
+   "note": "Doris Matsui leads in the count; no projection marked (NBC News Decision Desk page updated Nov. 4, 2026, 10:33 a.m.).",
+   "reporting": 67,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-07"
   },
   {
-   "asOf": "2026-11-06T04:16:21Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "John Garamendi",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "pct": 72.7,
+     "votes": 162803
     },
     {
      "name": "Rudy Recile",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "pct": 27.3,
+     "votes": 61267
     }
    ],
    "chamber": "house",
    "district": 8,
    "label": "California 8",
-   "note": "CapRadio reports Garamendi won; no projecting organization named; not yet called by AP.",
-   "source": "CapRadio",
-   "sourceUrl": "https://www.capradio.org/articles/2026/11/03/here-are-the-latest-northern-california-congressional-race-results/",
+   "note": "Projected for John Garamendi by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 86.4,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-08"
   },
   {
-   "asOf": "2026-11-06T04:16:21Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "Josh Harder",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "pct": 66.9,
+     "votes": 111799
     },
     {
      "name": "John McBride",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "pct": 33.1,
+     "votes": 55263
     }
    ],
    "chamber": "house",
    "district": 9,
    "label": "California 9",
-   "note": "CapRadio reports Harder defeated McBride; no projecting organization named; not yet called by AP.",
-   "source": "CapRadio",
-   "sourceUrl": "https://www.capradio.org/articles/2026/11/03/here-are-the-latest-northern-california-congressional-race-results/",
+   "note": "Projected for Josh Harder by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 79.8,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-09"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Mark DeSaulnier",
+     "pct": 69.7,
+     "votes": 178225
+    },
+    {
+     "name": "Jeff Frese",
+     "pct": 30.3,
+     "votes": 77586
+    }
+   ],
    "chamber": "house",
    "district": 10,
    "label": "California 10",
+   "note": "Projected for Mark DeSaulnier by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 79.1,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-10"
   },
   {
-   "asOf": "2026-11-07T12:58:58Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "name": "Scott Wiener",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "pct": 54,
+     "votes": 142519
     },
     {
      "name": "Connie Chan",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "pct": 46,
+     "votes": 121206
     }
    ],
    "chamber": "house",
    "district": 11,
    "label": "California 11",
-   "note": "Wiener reported poised for a win and Chan conceded Wednesday per CalMatters; projecting organization not stated.",
-   "source": "CalMatters",
-   "sourceUrl": "https://calmatters.org/politics/2026/11/california-election-2026-congress/",
+   "note": "Projected for Scott Wiener by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 89.7,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-11"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Lateefah Simon",
+     "pct": 80.6,
+     "votes": 158425
+    },
+    {
+     "name": "Jamie Joyce",
+     "pct": 19.4,
+     "votes": 38227
+    }
+   ],
    "chamber": "house",
    "district": 12,
    "label": "California 12",
+   "note": "Projected for Lateefah Simon by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 73.7,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-12"
   },
   {
-   "asOf": "2026-11-07T12:58:58Z",
-   "calledAt": "2026-11-07T12:58:58Z",
-   "calledBy": "AP",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "Adam Gray",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 61.3,
-     "votes": 58217,
-     "winner": true
+     "pct": 61.7,
+     "votes": 70184
     },
     {
      "name": "Kevin Lincoln",
      "party": "R",
      "partyName": "Republican",
-     "pct": 38.7,
-     "votes": 36724
+     "pct": 38.3,
+     "votes": 43640
     }
    ],
    "chamber": "house",
    "district": 13,
    "label": "California 13",
-   "note": "AP called the race Wednesday per CalMatters; vote figures from Yahoo News (Nov. 4, 11:28 PM UTC).",
-   "source": "CalMatters",
-   "sourceUrl": "https://calmatters.org/politics/2026/11/california-election-2026-congress/",
+   "note": "Projected for Adam Gray by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 65.4,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "called",
+   "status": "counting",
    "id": "house-CA-13"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Aisha Wahab",
+     "pct": 57.5,
+     "votes": 91892
+    },
+    {
+     "name": "Melissa Hernandez",
+     "pct": 42.5,
+     "votes": 67836
+    }
+   ],
    "chamber": "house",
    "district": 14,
    "label": "California 14",
+   "note": "Projected for Aisha Wahab by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 66.9,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-14"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Kevin Mullin",
+     "pct": 78.5,
+     "votes": 127733
+    },
+    {
+     "name": "Charles Hoelter",
+     "pct": 21.5,
+     "votes": 35056
+    }
+   ],
    "chamber": "house",
    "district": 15,
    "label": "California 15",
+   "note": "Projected for Kevin Mullin by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 66,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-15"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Sam Liccardo",
+     "pct": 76.8,
+     "votes": 141302
+    },
+    {
+     "name": "Peter Soul\u00e9",
+     "pct": 23.2,
+     "votes": 42651
+    }
+   ],
    "chamber": "house",
    "district": 16,
    "label": "California 16",
+   "note": "Projected for Sam Liccardo by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 58.8,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-16"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Ro Khanna",
+     "pct": 71.2,
+     "votes": 97602
+    },
+    {
+     "name": "Ritesh Tandon",
+     "pct": 28.8,
+     "votes": 39442
+    }
+   ],
    "chamber": "house",
    "district": 17,
    "label": "California 17",
+   "note": "Projected for Ro Khanna by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 59.5,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-17"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Zoe Lofgren",
+     "pct": 72.1,
+     "votes": 93855
+    },
+    {
+     "name": "Shane Lewis",
+     "pct": 27.9,
+     "votes": 36290
+    }
+   ],
    "chamber": "house",
    "district": 18,
    "label": "California 18",
+   "note": "Projected for Zoe Lofgren by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 64.2,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-18"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Jimmy Panetta",
+     "pct": 72.3,
+     "votes": 160763
+    },
+    {
+     "name": "Peter Verbica",
+     "pct": 27.7,
+     "votes": 61469
+    }
+   ],
    "chamber": "house",
    "district": 19,
    "label": "California 19",
+   "note": "Projected for Jimmy Panetta by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 65.5,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-19"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Vince Fong",
+     "pct": 61.9,
+     "votes": 104338
+    },
+    {
+     "name": "Sandra Van Scotter",
+     "pct": 38.1,
+     "votes": 64310
+    }
+   ],
    "chamber": "house",
    "district": 20,
    "label": "California 20",
+   "note": "Projected for Vince Fong by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 58.2,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-20"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "Jim Costa",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 62.2,
-     "votes": 53874
+     "pct": 62.7,
+     "votes": 62615
     },
     {
      "name": "Kyle Kirkland",
      "party": "R",
      "partyName": "Republican",
-     "pct": 37.8,
-     "votes": 32732
+     "pct": 37.3,
+     "votes": 37316
     }
    ],
    "chamber": "house",
    "district": 21,
    "label": "California 21",
-   "source": "California Today",
-   "sourceUrl": "https://californiatoday.com/guides/elections/2026-california-election-results-master-guide/",
+   "note": "Projected for Jim Costa by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 59.3,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-21"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
-   "calledAt": "2026-11-05T12:20:02Z",
-   "calledBy": "AP",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "name": "Randy Villegas",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 66.4,
-     "votes": 54337,
-     "winner": true
+     "pct": 66.6,
+     "votes": 62193
     },
     {
      "incumbent": true,
      "name": "David Valadao",
      "party": "R",
      "partyName": "Republican",
-     "pct": 33.6,
-     "votes": 27480
+     "pct": 33.4,
+     "votes": 31179
     }
    ],
    "chamber": "house",
    "district": 22,
    "label": "California 22",
-   "reporting": 44.2,
-   "source": "California Today",
-   "sourceUrl": "https://californiatoday.com/guides/elections/2026-california-election-results-master-guide/",
+   "note": "Projected for Randy Villegas by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 57.2,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "called",
+   "status": "counting",
    "id": "house-CA-22"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Jay Obernolte",
+     "pct": 51.9,
+     "votes": 89601
+    },
+    {
+     "name": "Tessa Hodge",
+     "pct": 48.1,
+     "votes": 83181
+    }
+   ],
    "chamber": "house",
    "district": 23,
    "label": "California 23",
+   "note": "Jay Obernolte leads in the count; no projection marked (NBC News Decision Desk page updated Nov. 4, 2026, 10:33 a.m.).",
+   "reporting": 74.1,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-23"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Salud Carbajal",
+     "pct": 66,
+     "votes": 125149
+    },
+    {
+     "name": "Bob Smith",
+     "pct": 34,
+     "votes": 64460
+    }
+   ],
    "chamber": "house",
    "district": 24,
    "label": "California 24",
+   "note": "Projected for Salud Carbajal by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 60.6,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-24"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Raul Ruiz",
+     "pct": 65,
+     "votes": 92044
+    },
+    {
+     "name": "Joe Males",
+     "pct": 35,
+     "votes": 49590
+    }
+   ],
    "chamber": "house",
    "district": 25,
    "label": "California 25",
+   "note": "Projected for Raul Ruiz by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 54.8,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-25"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Jacqui Irwin",
+     "pct": 61.9,
+     "votes": 129480
+    },
+    {
+     "name": "Sam Gallucci",
+     "pct": 38.1,
+     "votes": 79531
+    }
+   ],
    "chamber": "house",
    "district": 26,
    "label": "California 26",
+   "note": "Projected for Jacqui Irwin by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 68.1,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-26"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "George Whitesides",
+     "pct": 63.6,
+     "votes": 135733
+    },
+    {
+     "name": "Jason Gibbs",
+     "pct": 36.4,
+     "votes": 77709
+    }
+   ],
    "chamber": "house",
    "district": 27,
    "label": "California 27",
+   "note": "Projected for George Whitesides by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 86.3,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-27"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Judy Chu",
+     "pct": 69.9,
+     "votes": 161468
+    },
+    {
+     "name": "April Verlato",
+     "pct": 30.1,
+     "votes": 69484
+    }
+   ],
    "chamber": "house",
    "district": 28,
    "label": "California 28",
+   "note": "Projected for Judy Chu by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 84.4,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-28"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Luz Rivas",
+     "pct": 58.1,
+     "votes": 90208
+    },
+    {
+     "name": "Ang\u00e9lica Due\u00f1as",
+     "pct": 41.9,
+     "votes": 65051
+    }
+   ],
    "chamber": "house",
    "district": 29,
    "label": "California 29",
+   "note": "Projected for Luz Rivas by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 86.3,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-29"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Laura Friedman",
+     "pct": 77,
+     "votes": 182011
+    },
+    {
+     "name": "Scott Meyers",
+     "pct": 23,
+     "votes": 54253
+    }
+   ],
    "chamber": "house",
    "district": 30,
    "label": "California 30",
+   "note": "Projected for Laura Friedman by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 86.3,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-30"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Gil Cisneros",
+     "pct": 65.6,
+     "votes": 137481
+    },
+    {
+     "name": "Eric Ching",
+     "pct": 34.4,
+     "votes": 72193
+    }
+   ],
    "chamber": "house",
    "district": 31,
    "label": "California 31",
+   "note": "Projected for Gil Cisneros by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 84.9,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-31"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Brad Sherman",
+     "pct": 67.4,
+     "votes": 160976
+    },
+    {
+     "name": "Larry Thompson",
+     "pct": 32.6,
+     "votes": 77979
+    }
+   ],
    "chamber": "house",
    "district": 32,
    "label": "California 32",
+   "note": "Projected for Brad Sherman by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 81.4,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-32"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Pete Aguilar",
+     "pct": 67.9,
+     "votes": 104883
+    },
+    {
+     "name": "Stephanie Vargas",
+     "pct": 32.1,
+     "votes": 49473
+    }
+   ],
    "chamber": "house",
    "district": 33,
    "label": "California 33",
+   "note": "Projected for Pete Aguilar by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 75.5,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-33"
   },
   {
-   "asOf": "2026-11-05T12:20:02Z",
-   "calledAt": "2026-11-05T12:20:02Z",
-   "calledBy": "AP",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "name": "Angela Gonzales-Torres",
      "party": "D",
      "partyName": "Democratic",
-     "winner": true
+     "pct": 61.3,
+     "votes": 95504
     },
     {
      "incumbent": true,
      "name": "Jimmy Gomez",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "pct": 38.7,
+     "votes": 60172
     }
    ],
    "chamber": "house",
    "district": 34,
    "label": "California 34",
-   "source": "CalMatters",
-   "sourceUrl": "https://calmatters.org/politics/2026/11/california-election-2026-congress/",
+   "note": "Projected for Angela Gonzales-Torres by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 86.3,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "called",
+   "status": "counting",
    "id": "house-CA-34"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Norma Torres",
+     "pct": 66.1,
+     "votes": 94720
+    },
+    {
+     "name": "Mike Cargile",
+     "pct": 33.9,
+     "votes": 48555
+    }
+   ],
    "chamber": "house",
    "district": 35,
    "label": "California 35",
+   "note": "Projected for Norma Torres by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 73.3,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-35"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Ted Lieu",
+     "pct": 72.4,
+     "votes": 198808
+    },
+    {
+     "name": "Houston Brignano",
+     "pct": 27.6,
+     "votes": 75784
+    }
+   ],
    "chamber": "house",
    "district": 36,
    "label": "California 36",
+   "note": "Projected for Ted Lieu by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 86.3,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-36"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Sydney Kamlager-Dove",
+     "pct": 61.3,
+     "votes": 101392
+    },
+    {
+     "name": "Samantha Mota",
+     "pct": 38.7,
+     "votes": 63903
+    }
+   ],
    "chamber": "house",
    "district": 37,
    "label": "California 37",
+   "note": "Projected for Sydney Kamlager-Dove by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 86.3,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-37"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Hilda Solis",
+     "pct": 67.2,
+     "votes": 129110
+    },
+    {
+     "name": "Pedro Casas",
+     "pct": 32.8,
+     "votes": 63022
+    }
+   ],
    "chamber": "house",
    "district": 38,
    "label": "California 38",
+   "note": "Projected for Hilda Solis by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 84.3,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-38"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Mark Takano",
+     "pct": 66.6,
+     "votes": 69886
+    },
+    {
+     "name": "Steve Manos",
+     "pct": 33.4,
+     "votes": 35038
+    }
+   ],
    "chamber": "house",
    "district": 39,
    "label": "California 39",
+   "note": "Projected for Mark Takano by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 54.7,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-39"
   },
   {
-   "asOf": "2026-11-07T12:58:58Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "Ken Calvert",
      "party": "R",
      "partyName": "Republican",
-     "pct": 54.5,
-     "votes": 70550
+     "pct": 53.9,
+     "votes": 88111
     },
     {
      "incumbent": true,
      "name": "Young Kim",
      "party": "R",
      "partyName": "Republican",
-     "pct": 45.5,
-     "votes": 58817
+     "pct": 46.1,
+     "votes": 75282
     }
    ],
    "chamber": "house",
    "district": 40,
    "label": "California 40",
-   "note": "Calvert leading; no call reported.",
-   "source": "Yahoo News",
-   "sourceUrl": "https://www.yahoo.com/news/politics/articles/victories-declared-dems-flip-california-232800193.html",
+   "note": "Ken Calvert leads in the count; no projection marked (NBC News Decision Desk page updated Nov. 4, 2026, 10:33 a.m.).",
+   "reporting": 62.9,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-40"
   },
   {
-   "asOf": "2026-11-07T12:58:58Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "name": "Linda S\u00e1nchez",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 64.9,
-     "votes": 109542
+     "pct": 67.2,
+     "votes": 151151
     },
     {
      "name": "Mitch Clemmons",
      "party": "R",
      "partyName": "Republican",
-     "pct": 35.1,
-     "votes": 59126
+     "pct": 32.8,
+     "votes": 73855
     }
    ],
    "chamber": "house",
    "district": 41,
    "label": "California 41",
-   "note": "Winner reported by Yahoo News; projecting organization not stated.",
-   "source": "Yahoo News",
-   "sourceUrl": "https://www.yahoo.com/news/politics/articles/victories-declared-dems-flip-california-232800193.html",
+   "note": "Projected for Linda S\u00e1nchez by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 84.8,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-41"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "Robert Garcia",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 59.6,
-     "votes": 115522
+     "pct": 61.2,
+     "votes": 148752
     },
     {
      "name": "Brian Burley",
      "party": "R",
      "partyName": "Republican",
-     "pct": 40.4,
-     "votes": 78160
+     "pct": 38.8,
+     "votes": 94426
     }
    ],
    "chamber": "house",
    "district": 42,
    "label": "California 42",
-   "source": "California Today",
-   "sourceUrl": "https://californiatoday.com/guides/elections/2026-california-election-results-master-guide/",
+   "note": "Projected for Robert Garcia by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 83.9,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-42"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Maxine Waters",
+     "pct": 82.5,
+     "votes": 138052
+    },
+    {
+     "name": "Cristian Morales",
+     "pct": 17.5,
+     "votes": 29266
+    }
+   ],
    "chamber": "house",
    "district": 43,
    "label": "California 43",
+   "note": "Projected for Maxine Waters by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 86.3,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-43"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Nanette Barragan",
+     "pct": 81.3,
+     "votes": 131604
+    },
+    {
+     "name": "Genevieve Angel",
+     "pct": 18.7,
+     "votes": 30246
+    }
+   ],
    "chamber": "house",
    "district": 44,
    "label": "California 44",
+   "note": "Projected for Nanette Barragan by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 86.3,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-44"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "Derek Tran",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 58.7,
-     "votes": 102552
+     "pct": 60,
+     "votes": 123666
+    },
+    {
+     "name": "Chuong Vo",
+     "pct": 40,
+     "votes": 82407
     },
     {
      "name": "Chuong V. Vo",
@@ -2451,134 +2978,209 @@
    "chamber": "house",
    "district": 45,
    "label": "California 45",
-   "source": "California Today",
-   "sourceUrl": "https://californiatoday.com/guides/elections/2026-california-election-results-master-guide/",
+   "note": "Projected for Derek Tran by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 79.7,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-45"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Lou Correa",
+     "pct": 69.6,
+     "votes": 103747
+    },
+    {
+     "name": "David Pan",
+     "pct": 30.4,
+     "votes": 45286
+    }
+   ],
    "chamber": "house",
    "district": 46,
    "label": "California 46",
+   "note": "Projected for Lou Correa by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 79.4,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-46"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "Dave Min",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 56.7,
-     "votes": 113811
+     "pct": 57.5,
+     "votes": 136330
     },
     {
      "name": "Jenny Rae Le Roux",
      "party": "R",
      "partyName": "Republican",
-     "pct": 43.3,
-     "votes": 86784
+     "pct": 42.5,
+     "votes": 100584
     }
    ],
    "chamber": "house",
    "district": 47,
    "label": "California 47",
-   "source": "California Today",
-   "sourceUrl": "https://californiatoday.com/guides/elections/2026-california-election-results-master-guide/",
+   "note": "Projected for Dave Min by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 78.6,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-47"
   },
   {
-   "asOf": "2026-11-07T12:58:58Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "name": "Marni von Wilpert",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 59.6,
-     "votes": 92924
+     "pct": 59.4,
+     "votes": 111923
     },
     {
      "name": "Jim Desmond",
      "party": "R",
      "partyName": "Republican",
-     "pct": 40.4,
-     "votes": 63015
+     "pct": 40.6,
+     "votes": 76544
     }
    ],
    "chamber": "house",
    "district": 48,
    "label": "California 48",
-   "note": "Winner reported by Yahoo News; projecting organization not stated.",
-   "source": "Yahoo News",
-   "sourceUrl": "https://www.yahoo.com/news/politics/articles/victories-declared-dems-flip-california-232800193.html",
+   "note": "Projected for Marni von Wilpert by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 60.4,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-48"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-07T15:37:10Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "Mike Levin",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 57.5,
-     "votes": 120614
+     "pct": 57.8,
+     "votes": 138891
     },
     {
      "name": "Armen Kurdian",
      "party": "R",
      "partyName": "Republican",
-     "pct": 42.5,
-     "votes": 89194
+     "pct": 42.2,
+     "votes": 101364
     }
    ],
    "chamber": "house",
    "district": 49,
    "label": "California 49",
-   "source": "California Today",
-   "sourceUrl": "https://californiatoday.com/guides/elections/2026-california-election-results-master-guide/",
+   "note": "Projected for Mike Levin by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 69.7,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-49"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Scott Peters",
+     "pct": 61.8,
+     "votes": 137701
+    },
+    {
+     "name": "Steve Cohen",
+     "pct": 38.2,
+     "votes": 85005
+    }
+   ],
    "chamber": "house",
    "district": 50,
    "label": "California 50",
+   "note": "Projected for Scott Peters by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 68.3,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-50"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Sara Jacobs",
+     "pct": 64,
+     "votes": 129656
+    },
+    {
+     "name": "Ricardo Cabrera",
+     "pct": 36,
+     "votes": 72959
+    }
+   ],
    "chamber": "house",
    "district": 51,
    "label": "California 51",
+   "note": "Projected for Sara Jacobs by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 69.2,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-51"
   },
   {
+   "asOf": "2026-11-07T15:37:10Z",
+   "candidates": [
+    {
+     "name": "Juan Vargas",
+     "pct": 69.7,
+     "votes": 106561
+    },
+    {
+     "name": "Jeff Belle",
+     "pct": 30.3,
+     "votes": 46266
+    }
+   ],
    "chamber": "house",
    "district": 52,
    "label": "California 52",
+   "note": "Projected for Juan Vargas by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "reporting": 68.9,
+   "source": "NBC Los Angeles (NBC News Decision Desk)",
+   "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-52"
   },
   {
