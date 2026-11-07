@@ -13,7 +13,7 @@
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-06T12:18:00Z"
+  "updatedAt": "2026-11-07T13:01:33Z"
  },
  "races": [
   {
@@ -1870,12 +1870,31 @@
    "id": "house-CA-06"
   },
   {
+   "asOf": "2026-11-07T12:58:58Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Doris Matsui",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 57
+    },
+    {
+     "name": "Mai Vang",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 7,
    "label": "California 7",
+   "note": "Matsui leading per AP figure cited by CalMatters (57% with 41% of ballots counted); not called.",
+   "reporting": 41,
+   "source": "CalMatters",
+   "sourceUrl": "https://calmatters.org/politics/2026/11/california-election-2026-congress/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-07"
   },
   {
@@ -1940,12 +1959,28 @@
    "id": "house-CA-10"
   },
   {
+   "asOf": "2026-11-07T12:58:58Z",
+   "candidates": [
+    {
+     "name": "Scott Wiener",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Connie Chan",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 11,
    "label": "California 11",
+   "note": "Wiener reported poised for a win and Chan conceded Wednesday per CalMatters; projecting organization not stated.",
+   "source": "CalMatters",
+   "sourceUrl": "https://calmatters.org/politics/2026/11/california-election-2026-congress/",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-11"
   },
   {
@@ -1958,7 +1993,9 @@
    "id": "house-CA-12"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-07T12:58:58Z",
+   "calledAt": "2026-11-07T12:58:58Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "incumbent": true,
@@ -1966,7 +2003,8 @@
      "party": "D",
      "partyName": "Democratic",
      "pct": 61.3,
-     "votes": 58217
+     "votes": 58217,
+     "winner": true
     },
     {
      "name": "Kevin Lincoln",
@@ -1979,11 +2017,12 @@
    "chamber": "house",
    "district": 13,
    "label": "California 13",
-   "source": "California Today",
-   "sourceUrl": "https://californiatoday.com/guides/elections/2026-california-election-results-master-guide/",
+   "note": "AP called the race Wednesday per CalMatters; vote figures from Yahoo News (Nov. 4, 11:28 PM UTC).",
+   "source": "CalMatters",
+   "sourceUrl": "https://calmatters.org/politics/2026/11/california-election-2026-congress/",
    "state": "CA",
    "stateName": "California",
-   "status": "counting",
+   "status": "called",
    "id": "house-CA-13"
   },
   {
@@ -2284,9 +2323,10 @@
    "id": "house-CA-39"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-07T12:58:58Z",
    "candidates": [
     {
+     "incumbent": true,
      "name": "Ken Calvert",
      "party": "R",
      "partyName": "Republican",
@@ -2294,6 +2334,7 @@
      "votes": 70550
     },
     {
+     "incumbent": true,
      "name": "Young Kim",
      "party": "R",
      "partyName": "Republican",
@@ -2304,20 +2345,41 @@
    "chamber": "house",
    "district": 40,
    "label": "California 40",
-   "source": "California Today",
-   "sourceUrl": "https://californiatoday.com/guides/elections/2026-california-election-results-master-guide/",
+   "note": "Calvert leading; no call reported.",
+   "source": "Yahoo News",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/victories-declared-dems-flip-california-232800193.html",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
    "id": "house-CA-40"
   },
   {
+   "asOf": "2026-11-07T12:58:58Z",
+   "candidates": [
+    {
+     "name": "Linda S\u00e1nchez",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 64.9,
+     "votes": 109542
+    },
+    {
+     "name": "Mitch Clemmons",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 35.1,
+     "votes": 59126
+    }
+   ],
    "chamber": "house",
    "district": 41,
    "label": "California 41",
+   "note": "Winner reported by Yahoo News; projecting organization not stated.",
+   "source": "Yahoo News",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/victories-declared-dems-flip-california-232800193.html",
    "state": "CA",
    "stateName": "California",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-CA-41"
   },
   {
@@ -2435,7 +2497,7 @@
    "id": "house-CA-47"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
+   "asOf": "2026-11-07T12:58:58Z",
    "candidates": [
     {
      "name": "Marni von Wilpert",
@@ -2455,9 +2517,9 @@
    "chamber": "house",
    "district": 48,
    "label": "California 48",
-   "note": "Projected for Marni von Wilpert by CBS News; not yet called by AP.",
-   "source": "California Today",
-   "sourceUrl": "https://californiatoday.com/guides/elections/2026-california-election-results-master-guide/",
+   "note": "Winner reported by Yahoo News; projecting organization not stated.",
+   "source": "Yahoo News",
+   "sourceUrl": "https://www.yahoo.com/news/politics/articles/victories-declared-dems-flip-california-232800193.html",
    "state": "CA",
    "stateName": "California",
    "status": "counting",
@@ -2720,12 +2782,31 @@
    "id": "house-FL-03"
   },
   {
+   "asOf": "2026-11-07T13:00:51Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Aaron Bean",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 50
+    },
+    {
+     "name": "LaShonda Holloway",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 48.3
+    }
+   ],
    "chamber": "house",
    "district": 4,
    "label": "Florida 4",
+   "note": "Bean leading in News Service of Florida report (Nov. 4); no call reported.",
+   "source": "NBC Miami",
+   "sourceUrl": "https://www.nbcmiami.com/news/local/florida-democrats-hold-ground-in-redrawn-us-house-seats-gop-avoids-washout/3883515/",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-FL-04"
   },
   {
@@ -2747,12 +2828,30 @@
    "id": "house-FL-06"
   },
   {
+   "asOf": "2026-11-07T13:00:51Z",
+   "candidates": [
+    {
+     "name": "Ryan Elijah",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 49.8
+    },
+    {
+     "name": "Bale Dalton",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 49.2
+    }
+   ],
    "chamber": "house",
    "district": 7,
    "label": "Florida 7",
+   "note": "Elijah leading in News Service of Florida report (Nov. 4); no call reported.",
+   "source": "NBC Miami",
+   "sourceUrl": "https://www.nbcmiami.com/news/local/florida-democrats-hold-ground-in-redrawn-us-house-seats-gop-avoids-washout/3883515/",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-FL-07"
   },
   {
@@ -2765,12 +2864,31 @@
    "id": "house-FL-08"
   },
   {
+   "asOf": "2026-11-07T13:00:51Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Darren Soto",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 50.26
+    },
+    {
+     "name": "Dan Green",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 49.74
+    }
+   ],
    "chamber": "house",
    "district": 9,
    "label": "Florida 9",
+   "note": "Soto leading in News Service of Florida report (Nov. 4); no call reported.",
+   "source": "NBC Miami",
+   "sourceUrl": "https://www.nbcmiami.com/news/local/florida-democrats-hold-ground-in-redrawn-us-house-seats-gop-avoids-washout/3883515/",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-FL-09"
   },
   {
@@ -2801,26 +2919,28 @@
    "id": "house-FL-12"
   },
   {
-   "asOf": "2026-11-06T04:16:21Z",
+   "asOf": "2026-11-07T13:00:51Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "Anna Paulina Luna",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "pct": 49.5
     },
     {
      "name": "Leela Gray",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "pct": 48.7
     }
    ],
    "chamber": "house",
    "district": 13,
    "label": "Florida 13",
    "note": "Projected for Anna Paulina Luna by CBS News; not yet called by AP.",
-   "source": "CBS News",
-   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+   "source": "NBC Miami",
+   "sourceUrl": "https://www.nbcmiami.com/news/local/florida-democrats-hold-ground-in-redrawn-us-house-seats-gop-avoids-washout/3883515/",
    "state": "FL",
    "stateName": "Florida",
    "status": "counting",
@@ -2899,12 +3019,32 @@
    "id": "house-FL-19"
   },
   {
+   "asOf": "2026-11-07T13:00:51Z",
+   "calledAt": "2026-11-07T13:00:51Z",
+   "calledBy": "AP",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Debbie Wasserman Schultz",
+     "party": "D",
+     "partyName": "Democratic",
+     "winner": true
+    },
+    {
+     "name": "Brent Andersen",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 20,
    "label": "Florida 20",
+   "note": "AP called the race at 7:09 p.m. ET Nov. 3.",
+   "source": "PBS NewsHour",
+   "sourceUrl": "https://www.pbs.org/newshour/politics/democrat-debbie-wasserman-schultz-wins-reelection-to-u-s-house-in-floridas-20th-district",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_closed",
+   "status": "called",
    "id": "house-FL-20"
   },
   {
@@ -2991,21 +3131,59 @@
    "id": "house-FL-25"
   },
   {
+   "asOf": "2026-11-07T13:00:51Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Mario Diaz-Balart",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 49.9
+    },
+    {
+     "name": "Nicole Locklin",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 49.08
+    }
+   ],
    "chamber": "house",
    "district": 26,
    "label": "Florida 26",
+   "note": "Diaz-Balart leading in News Service of Florida report (Nov. 4); no call reported.",
+   "source": "NBC Miami",
+   "sourceUrl": "https://www.nbcmiami.com/news/local/florida-democrats-hold-ground-in-redrawn-us-house-seats-gop-avoids-washout/3883515/",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-FL-26"
   },
   {
+   "asOf": "2026-11-07T13:00:51Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Maria Elvira Salazar",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 50.27
+    },
+    {
+     "name": "Eliott Rodriguez",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 49.73
+    }
+   ],
    "chamber": "house",
    "district": 27,
    "label": "Florida 27",
+   "note": "Salazar leading in News Service of Florida report (Nov. 4); no call reported.",
+   "source": "NBC Miami",
+   "sourceUrl": "https://www.nbcmiami.com/news/local/florida-democrats-hold-ground-in-redrawn-us-house-seats-gop-avoids-washout/3883515/",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-FL-27"
   },
   {
@@ -6994,26 +7172,29 @@
    "id": "house-TX-14"
   },
   {
-   "asOf": "2026-11-05T12:20:02Z",
-   "calledAt": "2026-11-05T12:20:02Z",
-   "calledBy": "AP",
+   "asOf": "2026-11-07T12:59:53Z",
    "candidates": [
     {
      "name": "Bobby Pulido",
      "party": "D",
      "partyName": "Democratic",
+     "pct": 62,
+     "votes": 126204,
      "winner": true
     },
     {
      "incumbent": true,
      "name": "Monica De La Cruz",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "pct": 38,
+     "votes": 76305
     }
    ],
    "chamber": "house",
    "district": 15,
    "label": "Texas 15",
+   "reporting": 100,
    "source": "KSAT",
    "sourceUrl": "https://www.ksat.com/news/local/2026/11/04/what-happened-in-the-nov-3-2026-historic-midterm-election-in-texas/",
    "state": "TX",
@@ -7058,21 +7239,64 @@
    "id": "house-TX-19"
   },
   {
+   "asOf": "2026-11-07T12:59:53Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Joaquin Castro",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 78,
+     "votes": 149397
+    },
+    {
+     "name": "Edgardo Baez",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 22,
+     "votes": 43097
+    }
+   ],
    "chamber": "house",
    "district": 20,
    "label": "Texas 20",
+   "note": "Castro leading with 100% of precincts reporting; no call reported.",
+   "reporting": 100,
+   "source": "KSAT",
+   "sourceUrl": "https://www.ksat.com/vote-2026/2026/10/30/us-representative-election-results-in-texas-on-nov-3-2026/",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-TX-20"
   },
   {
+   "asOf": "2026-11-07T12:59:53Z",
+   "candidates": [
+    {
+     "name": "Mark Teixeira",
+     "party": "R",
+     "partyName": "Republican",
+     "pct": 55,
+     "votes": 194302
+    },
+    {
+     "name": "Kristin Hook",
+     "party": "D",
+     "partyName": "Democratic",
+     "pct": 45,
+     "votes": 162088
+    }
+   ],
    "chamber": "house",
    "district": 21,
    "label": "Texas 21",
+   "note": "Teixeira leading with 100% of precincts reporting; no call reported.",
+   "reporting": 100,
+   "source": "KSAT",
+   "sourceUrl": "https://www.ksat.com/vote-2026/2026/10/30/us-representative-election-results-in-texas-on-nov-3-2026/",
    "state": "TX",
    "stateName": "Texas",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-TX-21"
   },
   {
@@ -7085,25 +7309,35 @@
    "id": "house-TX-22"
   },
   {
-   "asOf": "2026-11-05T12:20:02Z",
-   "calledAt": "2026-11-05T12:20:02Z",
-   "calledBy": "AP",
+   "asOf": "2026-11-07T12:59:53Z",
    "candidates": [
     {
      "name": "Katy Padilla Stout",
      "party": "D",
      "partyName": "Democratic",
+     "pct": 52,
+     "votes": 142032,
      "winner": true
     },
     {
      "name": "Brandon Herrera",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "pct": 44,
+     "votes": 119795
+    },
+    {
+     "name": "Ben Mendoza",
+     "party": "I",
+     "partyName": "Independent",
+     "pct": 4,
+     "votes": 10610
     }
    ],
    "chamber": "house",
    "district": 23,
    "label": "Texas 23",
+   "reporting": 100,
    "source": "KSAT",
    "sourceUrl": "https://www.ksat.com/news/local/2026/11/04/what-happened-in-the-nov-3-2026-historic-midterm-election-in-texas/",
    "state": "TX",
@@ -7165,27 +7399,36 @@
    "id": "house-TX-27"
   },
   {
-   "asOf": "2026-11-05T16:18:35Z",
-   "calledBy": "NBC News, CBS News",
+   "asOf": "2026-11-07T12:59:53Z",
    "candidates": [
     {
      "incumbent": true,
      "name": "Henry Cuellar",
      "party": "D",
      "partyName": "Democratic",
-     "pct": 65.8,
+     "pct": 66,
+     "votes": 113315,
      "winner": true
     },
     {
      "name": "Tijerina",
      "party": "R",
      "partyName": "Republican",
-     "pct": 29.5
+     "pct": 30,
+     "votes": 51065
+    },
+    {
+     "name": "Marl\u00f3n Dur\u00e1n",
+     "party": "G",
+     "partyName": "Green",
+     "pct": 5,
+     "votes": 7932
     }
    ],
    "chamber": "house",
    "district": 28,
    "label": "Texas 28",
+   "reporting": 100,
    "source": "CBS News",
    "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "TX",
@@ -7315,25 +7558,30 @@
    "id": "house-TX-34"
   },
   {
-   "asOf": "2026-11-05T12:20:02Z",
+   "asOf": "2026-11-07T12:59:53Z",
    "candidates": [
     {
      "name": "Johnny Garcia",
      "party": "D",
-     "partyName": "Democratic"
+     "partyName": "Democratic",
+     "pct": 55,
+     "votes": 139984
     },
     {
      "name": "Carlos De La Cruz",
      "party": "R",
-     "partyName": "Republican"
+     "partyName": "Republican",
+     "pct": 45,
+     "votes": 112574
     }
    ],
    "chamber": "house",
    "district": 35,
    "label": "Texas 35",
-   "note": "Projected for Johnny Garcia by CBS News; not yet called by AP.",
-   "source": "CBS News",
-   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+   "note": "Projected for Johnny Garcia by CBS News; not yet called by AP. KSAT reports De La Cruz conceded, per Garcia campaign.",
+   "reporting": 100,
+   "source": "KSAT",
+   "sourceUrl": "https://www.ksat.com/vote-2026/2026/10/30/us-representative-election-results-in-texas-on-nov-3-2026/",
    "state": "TX",
    "stateName": "Texas",
    "status": "counting",
