@@ -13,7 +13,7 @@
    "R": 44,
    "note": "Holdover seats (Dem 32, Ind 2, Rep 31) plus 33 races called: 20 Dem (GA, NC, NH, NM, CO, IL, DE, NJ, RI, MA, VA, SC, TX, OH special, KS, IA, ME, MN, OR, MI) and 13 Rep (FL special, WY, WV, KY, AR, AL, TN, OK, SD, ID, MT, LA, NE). CBS News and the CNBC Election Desk project Democratic control of the Senate."
   },
-  "updatedAt": "2026-11-07T15:38:03Z"
+  "updatedAt": "2026-11-08T02:00:11Z"
  },
  "races": [
   {
@@ -1669,12 +1669,28 @@
    "id": "house-AZ-04"
   },
   {
+   "asOf": "2026-11-08T01:59:51Z",
+   "candidates": [
+    {
+     "name": "Mark Lamb",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Elizabeth Lee",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 5,
    "label": "Arizona 5",
+   "note": "Winner reported by CBS News; AP call or second network call not stated.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "AZ",
    "stateName": "Arizona",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-AZ-05"
   },
   {
@@ -3789,12 +3805,24 @@
    "id": "house-FL-27"
   },
   {
+   "asOf": "2026-11-08T01:59:51Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Carlos Gimenez",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 28,
    "label": "Florida 28",
+   "note": "Winner reported by CBS News; AP call or second network call not stated.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "FL",
    "stateName": "Florida",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-FL-28"
   },
   {
@@ -6494,12 +6522,28 @@
    "id": "house-NY-20"
   },
   {
+   "asOf": "2026-11-08T01:59:51Z",
+   "candidates": [
+    {
+     "name": "Anthony Constantino",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Blake Gendebien",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 21,
    "label": "New York 21",
+   "note": "Winner reported by CBS News; AP call or second network call not stated.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "NY",
    "stateName": "New York",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-NY-21"
   },
   {
@@ -7451,12 +7495,28 @@
    "id": "house-RI-02"
   },
   {
+   "asOf": "2026-11-08T01:59:51Z",
+   "candidates": [
+    {
+     "name": "Nancy Lacore",
+     "party": "D",
+     "partyName": "Democratic"
+    },
+    {
+     "name": "Jenny Costa Honeycutt",
+     "party": "R",
+     "partyName": "Republican"
+    }
+   ],
    "chamber": "house",
    "district": 1,
    "label": "South Carolina 1",
+   "note": "Winner reported by CBS News; AP call or second network call not stated.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "SC",
    "stateName": "South Carolina",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-SC-01"
   },
   {
@@ -8255,12 +8315,29 @@
    "id": "house-UT-03"
   },
   {
+   "asOf": "2026-11-08T01:59:51Z",
+   "candidates": [
+    {
+     "incumbent": true,
+     "name": "Mike Kennedy",
+     "party": "R",
+     "partyName": "Republican"
+    },
+    {
+     "name": "Jonny Larsen",
+     "party": "D",
+     "partyName": "Democratic"
+    }
+   ],
    "chamber": "house",
    "district": 4,
    "label": "Utah 4",
+   "note": "Winner reported by CBS News; AP call or second network call not stated.",
+   "source": "CBS News",
+   "sourceUrl": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
    "state": "UT",
    "stateName": "Utah",
-   "status": "polls_closed",
+   "status": "counting",
    "id": "house-UT-04"
   },
   {
