@@ -1751,14 +1751,16 @@
    "id": "house-AZ-09"
   },
   {
-   "asOf": "2026-11-07T15:37:10Z",
+   "asOf": "2026-11-09T04:01:01Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "name": "Mike McGuire",
      "party": "D",
      "partyName": "Democratic",
      "pct": 55.2,
-     "votes": 97294
+     "votes": 97294,
+     "winner": true
     },
     {
      "incumbent": true,
@@ -1772,13 +1774,13 @@
    "chamber": "house",
    "district": 1,
    "label": "California 1",
-   "note": "Projected for Mike McGuire by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "note": "Called by AP per Patch (updated Nov. 4, 2026); vote figures from NBC Los Angeles (NBC News Decision Desk) as of Nov. 4, 2026.",
    "reporting": 60.8,
    "source": "NBC Los Angeles (NBC News Decision Desk)",
    "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "counting",
+   "status": "called",
    "id": "house-CA-01"
   },
   {
@@ -2101,7 +2103,8 @@
    "id": "house-CA-12"
   },
   {
-   "asOf": "2026-11-07T15:37:10Z",
+   "asOf": "2026-11-09T04:01:01Z",
+   "calledBy": "AP",
    "candidates": [
     {
      "incumbent": true,
@@ -2109,7 +2112,8 @@
      "party": "D",
      "partyName": "Democratic",
      "pct": 61.7,
-     "votes": 70184
+     "votes": 70184,
+     "winner": true
     },
     {
      "name": "Kevin Lincoln",
@@ -2122,13 +2126,13 @@
    "chamber": "house",
    "district": 13,
    "label": "California 13",
-   "note": "Projected for Adam Gray by NBC News Decision Desk (page updated Nov. 4, 2026, 10:33 a.m.); AP projection or second-network call not stated.",
+   "note": "Called by AP per Patch (updated Nov. 4, 2026); vote figures from NBC Los Angeles (NBC News Decision Desk) as of Nov. 4, 2026.",
    "reporting": 65.4,
    "source": "NBC Los Angeles (NBC News Decision Desk)",
    "sourceUrl": "https://www.nbclosangeles.com/elections/2026-california-election-results-congress-house/3963610/",
    "state": "CA",
    "stateName": "California",
-   "status": "counting",
+   "status": "called",
    "id": "house-CA-13"
   },
   {
